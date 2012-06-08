@@ -2,7 +2,7 @@ auto: true
 server: true
 pygments: true
 permalink: none
-baseurl: /poole
+baseurl: /bootstrap
 exclude:
 - .gitignore
 - README.md

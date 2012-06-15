@@ -10,6 +10,7 @@ prose:
   rooturl: "_posts"
   metadata: 
     _posts/articles:
+      published: false
       layout: article
       title: Your Post Title
       abstract: Short summary of your article.

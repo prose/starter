@@ -1,7 +1,7 @@
 auto: true
 server: true
 permalink: none
-baseurl: /bootstrap
+baseurl: ""
 exclude:
 - .gitignore
 - README.md

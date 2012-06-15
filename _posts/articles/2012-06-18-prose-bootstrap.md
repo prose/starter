@@ -6,6 +6,7 @@ author_twitter: _mql
 author: Michael Aufreiter
 categories:
 - articles
+published: false
 ---
 
 
@@ -38,7 +39,7 @@ It was challenging, but Prose supports OAuth. I think it's very important to use
 ![Start](http://f.cl.ly/items/0t0A170b2Y093F2u1w45/Screen%20Shot%202012-05-23%20at%205.48.45%20PM.png)
 
 
-**Browse
+**Browse**
 
 
 Once you have selected a repository, you can browse your posts and sub-folders in a traditional file-browser-ish manner. You can create new files here as well, which immediately opens an empty document for you, which you can save after populating it with some text.

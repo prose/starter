@@ -2,24 +2,25 @@
 layout: default
 ---
 
-<div class="help">
-  <h1>Help</h1>
-
-  <div class='articles'>
-    {% for item in site.categories.articles limit:40 offset:0 %}
-      <a class="article" href="{{site.root_dir}}{{item.url}}">
-        {% if item.image %}
-          <img src="{{item.image}}" width="200" height="100"/>
-        {% endif %}
-
-        <div class="title">
-          {{item.title}}
-        </div>
-        <div class="descr">
-          {{item.descr}}
-        </div>
-      </a>
-    {% endfor %}
-  </div>
+<div class="article-navigation">
+  {% for item in site.categories.articles limit:40 offset:0 %}
+    <a class="article-link" href="{{site.root_dir}}{{item.url}}" title="{{item.title}}">
+      
+    </a>
+  {% endfor %}
 </div>
+
+{% for item in site.categories.articles limit:1 offset:0 %}
+  <div class="intro">
+    <div class="title">{{item.title}}</div>
+    <div class="abstract">{{item.abstract}}</div>
+    <div class="meta"> Posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>
+  </div>
+
+  <div class="article-wrapper">
+    <div class="help post-content">
+      {{ item.content }}
+    </div>
+  </div>
+{% endfor %}
 

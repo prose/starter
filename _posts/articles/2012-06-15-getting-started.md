@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Getting Started
-descr: A brief introduction on how to use Poole, what it can do for you and what not.
+abstract: A brief introduction on how to use Poole, what it can do for you and what not.
 image: http://farm7.staticflickr.com/6119/6884293596_b44a31bf0a_m.jpg
 author_twitter: _mql
 author: Michael Aufreiter

@@ -9,7 +9,7 @@ exclude:
 prose:
   rooturl: "_posts"
   metadata: 
-    _posts/articles:
+    _posts/articles: |
       published: false
       layout: article
       title: Your Post Title

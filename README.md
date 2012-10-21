@@ -1,4 +1,4 @@
-Poole Bootstrap
+Prose Bootstrap
 =================
 
-A minimal template to get started with Jekyll and Poole.
+A minimal template to get started with Jekyll and Prose.

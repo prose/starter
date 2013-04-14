@@ -1,4 +1,4 @@
-Prose Bootstrap
-=================
+fresh-start
+===========
 
-A minimal template to get started with Jekyll and Prose.
+Extremely barebones starting point for responsive sites built on Jekyll.

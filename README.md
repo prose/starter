@@ -1,4 +1,2 @@
-fresh-start
-===========
-
-Extremely barebones starting point for responsive sites built on Jekyll.
+An extremely barebones starting point for responsive sites built on Jekyll with
+post management in [prose](http://prose.io)

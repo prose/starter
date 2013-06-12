@@ -10,16 +10,19 @@ prose:
     _posts:
       - name: "category"
         field:
-        element: "hidden"
-        value: "blog"
+          element: "hidden"
+          value: "blog"
       - name: "layout"
-        element: "layout"
-        value: "blog"
-      - name: "Title"
-        element: "text"
-        label: "Title"
-        value: ""
+        field:
+          element: "layout"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "splash"
-        element: "text"
-        label: "Splash image"
-        value: ""
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""

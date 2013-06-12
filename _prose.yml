@@ -1,2 +1,22 @@
 prose:
   rooturl: '_posts'
+  siteurl: 'http://prose.io/starter'
+  relativeLinks: 'http://prose.io/starter/links.jsonp'
+  media: '_posts/media'
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+          element: "layout"
+          value: "blog"
+      - name: "Title"
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "splash"
+          element: "text"
+          label: "Splash image"
+          value: ""

@@ -1,4 +1,3 @@
-auto: true
-server: true
-baseurl:
-permalink: /:title
+baseurl: /starter
+permalink: pretty
+markdown: rdiscount

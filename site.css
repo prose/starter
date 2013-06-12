@@ -43,7 +43,7 @@ table { border-collapse: collapse; border-spacing:0; }
 body,
 input,
 textarea {
-  color:#333;
+  color:#516066;
   font:15px/1.67 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing:antialiased;
   }
@@ -60,12 +60,12 @@ h4,
 h5,
 h6 {
   margin:0;
-  font-weight:bold;
+  font-weight:normal;
   }
 
 h1 {
-  font-size:32px;
-  margin-bottom:20px;
+  font-size:42px;
+  margin-bottom:10px;
   line-height:1em;
   }
 
@@ -94,18 +94,26 @@ p {
 
 /* Links */
 a {
-  color:#77c453;
+  color:#2099aa;
   text-decoration:none;
+  font-weight:bold;
+  -webkit-transition:color 100ms;
+     -moz-transition:color 100ms;
+       -o-transition:color 100ms;
+          transition:color 100ms;
   }
-  a:visited {
-    color:#9ed485;
-    }
   a:hover {
-    color:#54af29;
+    color:#197987;
     }
-  a:active {
-    color:#9ed485;
+  a.active {
+    color:#516066;
     }
+  .rss {
+    color:#d4d7d9;
+    }
+    .rss:hover {
+      color:#516066;
+      }
 
 abbr {
   border-bottom:1px dotted #000;
@@ -300,12 +308,57 @@ table {
   text-indent:-999em;
   }
 
-/* Layout
+/* Global Layout
 ------------------------------------------------------- */
 .container {
   max-width:1600px;
   margin:0 auto;
   overflow:hidden;
+  }
+
+/* Global Style
+------------------------------------------------------- */
+.heading,
+.header {
+  padding:20px 0;
+  }
+  .header .title {
+    font-size:15px;
+    line-height:1.67;
+    font-weight:bold;
+    margin:0;
+    }
+    .header .title a {
+      color:#516066;
+      }
+
+.menu {
+  text-align:right;
+  }
+  .menu a {
+    margin:0 0 0 10px;
+    }
+
+.listing .item {
+  display:block;
+  padding:2px 0;
+  border-bottom:1px solid #d4d7d9;
+  }
+
+.listing .month {
+  color:#868f93;
+  margin-top:20px;
+  }
+
+.splash img {
+  background:#f0f0f0;
+  margin:0 auto;
+  display:block;
+  max-width:100%;
+  }
+.date {
+  color:#d4d7d9;
+  font-weight:normal;
   }
 
 /* Columns
@@ -389,7 +442,10 @@ Details: http://www.positioniseverything.net/easyclearing.html
   visibility:hidden;
   }
 
+.fl       { float:left; }
+.fr       { float:right; }
 .clearfix { display:inline-block; }
+.centered { text-align:center; }
 
 /* Tablet Layout
 ------------------------------------------------------- */

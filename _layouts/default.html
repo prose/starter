@@ -1,4 +1,5 @@
 ---
+title: 'This is my Blog Name'
 ---
 <!DOCTYPE html>
 <html>
@@ -11,6 +12,17 @@
 </head>
 <body>
   <div class='container'>
+    <div class='col12 clearfix'>
+      <div class='header col6 margin3 pad4h'>
+        <div class='clearfix col12'>
+          <div class='menu fr'>
+            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
+            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
+          </div>
+          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
+        </div>
+      </div>
+    </div>
     {{content}}
   </div>
   <script src='{{site.baseurl}}/site.js'></script>

@@ -8,10 +8,11 @@ prose:
   media: '_posts/media'
   metadata:
     _posts:
-      - name: "category"
+      - name: "categories"
         field:
           element: "hidden"
-          value: "blog"
+          value:
+            - "blog"
       - name: "layout"
         field:
           element: "hidden"

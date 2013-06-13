@@ -16,7 +16,8 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value:
+            - "blog"
       - name: "title"
         field:
           element: "text"

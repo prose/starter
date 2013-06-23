@@ -5,7 +5,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: '_posts/media'
+  media: 'media'
   metadata:
     _posts:
       - name: "category"

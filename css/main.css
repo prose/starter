@@ -1,0 +1,342 @@
+/* fluid logo font */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:800');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+h1, h2{
+  text-transform: uppercase;
+}
+
+h3{
+  margin-top: 1rem;
+}
+
+h1, #banner div{
+  color: #fff;
+  text-shadow:1px 1px #333;
+}
+
+p { margin: 1.0rem 0; }
+
+a                 { color: #aaa; text-decoration: none;}
+a:hover, a:focus  { color: #000; text-decoration: underline;}
+a:visited         { color: #aaa; }
+
+.pagination a:visited{
+  color:#38C;
+}
+
+pre, code{
+  background: #EEF;
+}
+
+pre{
+  padding: 1rem;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+
+.state{
+  font-style: italic;
+  color: #aaa;
+  padding-bottom: .25rem;
+}
+.wrapper {
+  max-width: 62.5rem;
+  margin: auto;
+  line-height: 1.5em;
+  padding: 2rem 1rem;
+}
+
+blockquote{
+  padding-left: 1rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+blockquote:before{
+  content: "\“";
+  position: absolute;
+  margin:2.3rem 0 0 -2.5rem;
+  z-index: -1;
+  font-size: 10rem;
+  color:#EEE;
+  font-family: 
+}
+
+img {
+  max-width:100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#banner{
+  width: 100%;
+  background: #333 url('../img/cover.jpg') center center;
+  background-size: cover;
+}
+
+#banner div{
+  /*padding: 3rem 0 5rem 3rem;*/
+  padding: 1.0rem 0 1.65rem 1.0rem;
+}
+
+.nav{
+  padding:1rem;
+  width: 30%;
+}
+
+.wrapper .nav{
+  width: 30%;
+  list-style: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: -100%;
+  padding: 0;
+}
+
+.nav ul{
+  list-style: none;
+  font-weight: normal;
+}
+
+.nav ul li{
+  font-size: 1.0rem;
+  padding:0;
+  /*padding-top:0.5rem;*/
+}
+
+.nav h2 {
+  padding-top:1rem;
+  font-size: 1.2rem;
+}
+
+.content{
+  width: 69%; /* should be 70%, but seems to cause a layout issue in chrome */
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 2rem;
+  margin-left: 30%;
+}
+
+.content ol, .content ul{
+  margin-bottom: 1.2rem;
+  padding-left: 3rem;
+}
+
+.pagination a{
+  display: inline-block;
+  font-size: 1.0rem;
+  font-weight: bold;
+  max-width: 48%;
+}
+
+.pagination #next{
+  float: right;
+  text-align: right;
+}
+
+.pagination a span{
+  display: block;
+  text-transform: uppercase;
+  font-size: .6rem;
+  font-weight: bold;
+}
+
+.recommendations {
+  background: #ddd;
+  margin: 1.2rem 0;
+  padding:1.0rem; 
+}
+/*****************************************************************************/
+/*
+/*    Fluid Logo
+/*
+/*****************************************************************************/
+
+.fluid-logo, .fluid-logo-dark {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1em;
+  color: #fff;
+  font-weight: 800;
+  /* font-style: normal; */
+  text-transform: uppercase;
+}
+
+.fluid-logo-dark {
+  color: #2a2a2a;
+}
+
+.fluid-logo:after {
+  content: "";
+  display: inline-block;
+  background-color: #28b9d1;
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 0.22em;
+  transform: translate(0, -0.7em) rotate(45deg);
+  -webkit-transform: translate(0, -0.7em) rotate(45deg);
+}
+
+/*****************************************************************************/
+/*
+/*    Homepage
+/*
+/*****************************************************************************/
+
+
+#cover{
+  background: url('../img/cover.jpg') left center;
+  background-size:cover;
+  width: 70%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#cover div{
+  position: relative;
+  display: inline-block;
+  padding:10%;
+  color:#fff;
+  text-shadow:1px 1px #333;
+}
+
+.logo {
+  display: block;
+  margin: 0;
+}
+
+.small {
+    height: 3em;
+}
+
+
+/*****************************************************************************/
+/*
+/*        Getting it done - Table
+/*
+/*****************************************************************************/
+
+table {
+  border: 1px solid #ccc;
+  margin:1.0rem 0;
+  font-size: 80%;
+}
+
+th {
+    background-color: #fff;
+    border-bottom:3px solid #000;
+    border-right: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+td {
+    border:1px solid #ccc;
+    vertical-align: top;
+    padding: 0.5rem;
+}
+
+.content table ul{
+  padding-left: 1.2rem;
+}
+
+table.future-roles td:nth-child(1),
+table.flexible-team td {
+  width: 33%;
+}
+
+
+
+/*****************************************************************************/
+/*
+/*        Responsive
+/*
+/*****************************************************************************/
+
+@media screen and (max-width: 60rem){
+  .content{
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .wrapper .nav, .nav{
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .cover{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+}
+
+.current-col {
+  background-color: #90a9c7;
+}
+
+.evolving-col {
+  background-color: #b5c595;
+}
+
+.new-col {
+  background-color: #c89190;
+
+}
+
+.page-header div {
+  display: none;
+}
+
+@media print { 
+
+  #banner div {
+    height: 268px;
+    display: none;
+  }
+  .page-header div {
+    display: block;
+    margin:0 auto;
+    border:1px solid;
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+  .wrapper .nav,
+  .overview .nav {
+    display: none;
+  }
+
+}
+

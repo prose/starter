@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div id="banner">
+    <div>
+        <a href="/">
+            <img src="../img/logo.png" class="logo small" alt="{{site.client.name}}" title="{{site.client.name}}" />
+        </a>
+        <h3>{{site.doc.title}}</h3>
+        <p>{{site.doc.date}} - v: {{site.doc.version}}</p>
+        <h3 class="fluid-logo">FLUID</h3>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="content">
+        <div class="state">{{ page.prettyTag }}</div>
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+        <div class="pagination">
+        {% if page.previous.url %} 
+            <a href="{{page.previous.url}}"><span>&laquo; Previous</span>{{page.previous.title}}</a> 
+        {% endif %}
+
+        {% if page.next.url %} 
+            <a href="{{page.next.url}}" id="next"><span>Next &raquo;</span>{{page.next.title}}</a> 
+        {% endif %}
+        </div>
+    </div>
+    {% include navbar.html %}
+    <div class="footer">
+    </div>
+</div>
+
+<script>
+document.addEventListener("keydown", changePage);
+
+function changePage(e) {
+  var keyCode = e.keyCode;
+
+  if(37===keyCode) {
+    window.location="{{page.previous.url}}";
+  }
+
+  if(39===keyCode) {
+    window.location="{{page.next.url}}";
+  }
+}
+</script>

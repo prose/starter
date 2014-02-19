@@ -1,0 +1,29 @@
+---
+layout: default
+isCover: true
+---
+<style type="text/css">
+.cover-nav h2 {
+    font-size: 1.2rem; 
+    margin:0;
+    padding: 1rem 0 0;
+    text-transform: uppercase;
+}
+.cover-nav ul {
+    margin:0;
+    padding:0; 
+}
+.cover-nav ul li {
+    font-size: 1.0rem;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+</style>
+<div class="cover">
+    <div>
+        <img src="img/print-banner.png" />
+    </div>
+    <div style="padding-top: 2em">{{site.doc.date}} - v: {{site.doc.version}}</div>
+</div>
+{% include navbar.html %}

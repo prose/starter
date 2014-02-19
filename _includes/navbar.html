@@ -1,0 +1,39 @@
+<div class="nav{% if page.isCover %} cover-nav{% endif %}">
+    <ul>
+        <li><h2>Overview</h2>
+            <ul>
+            {% for post in site.tags.overview reversed %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+        <li><h2>Present State</h2>
+            <ul>
+            {% for post in site.tags.presentState reversed %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+        <li><h2>Looking Ahead</h2>
+            <ul>
+            {% for post in site.tags.futureState reversed %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+        <li><h2>Road Map</h2>
+            <ul>
+            {% for post in site.tags.roadMap reversed %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+        <li><h2>Supplemental Materials</h2>
+            <ul>
+            {% for post in site.tags.appendix reversed %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</div>

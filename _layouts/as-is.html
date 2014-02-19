@@ -1,0 +1,13 @@
+{% comment %}
+This template simply returns the contents of the (un)decorated file, parsed by Jekyll.
+It is used in the generation of the pdf file by wkhtmltopdf, where it is desirable
+to pass a header.html and footer.html that contain html, body and head tags
+that are stripped during pdf generation.  Because of the existence of those
+html, body, and head tags, it is not possible to define the header.html and
+footer.html as jekyll includes (otherwise those tags would be duplicated).
+
+Nevertheless, by using this undecorated template, it is possible to render the
+header.html and footer.html as-is, but have it parsed by jekyll, thus having
+access to all jekyll variables.
+{% endcomment %}
+{{ content }}

@@ -4,7 +4,7 @@ title: "This is my Site Title"
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != "/index.html" %}| {{page.title}}{% endif %}</title>
+  <title>Atlanta Municipal Court {% if page.url != "/index.html" %}| {{page.title}}{% endif %}</title>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   <!-- <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon" /> -->
@@ -21,18 +21,19 @@ title: "This is my Site Title"
     </div>
 
     <div class="nav mainNav">
-      <a class="{% if page.url == '/' %}active{% endif %}" href="{{site.baseurl}}/about">FAQ</a>
+      <a class="{% if page.url == '/' %}active{% endif %}" href="{{site.baseurl}}/">FAQ</a>
       <span class="dot">•</span>
-      <a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/about">Pay Online</a>
+      <a href="https://courtview.atlantaga.gov/pa/EPpa.urd/epmw2000*display">Pay Online</a>
+      <span class="dot">•</span>
+      <a class="{% if page.section == 'blog' %}active{% endif %}" href="{{site.baseurl}}/news">News</a>
     </div>
 
     <div class="nav secondNav">
-      <!-- <a class="{% if page.section == 'blfog' %}active{% endif %}" href="{{site.baseurl}}/">Judges</a> -->
-      <a class="{% if page.url == 'judges/' %}active{% endif %}" href="{{site.baseurl}}/judges">Judges</a>
+      <a class="{% if page.url == '/judges' %}active{% endif %}" href="{{site.baseurl}}/judges">Judges</a>
       <span class="dot">•</span>
-      <a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/solicitor">Solicitor</a>
+      <a class="{% if page.url == '/solicitor' %}active{% endif %}" href="{{site.baseurl}}/solicitor">Solicitor</a>
       <span class="dot">•</span>
-      <a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/about">Public Defender</a>
+      <a class="{% if page.url == '/publicdefender' %}active{% endif %}" href="{{site.baseurl}}/publicdefender">Public Defender</a>
     </div>
   </div>
 
@@ -49,21 +50,6 @@ title: "This is my Site Title"
       Atlanta, Georgia 30303
     </div>
   </div>
-<!-- 
-  
-  <div class="container">
-    <div class="col12 clearfix">
-      <div class="header col6 margin3 pad4h">
-        <div class="clearfix col12">
-          
-          <h1 class="title"><a href="{{site.baseurl}}/">{{page.title}}</a></h1>
-        </div>
-      </div>
-    </div>
-    Ω
-  </div>
-  
- -->
 
 <script src="{{site.baseurl}}/site.js"></script>
 </body>

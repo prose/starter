@@ -58,6 +58,11 @@ a:hover {
   text-decoration: underline
 }
 
+h1 {
+  font-size: 36px;
+line-height: 72px;
+}
+
 .sidebar {
   text-align: center;
   position: fixed;
@@ -75,6 +80,7 @@ a:hover {
   font-size: 18px;
   color: #FFF;
   background-image: url(../img/seal.png);
+  background-size: 110px 110px;
   padding-top: 140px;
   background-repeat: no-repeat;
   background-position: center top;
@@ -86,7 +92,7 @@ a:hover {
 (min-resolution: 192dpi) { 
   .logo {
     background-image: url(../img/seal@2x.png);
-    background-size: 110px 110px;
+    
   }
 }
 
@@ -145,6 +151,7 @@ p {
   bottom: 30px;
   width: 320px;
   text-align: center;
+  background: #1D1717;
 }
 
 .phone {
@@ -159,4 +166,45 @@ p {
 .address {
   line-height: 22px;
   color: #B8ADAD;
+}
+
+.newsDate {
+  font-size: 24px;
+  color: #838282;
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width : 768px) {
+/* Styles */
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    background-size: 60px 60px;
+    margin-top: 30px;
+    padding-top: 80px;
+  }
+
+  .content {
+    text-align: left;
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 30px;
+    max-width: 600px;
+  }
+
+  .contact {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
+
 }

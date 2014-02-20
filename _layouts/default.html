@@ -1,31 +1,69 @@
 ---
-title: 'This is my Site Title'
+title: "This is my Site Title"
 ---
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <title>Site Title {% if page.url != "/index.html" %}| {{page.title}}{% endif %}</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <!-- <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" type="image/x-icon" /> -->
+  <link href="{{site.baseurl}}/site.css" rel="stylesheet" />
+
+  <!-- TypeKit -->
+  <script type="text/javascript" src="//use.typekit.net/xbi5tkx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-  <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col6 margin3 pad4h'>
-        <div class='clearfix col12'>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
-          </div>
-          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
+  <div class="sidebar">
+    <div class="logo">
+      Atlanta Municipal Court
+    </div>
+
+    <div class="nav mainNav">
+      <a class="{% if page.url == '/' %}active{% endif %}" href="{{site.baseurl}}/about">FAQ</a>
+      <span class="dot">•</span>
+      <a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/about">Pay Online</a>
+    </div>
+
+    <div class="nav secondNav">
+      <!-- <a class="{% if page.section == 'blfog' %}active{% endif %}" href="{{site.baseurl}}/">Judges</a> -->
+      <a class="{% if page.url == 'judges/' %}active{% endif %}" href="{{site.baseurl}}/judges">Judges</a>
+      <span class="dot">•</span>
+      <a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/solicitor">Solicitor</a>
+      <span class="dot">•</span>
+      <a class="{% if page.url == 'about/' %}active{% endif %}" href="{{site.baseurl}}/about">Public Defender</a>
+    </div>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <div class="contact">
+    <div class="phone">(404) 658-6940</div>
+    <div class="email"><a href="mailto:municourt@atlantaga.gov">municourt@atlantaga.gov</a></div>
+
+    <div class="address">
+      150 Garnett Street SW<br />
+      Atlanta, Georgia 30303
+    </div>
+  </div>
+<!-- 
+  
+  <div class="container">
+    <div class="col12 clearfix">
+      <div class="header col6 margin3 pad4h">
+        <div class="clearfix col12">
+          
+          <h1 class="title"><a href="{{site.baseurl}}/">{{page.title}}</a></h1>
         </div>
       </div>
     </div>
-    {{content}}
+    Ω
   </div>
-  <script src='{{site.baseurl}}/site.js'></script>
+  
+ -->
+
+<script src="{{site.baseurl}}/site.js"></script>
 </body>

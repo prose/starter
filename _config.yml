@@ -1,4 +1,4 @@
-baseurl: /starter
+baseurl:
 permalink: pretty
 markdown: rdiscount
 prose:

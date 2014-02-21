@@ -49,6 +49,10 @@ body {
   color: white;
 }
 
+strong {
+  font-weight: bold;
+}
+
 a {
   color: #EB9489;
   text-decoration: none;
@@ -144,7 +148,7 @@ h2 {
 
 p {
   color: #524D4D;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact {

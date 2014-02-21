@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-published: false
+published: true
 title: "Courts are awesome!"
 ---
 

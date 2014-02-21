@@ -59,8 +59,8 @@ a:hover {
 }
 
 h1 {
-  font-size: 36px;
-  line-height: 72px;
+  font-size: 24px;
+  line-height: 48px;
 }
 
 .sidebar {
@@ -169,7 +169,7 @@ p {
 }
 
 .newsDate {
-  font-size: 24px;
+  font-size: 20px;
   color: #838282;
   margin-top: 30px;
 }

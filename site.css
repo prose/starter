@@ -180,6 +180,19 @@ p {
   color: #B8ADAD;
 }
 
+.address a {
+  color: #B8ADAD;
+}
+
+.address a:hover {
+  text-decoration: underline;
+}
+
+.hours {
+  color: #B8ADAD;
+  line-height: 22px;
+}
+
 .newsDate {
   font-size: 20px;
   color: #838282;

@@ -7,7 +7,7 @@ section: blog
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
   {% else %}
-    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
+    {% capture url %}{{site.baseurl}}{{page.splash}}{% endcapture %}
   {% endif %}
 
   <div class='col12 splash'>

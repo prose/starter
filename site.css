@@ -312,4 +312,12 @@ p {
     width: 100%;
     padding: 20px;
   }
+
+  .lookup .lookupInput {
+    width: 100%;
+  }
+
+  .lookup .lookupButton {
+    margin-top: 10px;
+  }
 }

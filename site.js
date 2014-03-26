@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     // in progress here...
 
-    $.get('http://localhost:5000/cases', {
+    $.get('http://api.atlantamunicipalcourt.org/cases', {
       searchParameter: searchParameter
     }).done(function(results) {
       var resultsDiv = $('#results');

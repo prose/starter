@@ -33,14 +33,15 @@ $(document).ready(function() {
 
       resultsDiv.append('<div class="resultsMessage">' + message + '</div>');
 
-      results.forEach(function(item) {
+      for (var i = 0; i < results.length; i++) {
+        var item = results[i];
         var html = ['<div class="citation">' + 'Citation #' + item.citation + '</div>',
                     '<div class="defendant">' + utils.toTitleCase(item.defendant) + '</div>',
                     '<div class="datetime">' + item.date + ' ' + item.time + ' in Court ' + item.room + '</div>',
                     '<div class="violation">' + item.violation_desc + '</div>'].join('');
 
         resultsDiv.append('<div class="case">' + html + '</div>');
-      });
+      };
     }).fail(function(error) {
       console.log('HTTP request failed.')
       console.log(error);

@@ -22,7 +22,8 @@
       <span class="dot">•</span>
       <a href="https://courtview.atlantaga.gov/pa/EPpa.urd/epmw2000*display">Pay Online</a>
       <span class="dot">•</span>
-      <a class="{% if page.section == 'blog' %}active{% endif %}" href="{{site.baseurl}}/news">News</a>
+      <a class="{% if page.url == '/mycase' %}active{% endif %}" href="{{site.baseurl}}/mycase">My Case</a>
+      <!-- <a class="{% if page.section == 'blog' %}active{% endif %}" href="{{site.baseurl}}/news">News</a> -->
     </div>
 
     <div class="nav secondNav">
@@ -60,5 +61,5 @@
     ga('create', 'UA-34519248-3', 'atlantamunicipalcourt.org');
     ga('send', 'pageview');
   </script>
-  <!-- <script src="{{site.baseurl}}/site.js"></script> -->
+  <script src="{{site.baseurl}}/site.js"></script>
 </body>

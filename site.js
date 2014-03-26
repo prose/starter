@@ -8,21 +8,17 @@ utils.toTitleCase = function(str) {
 };
 
 $(document).ready(function() {
-
   $("#lookupForm").submit(function(event) {
     event.preventDefault();
 
     var searchParameter = $('.lookupInput').val();
     if (!searchParameter) return;
 
-    // in progress here...
-
     $.get('http://api.atlantamunicipalcourt.org/cases', {
       searchParameter: searchParameter
     }).done(function(results) {
       var resultsDiv = $('#results');
       resultsDiv.html('');
-
 
       var message;
       if (results.length === 0) {
@@ -45,7 +41,9 @@ $(document).ready(function() {
 
         resultsDiv.append('<div class="case">' + html + '</div>');
       });
-
+    }).fail(function(error) {
+      console.log('HTTP request failed.')
+      console.log(error);
     });
   });
 })

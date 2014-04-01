@@ -53,6 +53,11 @@ strong {
   font-weight: bold;
 }
 
+em {
+  font-weight: bold;
+  font-style: italic;
+}
+
 a {
   color: #EB9489;
   text-decoration: none;
@@ -142,13 +147,16 @@ h1 {
 
 h2 {
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 8px;
 }
 
 h3 {
   font-weight: bold;
-  margin-bottom: 8px;
+  font-size: 20px;
+  color: #A0A0A0;
+  margin-bottom: -15px;
+  margin-top: 30px;
 }
 
 p {

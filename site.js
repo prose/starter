@@ -35,10 +35,15 @@ $(document).ready(function() {
 
       for (var i = 0; i < results.length; i++) {
         var item = results[i];
+
         var html = ['<div class="citation">' + 'Citation #' + item.citation + '</div>',
                     '<div class="defendant">' + utils.toTitleCase(item.defendant) + '</div>',
-                    '<div class="datetime">' + item.date + ' ' + item.time + ' in Court ' + item.room + '</div>',
-                    '<div class="violation">' + item.violation_desc + '</div>'].join('');
+                    '<div class="datetime">' + item.readableDate + ' ' + item.time + ' in Court ' + item.room + '</div>'].join('');
+
+        var violations = results[i].violations;
+        for (var j = 0; j < violations.length; j++) {
+          html += '<div class="violation">' + violations[j].description + '</div>';
+        }
 
         resultsDiv.append('<div class="case">' + html + '</div>');
       };

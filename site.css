@@ -3229,7 +3229,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  font-family: "FuturaPTExtraBold-Reg", sans-serif;
+  font-family: "FuturaPTExtraBold-Reg", "futura-pt" , sans-serif;
   text-transform: uppercase;
   line-height: 0.85em;
   width: 100%; }
@@ -3523,8 +3523,8 @@ p, .p, .blog-article__content ul li, .blog-article__content ol li {
   left: 0; }
 
 .block--hero {
-  margin-top: 68px; }
-
+  margin-top: 68px; 
+}
 .block--hero,
 .block--heroish,
 .block--ratio,

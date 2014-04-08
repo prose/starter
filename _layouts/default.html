@@ -12,20 +12,43 @@ title: 'This is my Site Title'
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
-  <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col6 margin3 pad4h'>
-        <div class='clearfix col12'>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
-          </div>
-          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
-        </div>
+
+{% include header.html %}
+
+
+<div id="uxp">
+    <!-- Header -->
+    <div class="block block--hero block--touch"
+         style="background-image: url('img/test.jpg');">
+         <!--data-base="uxp/uxp_hero_01_"
+         data-default="uxp/uxp_hero_01_desktop"
+         data-palmLandscape="false"
+         data-ext=".jpg"-->
+
+      <div class="block__inner">
+        <h1 class="h1 block__title">
+          <span class="u-text-passion">Patterns</span><br/>and<br/><span class="u-text-passion">Principles</span>
+        </h1>
+
+        <h5 class="index__desc u-margin-tL u-text-light">A comprehensive guide to UX principles and patterns</h5>
+
       </div>
+
+      <div class="block__triangle"></div>
     </div>
-    {{content}}
-  </div>
+    <!-- /Header -->
+
+    <div class="uxp-inner">
+
+    {{ content }}
+
+    </div>
+
+</div>
+
+
   <script src='{{site.baseurl}}/site.js'></script>
+
+  {% include footer.html %}
+
 </body>

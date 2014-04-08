@@ -1,0 +1,68 @@
+<nav class="nav">
+  <!-- Toggle Switch -->
+  <button class="nav__toggle">
+    <span class="toggle__bar"></span>
+    <span class="toggle__bar"></span>
+    <span class="toggle__bar"></span>
+  </button>
+  <!-- End Switch -->
+
+  <div class="nav__inner">
+    <a href="{{site.baseurl}}/" class="nav__logo">ustwo</a>
+
+    <ul class="nav__menu">
+      <li class="nav__menu__item">
+          <a href="{{site.baseurl}}/" class="u-link-ohra">Overview</a>
+      </li>
+
+      <li class="nav__menu__item">
+          <a href="/principles/" class="u-link-mare"> Principles</a>
+      </li>
+
+      <li class="nav__menu__item">
+          <a href="/patterns/" class="u-link-honey">Patterns</a>
+      </li>
+
+      <li class="nav__menu__item">
+          <a href="/tools/" class="u-link-passion ">Tools</a>
+      </li>
+
+      <li class="nav__menu__contact">
+        <ul class="nav__menu__contact__list">
+          <li class="nav__menu__contact__list__item">
+            <a href="mailto:hello@ustwo.co.uk" class="u-link-rain">hello@ustwo.co.uk</a>
+          </li>
+
+          <li class="nav__menu__contact__list__item nav__menu__contact__list__item--studio" data-studio="nyc">
+            <a href="tel:+1(212)518-4900">+1 (212) 518-4900</a>
+          </li>
+
+          <li class="nav__menu__contact__list__item nav__menu__contact__list__item--studio" data-studio="malmo">
+            <a href="tel:+46(0)40330480">+46 (0) 40 330 480</a>
+          </li>
+
+          <li class="nav__menu__contact__list__item nav__menu__contact__list__item--studio" data-studio="london">
+            <a href="tel:+44(0)2076130433">+44 (0) 207 613 0433</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <script>
+  jQuery(function () {
+    var blog = new Ustwo.Blog({
+      category: 'all',
+      siteUrl: 'http://ustwo.com'
+    });
+
+    var loadNext = new Ustwo.BlogLoadNext($('.blog__pagination .btn'), {
+      postNumber: 60,
+      ajaxUrl: 'http://ustwo.com/wordpress/wp-content/themes/ustwo.com-wp/ajax',
+      onLoad: function () {
+        blog.checkForMobile();
+      }
+    });
+  });
+  </script>

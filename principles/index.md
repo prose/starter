@@ -5,6 +5,9 @@ title: Principles
 
 
 <br />
+
+<button class="uxp-edit-btn">[Edit](http://prose.io/#ustwo/uxp/edit/gh-pages/principles/index.md)</button>
+
 # Rogo Design Principles
 
 Rogo as a product will encompasses a complex set of features and will need to accommodate a variety of user needs — An ecosystem of applications as part of an integrated suite. This document aims to define some overarching principles that will shape a consistent user experience across applications. In addition to this, each product should in a similar manner set the principles relevant to the product scope and user needs.
@@ -70,4 +73,3 @@ We need to ensure that users feel in control acting on anything in the system. A
 As far as possible, we should make it clear what will happen before users take action, and make the feedback from any user action apparent so that they gradually learn and feel confident with using the system. 
 
 Example
-		  	

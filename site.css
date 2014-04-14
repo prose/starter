@@ -373,6 +373,40 @@ table {
   height: 240px;
 }
 
+.principles {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 640px;
+}
+
+.principles img {
+  max-width: 100%; 
+}
+
+.practice {
+
+}
+
+.practice img {
+  max-width: 100%; 
+}
+
+.methods {
+
+}
+
+.methods img {
+  max-width: 100%; 
+}
+
+.patterns {
+
+}
+
+.patterns img {
+  max-width: 100%; 
+}
+
 /*------------------------------------*\
     $CSSWIZARDRY-GRIDS
 \*------------------------------------*/

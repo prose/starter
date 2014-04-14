@@ -369,6 +369,10 @@ table {
 
 }
 
+.uxp-hero {
+  height: 240px;
+}
+
 /*------------------------------------*\
     $CSSWIZARDRY-GRIDS
 \*------------------------------------*/
@@ -5971,13 +5975,16 @@ p, .p, .blog-article__content ul li, .blog-article__content ol li {
 
 #uxp {
   background: #F7F7F7; 
-  width: 1080px;
   margin: 0px auto;
+  min-height: 660px;
 }
 
 .uxp-inner {
   padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px; 
+  width: 1080px;
+  margin: 0px auto;
+}
 
 .uxp-buttons {
   list-style: none;

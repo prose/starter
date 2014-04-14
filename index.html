@@ -1,18 +1,59 @@
 ---
-layout: default
+layout: ustwo
 section: blog
 ---
 
-<div class='listing col6 pad4h margin3'>
-  {% for item in site.categories.blog limit:1000 %}
+{% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
     {% if date != ndate %}
-      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
+
+
+    <!--<h4 class='month'>{{item.date | date: '%B %Y'}}</h4>-->
+
     {% endif %}
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+	
+<li class="blog__articles__item ">
+	<article class="article__thumb article__thumb--design">
+      <a href='{{site.baseurl}}{{item.url}}'>
+
+	    <!-- Article Image -->
+	    <div class="article__thumb__img">
+	    http://ustwo.com/wordpress/wp-content/uploads/2014/03/cover.jpg 
+	      <div class="article__thumb__img__clip" style="background-image: url(http://cache.ustwo.com/wordpress/wp-content/uploads/2014/03/cover.jpg);"></div>
+	      <i class="article__thumb__img__mask"></i>
+	    </div>
+	    <!-- /Article Image -->
+
+	    <!-- Article Content -->
+	    <div class="article__thumb__content">
+	      <h2 class="h3 u-margin-bXs article__thumb__title">{{item.title}}</h2>
+	      <h3 class="h6 article__thumb__author">
+	        By Gyppsy in <span class="article__thumb__category">Design</span> <span class="article__thumb__date">{{ item.date | date: '%B %Y' }}</span>
+	      </h3>
+
+	      <p class="article__thumb__excerpt">{{ post.excerpt }}</p>
+
+	      <ul class="article__thumb__meta">
+	       <!--
+	        <li class="article__thumb__meta__item article__thumb__meta__item--views">
+	          301
+	        </li>
+	        -->
+	        <li class="article__thumb__meta__item article__thumb__meta__item--twitter">
+	          89
+	        </li>
+	        <li class="article__thumb__meta__item article__thumb__meta__item--comments">
+	          0
+	        </li>
+	      </ul>
+	    </div>
+	    <!-- /Article Content -->
+	  </a>
+	</article>
+</li>
+
   {% endfor %}
-</div>
 
 {% include rss-link.html %}

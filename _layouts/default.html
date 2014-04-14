@@ -10,7 +10,7 @@ title: 'UX Principles & Patterns'
   <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
-  <link href="http://fnt.webink.com/wfs/webink.css/?project=2E393BD8-E94E-41FF-AF6F-074C1F2B6AF9&amp;fonts=A662D665-BC20-B3FD-B44C-A57A206F328C:f=PxGrotesk-Light,933D8DC6-8EC9-A6BD-33DE-EB816A44105A:f=PxGrotesk-Screen,93F90203-3D60-8B7B-9F87-7B585880EEF9:f=PxGrotesk-Regular,8F3750F8-E299-7CFD-2069-7AA8125652CE:f=PxGrotesk-RegularIta,1AEC341F-67D1-6F1C-2974-B45A4BD3C837:f=PxGrotesk-LightIta,B0CBCA70-418F-4482-421C-88B41ECCD5FA:f=PxGrotesk-Bold,F06E7859-C7AE-7BC9-DA36-BA8CCFC1BFEC:f=PxGrotesk-BoldIta,9E4A67B1-52AA-088D-2F00-62815998F7EA:f=FuturaPTExtraBold-Reg"
+ <link href="http://fnt.webink.com/wfs/webink.css/?project=2E393BD8-E94E-41FF-AF6F-074C1F2B6AF9&amp;fonts=A662D665-BC20-B3FD-B44C-A57A206F328C:f=PxGrotesk-Light,933D8DC6-8EC9-A6BD-33DE-EB816A44105A:f=PxGrotesk-Screen,93F90203-3D60-8B7B-9F87-7B585880EEF9:f=PxGrotesk-Regular,8F3750F8-E299-7CFD-2069-7AA8125652CE:f=PxGrotesk-RegularIta,1AEC341F-67D1-6F1C-2974-B45A4BD3C837:f=PxGrotesk-LightIta,B0CBCA70-418F-4482-421C-88B41ECCD5FA:f=PxGrotesk-Bold,F06E7859-C7AE-7BC9-DA36-BA8CCFC1BFEC:f=PxGrotesk-BoldIta,9E4A67B1-52AA-088D-2F00-62815998F7EA:f=FuturaPTExtraBold-Reg"
     rel="stylesheet" type="text/css" />
 
   <script type="text/javascript" src="//use.typekit.net/aly2wkm.js"></script>
@@ -19,42 +19,41 @@ title: 'UX Principles & Patterns'
 </head>
 <body>
 
-{% include header.html %}
+  {% include header.html %}
 
-
-<div id="uxp">
-    <!-- Header -->
-    <div class="block block--hero block--touch"
-         style="background-image: url('img/test.jpg');">
-         <!--data-base="uxp/uxp_hero_01_"
-         data-default="uxp/uxp_hero_01_desktop"
-         data-palmLandscape="false"
-         data-ext=".jpg"-->
-
-      <div class="block__inner">
-        <h1 class="h1 block__title">
-          <span class="u-text-passion">Patterns</span><br/>and<br/><span class="u-text-passion">Principles</span>
-        </h1>
-
-        <h5 class="index__desc u-margin-tL u-text-light">A comprehensive guide to UX principles and patterns</h5>
-
-      </div>
-
-      <div class="block__triangle"></div>
+  <div class="wrapper">
+      <div id="blog">
+  <div class="blog__inner">
+    <div class="blog__searchbox">
+      <form role="search" method="post"  action="/blog/">
+        <div class="searchbox__search"><input type="search" name="search" value="" /></div><!--
+     --><div class="searchbox__categories">
+          <span>All categories</span>
+          <ul>
+            <li data-selectbox-value="all">All Categories</li>
+            <li data-selectbox-value="business">Business</li>
+            <li data-selectbox-value="culture">Culture</li>
+            <li data-selectbox-value="design">Design</li>
+            <li data-selectbox-value="development">Development</li>
+            <li data-selectbox-value="process">Process</li>
+            <li data-selectbox-value="ux">UX</li>
+          </ul>
+        </div>
+      </form>
     </div>
-    <!-- /Header -->
 
-    <div class="uxp-inner">
+    <header class="blog__header">
+      <h1 class="h2">
+        <span class="u-text-piglet">UX</span><br/>Design<br/><span class="u-text-piglet">Principles</span>
+      </h1>
+    </header>
+
 
     {{ content }}
 
-    </div>
-
-</div>
 
 
   <script src='{{site.baseurl}}/site.js'></script>
 
   {% include footer.html %}
 
-</body>

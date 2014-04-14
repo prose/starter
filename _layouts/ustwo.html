@@ -1,0 +1,94 @@
+---
+title: 'UX Principles & Patterns'
+---
+
+{% include header.html %}
+
+  <div class="wrapper">
+      <div id="blog">
+        <div class="blog__inner">
+
+          <header class="blog__header">
+            <h1 class="h2">
+              <span class="u-text-piglet">UX</span><br/>Design<br/><span class="u-text-piglet">Principles</span>
+            </h1>
+          </header>
+
+          <ul class="blog__articles">
+            <li class="blog__articles__item blog__articles__item--hero">
+              <article class="article__thumb article__thumb--design">
+                <a href="{{ post.url }}">
+                  <!-- Article Image -->
+                  <div class="article__thumb__img">
+                  http://static.tumblr.com/6fbb047a0c339b26316bda257911be00/h3scxio/D4lmzr2vm/tumblr_static_rogo-moodboards.jpg 
+                    <div class="article__thumb__img__clip" style="background-image: url(http://static.tumblr.com/6fbb047a0c339b26316bda257911be00/h3scxio/D4lmzr2vm/tumblr_static_rogo-moodboards.jpg);"></div>
+                    <i class="article__thumb__img__mask"></i>
+                  </div>
+                  <!-- /Article Image -->
+
+                  <!-- Article Content -->
+                  <div class="article__thumb__content">
+                    <h2 class="h3 u-margin-bXs article__thumb__title">Rogo + Pico</h2>
+                    <h3 class="h6 article__thumb__author">
+                      By {{ post.author }} in <span class="article__thumb__category">{{ post.categories }}</span> <span class="article__thumb__date">{{ post.date }}</span>
+                    </h3>
+
+                    <p class="article__thumb__excerpt">Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+                    <ul class="article__thumb__meta">
+                     <!--
+                      <li class="article__thumb__meta__item article__thumb__meta__item--views">
+                        301
+                      </li>
+                      -->
+                      <li class="article__thumb__meta__item article__thumb__meta__item--twitter">
+                        286
+                      </li>
+                      <li class="article__thumb__meta__item article__thumb__meta__item--comments">
+                        0
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /Article Content -->
+                </a>
+              </article>
+            </li><li class="blog__articles__item ">
+              <article class="article__thumb article__thumb--development">
+                <a href="{{ post.url }}">
+                  <!-- Article Image -->
+                  <br />
+                  <!-- /Article Image -->
+
+                  <!-- Article Content -->
+                  <div class="article__thumb__content">
+                    <h2 class="h3 u-margin-bXs article__thumb__title">Project Team</h2>
+                    <h3 class="h6 article__thumb__author">
+                       <span class="article__thumb__date">27 March 2014</span>
+                    </h3>
+
+                    <ul>
+                      <li>Adam</li>
+                      <li>Arnau</li>
+                      <li>Bill</li>
+                      <li>Cat</li>
+                      <li>Dain</li>
+                      <li>Daisy</li>
+                      <li>Lars</li>
+                      <li>Narges</li>
+                    </ul>
+
+
+                  </div>
+                  <!-- /Article Content -->
+                </a>
+              </article>
+            </li>{{ content }}
+          </ul>
+
+</div>
+
+
+  <script src='{{site.baseurl}}/site.js'></script>
+
+  {% include footer.html %}
+

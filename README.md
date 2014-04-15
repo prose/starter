@@ -46,7 +46,7 @@ This folder contains linked images in posts and pages.
 
 * If you want to add an image to your page/post, place it in this folder and use this format to link to the image.
 
-![alt text](/uxp/img/'addd image name here' )
+`![alt text](/uxp/img/'addd image name here' )`
 
 ## Prose Starter
 

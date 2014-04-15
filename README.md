@@ -22,18 +22,18 @@ site.js (main javascripts)
 
 Are only used structure the site layout. None of these files need to be edited to contribute content to the site. 
 
-principles.md
+**principles.md
 practice.md
 methods.md
-patterns.md
+patterns.md**
 
 These are the main section of the site. 
 
-_posts
+**_posts**
 
 This folder contains the blog posts on the front page. 
 
-img/
+**img/**
 
 This folder contains linked images in posts and pages. 
 

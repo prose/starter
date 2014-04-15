@@ -6,7 +6,7 @@ title: Principles
 
 <br />
 
-<button class="uxp-edit-btn">[Edit](http://prose.io/#ustwo/uxp/edit/gh-pages/principles/index.md)</button>
+<button class="uxp-edit-btn">[Edit](http://prose.io/#ustwo/uxp/edit/gh-pages/principles.md)</button>
 
 # Rogo Design Principles
 

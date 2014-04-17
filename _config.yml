@@ -1,10 +1,10 @@
-baseurl: /uxp
+baseurl: /xpp
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://ustwo.github.io/uxp/'
-  relativeLinks: 'http://ustwo.github.io/uxp/links.jsonp'
+  siteurl: 'http://ustwo.github.io/xpp/'
+  relativeLinks: 'http://ustwo.github.io/xpp/links.jsonp'
   media: 'media'
   metadata:
     _posts:

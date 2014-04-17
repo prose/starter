@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+ <link href="http://fnt.webink.com/wfs/webink.css/?project=2E393BD8-E94E-41FF-AF6F-074C1F2B6AF9&amp;fonts=A662D665-BC20-B3FD-B44C-A57A206F328C:f=PxGrotesk-Light,933D8DC6-8EC9-A6BD-33DE-EB816A44105A:f=PxGrotesk-Screen,93F90203-3D60-8B7B-9F87-7B585880EEF9:f=PxGrotesk-Regular,8F3750F8-E299-7CFD-2069-7AA8125652CE:f=PxGrotesk-RegularIta,1AEC341F-67D1-6F1C-2974-B45A4BD3C837:f=PxGrotesk-LightIta,B0CBCA70-418F-4482-421C-88B41ECCD5FA:f=PxGrotesk-Bold,F06E7859-C7AE-7BC9-DA36-BA8CCFC1BFEC:f=PxGrotesk-BoldIta,9E4A67B1-52AA-088D-2F00-62815998F7EA:f=FuturaPTExtraBold-Reg"
+    rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="//use.typekit.net/aly2wkm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  
+</head>
+<body>
+
+<nav class="nav">
+  <!-- Toggle Switch -->
+  <button class="nav__toggle">
+    <span class="toggle__bar"></span>
+    <span class="toggle__bar"></span>
+    <span class="toggle__bar"></span>
+  </button>
+  <!-- End Switch -->
+
+  <div class="nav__inner">
+    <a href="{{site.baseurl}}/" class="nav__logo">ustwo</a>
+
+    <ul class="nav__menu">
+      <li class="nav__menu__item">
+          <a href="{{site.baseurl}}/" class="u-link-ohra">Rogo + Pico</a>
+      </li>
+
+      <li class="nav__menu__item">
+          <a href="/uxp/principles/" class="u-link-mare"> Principles</a>
+      </li>
+
+      <li class="nav__menu__item">
+          <a href="/uxp/practice/" class="u-link-passion ">Best Practice</a>
+      </li>
+      <li class="nav__menu__item">
+          <a href="/uxp/methods/" class="u-link-passion ">Tools & Methods</a>
+      </li>
+
+      <li class="nav__menu__item">
+          <a href="/uxp/patterns/" class="u-link-honey">Patterns</a>
+      </li>
+
+
+
+    </ul>
+  </div>
+</nav>
+
+  <script>
+  jQuery(function () {
+    var blog = new Ustwo.Blog({
+      category: 'all',
+      siteUrl: 'http://ustwo.com'
+    });
+
+    var loadNext = new Ustwo.BlogLoadNext($('.blog__pagination .btn'), {
+      postNumber: 60,
+      ajaxUrl: 'http://ustwo.com/wordpress/wp-content/themes/ustwo.com-wp/ajax',
+      onLoad: function () {
+        blog.checkForMobile();
+      }
+    });
+  });
+  </script>

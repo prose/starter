@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # An exhibit of Markdown

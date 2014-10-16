@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-published: false
+published: true
 title: Hello World
 expires: "2014-10-17 17:11:44 UTC"
 ---

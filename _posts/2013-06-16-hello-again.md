@@ -8,5 +8,5 @@ tags:
   - pears
 ---
 
-#Why isnt my post working?
+#Need to hide post path in url and replace with clean permalink!
 

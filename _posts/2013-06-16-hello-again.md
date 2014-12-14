@@ -8,5 +8,5 @@ tags:
   - pears
 ---
 
-#Need to hide post path in url and replace with clean permalink!
+Need to hide post path in url and replace with clean permalink!
 

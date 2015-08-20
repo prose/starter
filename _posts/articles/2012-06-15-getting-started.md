@@ -11,10 +11,11 @@ published: true
 ---
 
 
+
 Here's how to get started with Poole.
 
 
-Login with your Github User.
+Login with your Github User
 -----------------
 
 It was challenging, but Poole supports OAuth. I think it's very important to use OAuth over Basic Authentication, since Github data can be very sensible and no one wants to risk getting his password sniffed.

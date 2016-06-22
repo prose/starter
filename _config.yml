@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:kainy/blog.git
+  repo: https://kainy:$token@github.com/kainy/blog.git
   branch: gh-pages

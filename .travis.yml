@@ -1,0 +1,21 @@
+language: node_js
+
+sudo: false
+
+# master为hexo博客所在分支
+branches:
+  only:
+  - gh-pages
+
+before_install:
+- git config --global user.name 'kainy.travis'
+- git config --global user.email 'gt@kainy.cn'
+
+install:
+- npm install hexo-cli -g
+- npm install
+
+script:
+- hexo clean
+- hexo g
+- hexo d

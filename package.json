@@ -15,6 +15,7 @@
     "hexo-renderer-stylus": "^0.3.0",
     "hexo-renderer-marked": "^0.2.4",
     "hexo-migrator-wordpress": "*",
+    "hexo-deployer-git": "*",
     "hexo-server": "^0.1.2"
   }
 }

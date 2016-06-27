@@ -62,9 +62,6 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: landscape
-
 feed:
   type: atom
   path: atom.xml
@@ -73,6 +70,31 @@ feed:
 
 jsonFeed:
   limit: 25
+
+html_minifier:
+  enable: false
+  exclude: 
+css_minifier:
+  enable: true
+  exclude: 
+    - '*.min.css'
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude: 
+    - '*.min.js'
+image_minifier:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+
+## Themes: http://hexo.io/themes/
+theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

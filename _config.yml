@@ -65,6 +65,15 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: landscape
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
+jsonFeed:
+  limit: 25
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

@@ -1,26 +1,24 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+  Home: /blog/
+  Archives: /blog/archives
+rss: /blog/atom.xml
 
 # Content
-excerpt_link: Read More
+excerpt_link: 更多
 fancybox: true
 
 # Sidebar
 sidebar: right
 widgets:
 - category
-- tag
 - tagcloud
-- archive
 - recent_posts
 
 # Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
+google_analytics: UA-6311572-2
+favicon: //kainy.cn/favicon.ico
+twitter: kainyguo
 google_plus:
 fb_admins:
 fb_app_id:

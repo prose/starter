@@ -1,10 +1,20 @@
+---
+title: Starter
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 auto: true
 server: true
 pygments: true
 permalink: none
-root_dir: ""
+root_dir: ''
 oauth_client_id: caf55c20366465a1332d
 gatekeeper_url: http://poole-oauth-staging.herokuapp.com
 exclude:
-- .gitignore
+- ".gitignore"
 - README.md

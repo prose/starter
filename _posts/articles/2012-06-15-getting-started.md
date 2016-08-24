@@ -1,12 +1,13 @@
 ---
-layout: article
 title: Getting Started
+date: 2012-06-15 00:00:00 Z
+categories:
+- articles
+layout: article
 descr: A brief introduction on how to use Poole, what it can do for you and what not.
 image: http://farm7.staticflickr.com/6119/6884293596_b44a31bf0a_m.jpg
 author_twitter: _mql
 author: Michael Aufreiter
-categories:
-- articles
 ---
 
 Here's how to get started with Poole.

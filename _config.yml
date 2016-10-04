@@ -1,4 +1,4 @@
-baseurl: /starter
+#baseurl: http://localhost:4000
 permalink: pretty
 markdown: rdiscount
 prose:

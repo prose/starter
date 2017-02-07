@@ -1,10 +1,10 @@
 ---
-title: 'This is my Site Title'
+title: 'Alex Homer'
 ---
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <title>Personal Blog {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
@@ -17,9 +17,9 @@ title: 'This is my Site Title'
       <div class='header col6 margin3 pad4h'>
         <div class='clearfix col12'>
           <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
+            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Posts</a>
+            <a class='% if page.url == "projects/" %}active{% endif %}' href='{{site.baseurl}}/projects'href='{{site.baseurl}}/projects'>Projects</a>
             <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
           </div>
           <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
         </div>

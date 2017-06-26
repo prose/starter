@@ -16,3 +16,16 @@ section: blog
 </div>
 
 {% include rss-link.html %}
+
+{% for category in site.categories %}
+  <div class='listing col6 pad4h margin3'>
+  <h1> {{ category | first }}</h1>
+    {% for posts in category %}
+      {% for item in posts %}
+        {%if item.url%}
+          <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+        {%endif%}
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endfor %}

@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 baseurl: /starter
 permalink: pretty
 markdown: rdiscount

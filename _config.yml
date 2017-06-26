@@ -1,6 +1,7 @@
+theme: jekyll-theme-minimal
 baseurl: /starter
 permalink: pretty
-markdown: rdiscount
+markdown: kramdown
 prose:
   rooturl: '_posts'
   siteurl: 'http://prose.github.io/starter/'
@@ -55,3 +56,20 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+prose:
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Stack"
+              value: "stack"
+            - name: "Brief"
+              value: "brief"
+            - name: "Bugherd"
+              value: "bugherd"
+            - name: "Other"
+              value: "other"

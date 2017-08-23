@@ -1,3 +1,10 @@
+title:       'Federation Exceptionalism'
+tagline:     'Debunking the theory that the Federation is a functioning Socialist Utopia.'
+
+author:
+  name:      'Shawn Boles (Gamium.org)'
+   url:      https://gamium.org
+
 baseurl: /starter
 permalink: pretty
 markdown: rdiscount

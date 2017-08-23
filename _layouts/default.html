@@ -1,23 +1,31 @@
 ---
+title: 'This is my Site Title'
 ---
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <meta charset='UTF-8'/>
-  <title>Poole &middot; Serving Jekyll faithfully</title>
-  <link rel='shortcut icon' href='{{site.root_dir}}/images/favicon.ico' type='image/x-icon' />
-  <link rel='stylesheet' href='{{site.root_dir}}/fonts/open-sans.css'>
-  <link rel='stylesheet' href='{{site.root_dir}}/app.css'>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
-  <div id='container'>
-    <div id='main'>{{content}}</div>
-  </div>
-
-  <div id='footer'>
-    <div class="footer-content">
-      Made by <a href="http://developmentseed.org">Development Seed</a>, Sourcecode on <a href="http://github.com/poole/bootstrap">GitHub</a>
+  <div class='container'>
+    <div class='col12 clearfix'>
+      <div class='header col6 margin3 pad4h'>
+        <div class='clearfix col12'>
+          <div class='menu fr'>
+            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
+            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
+            <a href='//github.com/prose/starter'>Fork on GitHub</a>
+          </div>
+          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
+        </div>
+      </div>
     </div>
+    {{content}}
   </div>
+  <script src='{{site.baseurl}}/site.js'></script>
 </body>
-</html>

@@ -1,25 +1,18 @@
 ---
 layout: default
+section: blog
 ---
 
-<div class="help">
-  <h1>Help</h1>
+<div class='listing col6 pad4h margin3'>
+  {% for item in site.categories.blog limit:1000 %}
+    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-  <div class='articles'>
-    {% for item in site.categories.articles limit:40 offset:0 %}
-      <a class="article" href="{{site.root_dir}}{{item.url}}">
-        {% if item.image %}
-          <img src="{{item.image}}" width="200" height="100"/>
-        {% endif %}
-
-        <div class="title">
-          {{item.title}}
-        </div>
-        <div class="descr">
-          {{item.descr}}
-        </div>
-      </a>
-    {% endfor %}
-  </div>
+    {% if date != ndate %}
+      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
+    {% endif %}
+    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+  {% endfor %}
 </div>
 
+{% include rss-link.html %}

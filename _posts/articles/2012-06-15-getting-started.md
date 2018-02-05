@@ -14,13 +14,13 @@ Here's how to get started with Poole.
 
 ## Login with your Github User
 
-It was challenging, but Poole supports OAuth. I think it's very important to use OAuth over Basic Authentication, since Github data can be very sensible and no one wants to risk getting his password sniffed.
+It was challenging, but Poole supports OAuth. I think it's very important to use OAuth over Basic Authentication, since Github data can be very sensible and no one wants to risk getting his password sniffed.aaa
 
 ![Start](http://f.cl.ly/items/0t0A170b2Y093F2u1w45/Screen%20Shot%202012-05-23%20at%205.48.45%20PM.png)
 
 ## Browse Repositories
 
-This is the landing page, it gives you all the repositories you have access to. If a Jekyll site has multiple branches, you are prompted to select your desired branch, otherwise, you jump into the repo directly. **lkj** 
+This is the landing page, it gives you all the repositories you have access to. If a Jekyll site has multiple branches, you are prompted to select your desired branch, otherwise, you jump into the repo directly. **lkj**
 
 ![star-wars-the-force-awakens-main-characters-51521-3840x2160.jpg](/uploads/star-wars-the-force-awakens-main-characters-51521-3840x2160.jpg)
 

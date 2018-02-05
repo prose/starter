@@ -12,8 +12,8 @@ Dit zijn dingen
 
 Hier stond dus een plaatje
 
-&nbsp;
+ 
 
-![](/uploads/versions/200-s---x----159-200x---.gif)
+![star-wars-the-force-awakens-main-characters-51521-3840x2160.jpg](/uploads/star-wars-the-force-awakens-main-characters-51521-3840x2160.jpg)
 
 enzo

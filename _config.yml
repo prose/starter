@@ -1,10 +1,33 @@
+---
+title: Starter
+timezone: UTC
+collections:
+  dirkens:
+    title: Dirken
+    output: true
+  posts:
+    title: Posts
+    output: true
+  services:
+    title: Services
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: dirkens
+  values:
+    layout: default
+    dirk_image: 
 auto: true
 server: true
 pygments: true
 permalink: none
-root_dir: ""
+root_dir: 
 oauth_client_id: caf55c20366465a1332d
 gatekeeper_url: http://poole-oauth-staging.herokuapp.com
 exclude:
-- .gitignore
+- ".gitignore"
 - README.md

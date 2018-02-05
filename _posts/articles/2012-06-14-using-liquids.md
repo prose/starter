@@ -1,14 +1,14 @@
 ---
+title: Using Liquids
+date: 2012-06-14 00:00:00 Z
+categories:
+- articles
 layout: article
-title: Using Liquid
 descr: The quick guide
 image: http://farm7.staticflickr.com/6119/6884293596_b44a31bf0a_m.jpg
 author_twitter: _mql
-author: Michael Aufreiter
-categories:
-- articles
+author: Michael Dudemeister
 ---
-
 
 Insert Content here.
 

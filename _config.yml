@@ -1,6 +1,14 @@
 ---
 title: Starter
 timezone: UTC
+defaults:
+  -
+    scope:
+      path: ""
+      type: "dirkens"
+    values:
+      layout: "default"
+      dirk_image: 
 collections:
   dirkens:
     title: Dirken

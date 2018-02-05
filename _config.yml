@@ -2,7 +2,7 @@
 title: Starter
 timezone: UTC
 collections:
-  dirken:
+  dirkens:
     title: Dirken
     output: true
   posts:

@@ -1,7 +1,7 @@
 ---
 layout: page
 published: true
-permalink: /about/
+permalink: sjkilts.github.io/about/
 title: about
 ---
 Scott Kilts is a Washington-based artist, illustrator and designer who is passionate about UX. He loves to figure out how things work, how people work with things, and how to make things and people work better together.

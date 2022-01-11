@@ -1,10 +1,10 @@
-baseurl: /starter
+baseurl: /
 permalink: pretty
 markdown: kramdown
 prose:
   rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  siteurl: 'http://sjkilts.github.io/'
+  relativeLinks: ''
   media: 'media'
   metadata:
     _posts:

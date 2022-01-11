@@ -1,4 +1,4 @@
-baseurl: http://sjkilts.github.io/
+baseurl: 
 permalink: pretty
 markdown: kramdown
 prose:

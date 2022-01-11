@@ -5,6 +5,7 @@ category: post
 splash: "http://placehold.it/1600x500"
 tags: null
 title: test me
+date: 06/16/2013
 ---
 
 

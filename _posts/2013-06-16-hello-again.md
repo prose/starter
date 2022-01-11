@@ -1,7 +1,7 @@
 ---
-layout: blog
+layout: post
 published: true
-category: blog
+category: post
 splash: "http://placehold.it/1600x500"
 tags: null
 title: test me

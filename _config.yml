@@ -1,4 +1,5 @@
 url: "http://sjkilts.github.io/"
+baseurl: /
 permalink: pretty
 markdown: kramdown
 prose:
@@ -11,11 +12,11 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "title"
         field:
           element: "text"

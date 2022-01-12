@@ -493,4 +493,13 @@ Details: http://www.positioniseverything.net/easyclearing.html
     background-size:240px 240px;
     }
   }
+  
+  /* prose image fix
+  -------------------------------------------------------- */
+  .prose img {
+  background:#f0f0f0;
+  margin:0 auto;
+  display:block;
+  max-width:100%;
+  }
 

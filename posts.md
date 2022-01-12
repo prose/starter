@@ -14,7 +14,6 @@ section: posts
     {% endif %}
     <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}
     </span></a>
-    [expand]{{ item }}[/expand]
   {% endfor %}
 </div>
 

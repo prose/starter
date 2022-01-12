@@ -3,6 +3,16 @@ layout: default
 section: post
 ---
 
+<div class='listing col6 pad4h margin3'>
+  <div class='heading'>
+    <h1>{{page.title}}</h1><span class='date'>{{page.date | date:"%b %d"}}</span>
+  </div>
+
+  <div class='prose'>
+    {{content}}
+  </div>
+</div>
+
 {% if page.splash %}
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
@@ -14,14 +24,4 @@ section: post
     <img src='{{url}}' alt='' />
   </div>
 {% endif %}
-
-<div class='listing col6 pad4h margin3'>
-  <div class='heading'>
-    <h1>{{page.title}}</h1><span class='date'>{{page.date | date:"%b %d"}}</span>
-  </div>
-
-  <div class='prose'>
-    {{content}}
-  </div>
-</div>
 

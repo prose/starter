@@ -2,7 +2,7 @@ url: "http://sjkilts.github.io/"
 description: you are the spacetimedistortion
 baseurl: /
 permalink: pretty
-markdown: kramdown
+markdown: rdiscount
 prose:
   rooturl: '_posts'
   siteurl: 'http://sjkilts.github.io/'
@@ -28,6 +28,16 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "photo_url"
+        field:
+          element: "text"
+          label: "450x450 Picture Thumb for index"
+          value: ""
+      - name: "published"
+          field:
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "tags"
         field:
           element: "multiselect"

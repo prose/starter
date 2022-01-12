@@ -2,7 +2,7 @@ url: "http://sjkilts.github.io/"
 description: you are the spacetimedistortion
 baseurl: /
 permalink: pretty
-markdown: rdiscount
+markdown: kramdown
 prose:
   rooturl: '_posts'
   siteurl: 'http://sjkilts.github.io/'

@@ -13,14 +13,14 @@ section: post
   </div>
 </div>
 
-<br>
-
 {% if page.splash %}
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
   {% else %}
     {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
   {% endif %}
+
+  <br>
 
   <div class='col12 splash'>
     <img src='{{url}}' alt='' />

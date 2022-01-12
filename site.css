@@ -361,9 +361,9 @@ table {
   font-weight:normal;
   }
 .foot {
-  float:center
-  margin: 0 auto;
-  display: block;
+  align-items:center;
+  justify-content:center;
+  display: flex;
   }
 
 /* Columns

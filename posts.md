@@ -17,7 +17,7 @@ published: true
     <summary>
       <!-- <a class='item' href='{{site.baseurl}}{{item.url}}'> --> {{item.title}} <span class='date'> &#126; {{item.date | date:"%b %d"}}</span><!--</a> -->
     </summary>
-    {{ item }}
+    {{ item.content }}
   </details>
   {% endfor %}
 </div>

@@ -15,9 +15,14 @@ published: true
     {% endif %}
   <details>
     <summary>
-      <!-- <a class='item' href='{{site.baseurl}}{{item.url}}'> --> {{item.title}} <span class='date'> &#126; {{item.date | date:"%b %d"}}</span><!--</a> -->
+      <span class='item'>
+        {{item.title}} 
+        <span class='date'>
+          &#126; {{item.date | date:"%b %d"}}
+        </span>
+      </span>
     </summary>
-    <span>{{ item.content }}</span>
+    {{ item.content }}
   </details>
   {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: ty/
+url: ty/
 ---
 <div class="fourohfour">
 	<h1>thank you</h1>

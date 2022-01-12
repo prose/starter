@@ -13,19 +13,6 @@ section: post
   </div>
 </div>
 
-<div class="post-nav">
-  <p>
-    {% if page.previous.url %}
-    <a href="{{page.previous.url}}">&#8672;&nbsp;{{page.previous.title}}</a>
-    {% endif %}
-  </p>
-  <p>
-    {% if page.next.url %}
-    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#8674;</a>
-    {% endif %}
-  </p>
-</div>
-
 {% if page.splash %}
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
@@ -39,4 +26,17 @@ section: post
     <img src='{{url}}' alt='' />
   </div>
 {% endif %}
+
+<div class="post-nav">
+  <p>
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}">&#8672;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </p>
+  <p>
+    {% if page.next.url %}
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#8674;</a>
+    {% endif %}
+  </p>
+</div>
 

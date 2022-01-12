@@ -1,5 +1,6 @@
 ---
 layout: default
+url: posts/
 section: posts
 ---
 

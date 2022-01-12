@@ -12,6 +12,13 @@ section: posts
     {% if date != ndate %}
       <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
     {% endif %}
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
+    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}
+    [expand]
+    <div>
+      {{ item }}
+    </div>
+    [/expand]
+    </span></a>
   {% endfor %}
 </div>
+

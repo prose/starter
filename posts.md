@@ -13,7 +13,7 @@ published: true
     {% if date != ndate %}
       <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
     {% endif %}
-  <details class=''>
+  <details class='splash'>
     <summary>
         {{item.title}} 
         <span class='date'>

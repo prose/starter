@@ -360,6 +360,11 @@ table {
   color:#d4d7d9;
   font-weight:normal;
   }
+.foot {
+  float:center
+  margin: 0 auto;
+  display: block;
+  }
 
 /* Columns
 ------------------------------------------------------- */

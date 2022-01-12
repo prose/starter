@@ -1,8 +1,8 @@
 ---
 layout: page
-url: ty/
+url: thanks/
 ---
-<div class="fourohfour">
+<div class="">
 	<h1>thank you</h1>
 	<h3>your message has been received</h3>
 </div>

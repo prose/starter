@@ -34,7 +34,7 @@ prose:
           label: "450x450 Picture Thumb for index"
           value: ""
       - name: "published"
-          field:
+        field:
           element: "checkbox"
           label: "Published"
           value: false

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
  1 <div>
  3    <section>

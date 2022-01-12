@@ -12,38 +12,5 @@ published: true
   <div class='splash'>
     {{content}}
   </div>
-  <!--
-  <div class="post-nav">
-    <p>
-      {% if page.previous.url %}
-      <a href="{{page.previous.url}}">&#8672;&nbsp;{{page.previous.title}}</a>
-      {% endif %}
-    </p>
-    <p>
-      {% if page.next.url %}
-      <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#8674;</a>
-      {% endif %}
-    </p>
-  </div>
-	-->
     
 </div>
-
-<div class='splash'>
-  <a href="{{site.baseurl}}/posts">&#8672;&nbsp; posts</a>
-</div>
-<!--
-{% if page.splash %}
-  {% if page.splash contains 'http' %}
-    {% capture url %}{{page.splash}}{% endcapture %}
-  {% else %}
-    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
-  {% endif %}
-
-  <br>
-
-  <div class='col12 splash'>
-    <img src='{{url}}' alt='' />
-  </div>
-{% endif %}
--->

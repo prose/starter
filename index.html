@@ -3,11 +3,7 @@ layout: none
 section: post
 published: true
 ---
----
-layout: default
----
-
-{% for site in site.posts.first %}{{ site.excerpt }}{% endfor %}
+{{ site.posts.first }}
 
 <!--
 page layout

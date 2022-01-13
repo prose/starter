@@ -20,7 +20,7 @@ published: true
           &#126; {{item.date | date:"%b %d"}}
         </span>
     </summary>
-    {{ item.excerpt }}
+    {{ item.content }}
   </details>
   {% endfor %}
 </div>

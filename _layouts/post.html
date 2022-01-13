@@ -14,23 +14,19 @@ published: true
   </div>
   
   <div class='splash'>
-    {% for item in site.categories.post limit:1000 %}
+    {% for item in site.categories.post limit:5 %}
     
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
       {% capture url %}{{ item.url }}{% endcapture %}
 
       {% if item.url != page.url %}
-        <details>
-            <summary>
-                {{item.title}} 
-                <span class='date'>
-                &#126; {{item.date | date:"%b %d %Y"}}
-                </span>
-            </summary>
-                <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
-                {{ item.content }}
-        </details>
+    	<li>
+          <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
+          <span class='date'>
+          &#126; {{item.date | date:"%b %d %Y"}}
+          </span>
+        </li>
       {% endif %}
     
     {% endfor %}

@@ -11,7 +11,7 @@ published: true
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
 
-  <a href='{{ site.baseurl }}{{ item.url }}'>{{ item.title }} class='pretty'</a>
+  <a href='{{ site.baseurl }}{{ item.url }}' class='pretty'>{{ item.title }}</a>
   <details class='splash'>
     <summary>
         <span class='date'>

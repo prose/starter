@@ -26,7 +26,7 @@ published: true
 
       {% if item.url != page.url %}
     	<div>
-          <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
+          <a href='{{ site.url }}{{ item.url }}' class='pretty'>{{ item.title }}</a>
           <span class='date'>
           &#126; {{item.date | date:"%b %d %Y"}}
           </span>

@@ -5,7 +5,7 @@ section: posts
 published: true
 ---
 
-<div class='listing col6 pad4h margin3'>
+<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -18,7 +18,7 @@ published: true
         	{{item.date | date:"%b %d %Y"}}
         </span>
     </summary>
-    <div style='padding-bottom:1em;'>
+    <div style='padding-bottom:2em;'>
       {{ item.content }}
       <a href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</a>
     </div>

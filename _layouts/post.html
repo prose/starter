@@ -15,7 +15,7 @@ published: true
   </div>
   
   <div class='splash' style='padding-top:1em; padding-bottom:6em;'>
-      <a href="#" class='date' style='padding-bottom:1em;'>&#5150; top</a>
+      <a href="#" class='date' style='padding-bottom:.5em;'>&#5150; top</a>
     {% for item in site.categories.post limit:5 %}
     
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

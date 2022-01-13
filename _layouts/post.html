@@ -22,7 +22,8 @@ published: true
                   <span class='date'>
                   &#126; {{item.date | date:"%b %d %Y"}}
                   </span>
-              </summary>
+            </summary>
+              <h1><a href="{{site.url}}{{page.url}}">{{ item.title }}<a></h1>
               {{ item.content }}
           </details>
           {% endif %}

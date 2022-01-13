@@ -12,7 +12,7 @@ published: true
   	{% capture url %}{{ item.url }}{% endcapture %}
 
   <details class='splash'>
-    <summary style='display:block;'>
+    <summary style='display:inline;'>
         {{ item.title }}
         <span class='date'>
         	{{item.date | date:"%b %d %Y"}}
@@ -20,7 +20,7 @@ published: true
     </summary>
     <div>
       {{ item.content }}
-      <a href='{{ site.baseurl }}{{ item.url }}' style='float:right; display:block;'>view post &nbsp;&raquo;</a>
+      <a href='{{ site.baseurl }}{{ item.url }}' style='float:right; display:inline;'>view post &nbsp;&raquo;</a>
     </div>
   </details>
   {% endfor %}

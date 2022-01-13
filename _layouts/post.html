@@ -13,7 +13,7 @@ published: true
     {{content}}
     
     {% for item in site.categories.post limit:1000 %}
-        {% if item == site.categories.post %}
+        {% if item == page.url %}
     	{% else %}
           {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
           {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}

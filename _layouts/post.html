@@ -14,29 +14,31 @@ published: true
     
     {% for item in site.categories.post limit:1000 %}
     
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-    {% capture url %}{{ item.url }}{% endcapture %}
+      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+      {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+      {% capture url %}{{ item.url }}{% endcapture %}
 
-    <details>
-        <summary>
-            {{item.title}} 
-            <span class='date'>
-            &#126; {{item.date | date:"%b %d %Y"}}
+      {% if item.url != page.url %}
+        <details>
+            <summary>
+                {{item.title}} 
+                <span class='date'>
+                &#126; {{item.date | date:"%b %d %Y"}}
+                </span>
+          </summary>
+
+            <span>
+              <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
             </span>
-      </summary>
 
-        <span>
-          <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
-        </span>
+            <div>
+              {{ item.content }}
+            </div>
 
-      	<div>
-          {{ item.content }}
-        </div>
-          
-    </details>
+        </details>
+      {% endif %}
     
-  {% endfor %}
+    {% endfor %}
     
   </div>
   

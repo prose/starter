@@ -11,26 +11,25 @@ published: true
 
   <div class='splash'>
     {{content}}
-  </div>
     
-  <div class='listing col6 pad4h margin3'>
-  {% for item in site.categories.post limit:1000 %}
-    {% if item != site.categories.post.first %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-
-  <details class='splash' style='float:left;'>
-    <summary>
-        {{item.title}} 
-        <span class='date'>
-          &#126; {{item.date | date:"%b %d %Y"}}
-        </span>
-    </summary>
-    {{ item.content }}
-  </details>
-  {% endif %}
-  {% endfor %}
-</div>
-
+    <div class='listing col6 pad4h margin3'>
+      {% for item in site.categories.post limit:1000 %}
+          {% if item != site.categories.post.first %}
+            {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+            {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+            <details>
+                <summary style='float:left;'>
+                    {{item.title}} 
+                    <span class='date'>
+                    &#126; {{item.date | date:"%b %d %Y"}}
+                    </span>
+                </summary>
+                {{ item.content }}
+            </details>
+            {% endif %}
+      {% endfor %}
+    </div>
+    
+  </div>
   
 </div>

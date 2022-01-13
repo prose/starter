@@ -11,7 +11,9 @@ published: true
 
   <div class='splash'>
     {{content}}
-    
+  </div>
+  
+  <div class='splash'>
     {% for item in site.categories.post limit:1000 %}
     
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -32,7 +34,6 @@ published: true
       {% endif %}
     
     {% endfor %}
-    
   </div>
   
 </div>

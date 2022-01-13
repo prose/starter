@@ -18,7 +18,7 @@ published: true
         	{{item.date | date:"%b %d %Y"}}
         </span>
     </summary>
-    <div>
+    <div style='display:block;'>
       {{ item.content }}
       <a href='{{ site.baseurl }}{{ item.url }}' style='float:right; display:block;'>view post &nbsp;&raquo;</a>
     </div>

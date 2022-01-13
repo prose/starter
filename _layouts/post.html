@@ -13,7 +13,7 @@ published: true
     {{content}}
     
     {% for item in site.categories.post limit:1000 %}
-        {% if item != site.categories.post.first %}
+        {% if item != site.categories.post %}
           {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
           {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
           {% capture url %}{{ item.url }}{% endcapture %}

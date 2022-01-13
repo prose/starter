@@ -19,11 +19,11 @@ published: true
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-  <details class='item'>
+  <details class=''>
     <summary>
         {{item.title}} 
         <span class='date'>
-          &#126; {{item.date | date:"%b %d %y"}}
+          &#126; {{item.date | date:"%b %d %Y"}}
         </span>
     </summary>
     {{ item.content }}

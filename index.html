@@ -3,8 +3,10 @@ layout: default
 section: post
 published: true
 ---
-{% if site.posts.first %}
-		{{ page.excerpt }}
-		<a href="{{site.baseurl}}{{page.url}}">read more &nbsp;&#8674;</a>
-{% endif %}
+{% for post in site.posts.first %}
+	<div>
+		{{ post.excerpt }}
+		<a href="{{site.baseurl}}{{post.url}}">read more &nbsp;&#8674;</a>
+	</div>
+{% endfor %}
 

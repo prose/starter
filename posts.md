@@ -21,7 +21,9 @@ published: true
     <div>
       {{ item.content }}
     </div>
-    <a href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</a>
+    <div>
+    	<a href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</a>
+    </div>
   </details>
   {% endfor %}
 </div>

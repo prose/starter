@@ -5,7 +5,7 @@ published: true
 ---
 {% for post in site.posts %}
 	{% if post == site.posts.first %}
-	<div class='listing col6 pad4h margin3'>
+	<div class='listing col6 pad4h margin3 splash'>
 		{{ post.excerpt }}
 		<a href="{{site.baseurl}}{{post.url}}">read more &nbsp;&#8674;</a>
 	</div>

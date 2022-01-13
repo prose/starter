@@ -4,13 +4,13 @@ section: post
 published: true
 ---
 {% for post in site.posts %}
-	{% if post == site.posts.first %}
+	<!-- {% if post == site.posts.first %} -->
 	<div class='listing col6 pad4h margin3'>
       <div class='splash'>
 		{{ post.excerpt }}
         <h4 class='item'>{{ post.title }} </h4><a class='date' href="{{site.baseurl}}{{post.url}}"> read more &nbsp;&#8674;</a>
       </div>
 	</div>
-	{% endif %}
+	<!-- {% endif %} -->
 {% endfor %}
 

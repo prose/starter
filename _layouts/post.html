@@ -13,7 +13,7 @@ published: true
     {{content}}
   </div>
   
-  <div class='splash' style='padding-top:10em;'>
+  <div class='splash' style='padding-top:3em;'>
     {% for item in site.categories.post limit:5 %}
     
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

@@ -9,6 +9,7 @@ published: true
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+  	{% capture url %}{{ item.url }}{% endcapture %}
 
     {% if date != ndate %}
       <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
@@ -21,7 +22,7 @@ published: true
         </span>
     </summary>
     <div>
-      <h3><a href="{{site.url}}{{page.url}}">{{ item.title }}</a></h3>
+      <h3><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></h3>
       {{ item.content }}
     </div>
   </details>

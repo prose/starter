@@ -12,13 +12,13 @@ published: true
   	{% capture url %}{{ item.url }}{% endcapture %}
 
   <details class='splash'>
-    <summary>
+    <summary style='display:block;'>
         {{ item.title }}
         <span class='date'>
         	{{item.date | date:"%b %d %Y"}}
         </span>
     </summary>
-    <div style='display:block;'>
+    <div>
       {{ item.content }}
       <a href='{{ site.baseurl }}{{ item.url }}' style='float:right; display:block;'>view post &nbsp;&raquo;</a>
     </div>

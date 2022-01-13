@@ -11,14 +11,11 @@ published: true
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
 
-    {% if date != ndate %}
-      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
-    {% endif %}
+  <a href='{{ site.baseurl }}{{ item.url }}'>{{ item.title }}</a>
   <details class='splash'>
     <summary>
-        {{item.title}} 
         <span class='date'>
-          &#126; {{item.date | date:"%b %d"}}
+        	{{item.date | date:"%b %d %Y"}}
         </span>
     </summary>
     <div>

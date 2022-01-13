@@ -3,4 +3,8 @@ layout: none
 section: post
 published: true
 ---
-{{ site.posts.first }}
+{% for site in site.posts.first %}
+	{{ site.excerpt }}
+<a href="{{site.baseurl}}{{site.url}}">read more &nbsp;&#8674;</a>
+{% endfor %}
+

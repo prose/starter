@@ -21,12 +21,10 @@ published: true
       {% capture url %}{{ item.url }}{% endcapture %}
 
       {% if item.url != page.url %}
-    	<li>
           <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
           <span class='date'>
           &#126; {{item.date | date:"%b %d %Y"}}
           </span>
-        </li>
       {% endif %}
     
     {% endfor %}

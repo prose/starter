@@ -14,27 +14,26 @@ published: true
   </div>
   
   <div class='splash'>
+    {% for item in site.categories.post limit:1000 %}
     
-    {% assign posts = site.posts | where_exp:"post","post.url != page.url" %}
-    {% for post in posts limit:5 %}
-      
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
       {% capture url %}{{ item.url }}{% endcapture %}
 
-      <details>
+      {% if item.url != page.url %}
+        <details>
             <summary>
-                {{post.title}} 
+                {{item.title}} 
                 <span class='date'>
-                &#126; {{post.date | date:"%b %d %Y"}}
+                &#126; {{item.date | date:"%b %d %Y"}}
                 </span>
             </summary>
-                <a href='{{ site.url }}{{ post.url }}'>{{ post.title }}</a>
-                {{ post.content }}
-      </details>
+                <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
+                {{ item.content }}
+        </details>
+      {% endif %}
     
     {% endfor %}
-    
   </div>
   
 </div>

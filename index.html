@@ -8,8 +8,10 @@ published: true
 	<div class='listing col6 pad4h margin3'>
       <div class='splash'>
 		{{ post.excerpt }}
-        <h2>{{ post.title }}</h2>
-        <a href="{{site.baseurl}}{{post.url}}">read more &nbsp;&#8674;</a>
+        <span>
+	        <h2>{{ post.title }}</h2>
+    	    <a class='date' href="{{site.baseurl}}{{post.url}}">read more &nbsp;&#8674;</a>
+        </span>  
       </div>
 	</div>
 	{% endif %}

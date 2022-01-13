@@ -19,19 +19,16 @@ published: true
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-    {% if date != ndate %}
-      <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
-    {% endif %}
-  <details class='splash'>
+  <details class='item'>
     <summary>
         {{item.title}} 
         <span class='date'>
-          &#126; {{item.date | date:"%b %d"}}
+          &#126; {{item.date | date:"%b %d %y"}}
         </span>
     </summary>
     {{ item.content }}
   </details>
-  {% endif %}
+  
   {% endfor %}
 </div>
 

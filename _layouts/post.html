@@ -20,7 +20,7 @@ published: true
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
       {% capture url %}{{ item.url }}{% endcapture %}
 
-      {% if item.url != page.url %}
+      {% if page.url != item.url %}
         <details>
             <summary>
                 {{item.title}} 
@@ -31,7 +31,6 @@ published: true
                 <a href='{{ site.url }}{{ item.url }}'>{{ item.title }}</a>
                 {{ item.content }}
         </details>
-      {% elsif item.url == page.url %}
       {% endif %}
     
     {% endfor %}

@@ -20,7 +20,7 @@ published: true
           &#126; {{item.date | date:"%b %d"}}
         </span>
     </summary>
-    <h1><a href="{{site.url}}{{page.url}}">{{ item.title }}<a></h1>
+    <h3><a href="{{site.url}}{{page.url}}">{{ item.title }}<a></h3>
     {{ item.content }}
   </details>
   {% endfor %}

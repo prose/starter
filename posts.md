@@ -22,8 +22,8 @@ published: true
         </span>
     </summary>
     <div>
-      <h3><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></h3>
       {{ item.content }}
+      <span><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></span>
     </div>
   </details>
   {% endfor %}

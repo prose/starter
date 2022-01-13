@@ -23,7 +23,6 @@ published: true
     </summary>
     <div>
       {{ item.content }}
-      <span><a href="{{site.url}}{{item.url}}">{{ item.title }}</a></span>
     </div>
   </details>
   {% endfor %}

@@ -4,7 +4,9 @@ section: post
 published: true
 ---
 {% for item in site.posts %}
-	{{ item.first.excerpt }}
-<a href="{{site.baseurl}}{{item.url}}">read more &nbsp;&#8674;</a>
+	{% if item.first %}
+		{{ page.exceprt }}
+		<a href="{{site.baseurl}}{{item.url}}">read more &nbsp;&#8674;</a>
+	{% endif %}
 {% endfor %}
 

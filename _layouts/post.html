@@ -11,7 +11,7 @@ published: true
     <br>
   </div>
   
-  <span style='padding-bottom:.5em;'><span class='date'>{{page.date | date:"%b %d"}}</span><a href="#" class='date'>top</a></span>
+  <span style='padding-bottom:.5em;'><a href="#" class='date'>top</a><span class='date' style='float:right;'>{{page.date | date:"%b %d %Y"}}</span></span>
   
   <div class='splash' style='padding-top:1em; padding-bottom:6em;'>
     {% for item in site.categories.post limit:5 %}

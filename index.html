@@ -15,8 +15,8 @@ published: true
 	{% endif %}
 {% endfor %}
 
-<div class='listing col6 pad4h margin 3' style='padding-top:1em; padding-bottom:6em;'>
-    {% for item in site.categories.post limit:3 %}
+<div class='listing col6 pad4h margin3' style='padding-top:1em; padding-bottom:6em;'>
+    {% for item in site.categories.post limit:4 %}
     
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}

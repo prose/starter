@@ -4,6 +4,8 @@ baseurl: /
 permalink: pretty
 markdown: kramdown
 
+excerpt_separator: <!--more-->
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://sjkilts.github.io/'

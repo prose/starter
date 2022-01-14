@@ -11,3 +11,8 @@ title: memento mori
 
   
 remember, you will die
+
+![ur gunna die, its gonna be analog]({{site.baseurl}}/media/memento-mori-painting.jpeg)
+<span class='date' style='float:right;'>*watercolor, ink, gouache*</span>
+
+your death in analog

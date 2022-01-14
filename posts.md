@@ -15,7 +15,7 @@ published: true
     <summary>
         {{ item.title }}
         <span class='date'>
-        	{{item.date | date:"%b %d %Y"}}
+        	 &#152; {{item.date | date:"%b %d %Y"}}
         </span>
     </summary>
     <div style='padding-bottom:2em;' class='item'>

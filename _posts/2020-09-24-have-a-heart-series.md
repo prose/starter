@@ -10,6 +10,7 @@ title: have a heart (series)
 <span class='date' style='float:right;'>*watercolor, gouache, ink*</span>
 ![give the land back]({{site.baseurl}}/media/fuck-a-fascist.jpeg)
 <span class='date' style='float:right;'>*watercolor, gouache, ink*</span>
+<!--more-->
   
   
   

@@ -4,7 +4,7 @@ category: post
 published: true
 title: wine spires
 ---
-![granite sunset]({{site.baseurl}}/media/wine-spires.jpeg)![wine-spires.jpeg]({{site.baseurl}}/media/wine-spires.jpeg)
+![granite sunset]({{site.baseurl}}/media/wine-spires.jpeg)
 
 
 burgundy sunset

@@ -21,4 +21,4 @@ justice is love
 
 
 
-cops should quit in real life too
+cops should quit in real life, too

@@ -23,14 +23,19 @@ published: true
       {% capture url %}{{ item.url }}{% endcapture %}
 
       {% if item.url != site.posts.first %}
-    	<div>
-          <a href='{{ site.url }}{{ item.url }}' class='pretty'>{{ item.title }}</a>
-          <span class='date'>
-          &#126; {{item.date | date:"%b %d %Y"}}
-          </span>
-        </div>
-      {% endif %}
+        <details class='splash' style='padding-bottom:.66em;'>
+          <summary>
+              {{ item.title }}
+              <span class='date'>
+                   &#152; {{item.date | date:"%b %d %Y"}}
+              </span>
+          </summary>
+            <div style='padding-bottom:2em;' class='item'>
+              {{ item.excerpt }}
+              <a href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</a>
+            </div>
+        </details>
+    {% endif %}
     
     {% endfor %}
   </div>
-

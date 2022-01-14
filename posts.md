@@ -18,7 +18,7 @@ published: true
                &#152; {{item.date | date:"%b %d %Y"}}
           </span>
       </summary>
-      <div style='padding-bottom:2em;'>
+      <div style='padding-bottom:2em; padding-top:1em;'>
         {{ item.excerpt }}
         <a href="{{site.baseurl}}{{item.url}}">
         <h4 class='item'></h4>

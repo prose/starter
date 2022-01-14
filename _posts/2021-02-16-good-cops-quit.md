@@ -6,5 +6,5 @@ title: good cops quit
 ---
 ![justice is love]({{site.baseurl}}/media/good-cops-quit.jpeg)
 
-good cops quit
+good cops quit   
 justice is love

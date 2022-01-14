@@ -14,3 +14,23 @@ published: true
 	</div>
 	{% endif %}
 {% endfor %}
+
+<div class='splash' style='padding-top:1em; padding-bottom:6em;'>
+    {% for item in site.categories.post limit:3 %}
+    
+      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+      {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+      {% capture url %}{{ item.url }}{% endcapture %}
+
+      {% if item.url != site.posts.first %}
+    	<div>
+          <a href='{{ site.url }}{{ item.url }}' class='pretty'>{{ item.title }}</a>
+          <span class='date'>
+          &#126; {{item.date | date:"%b %d %Y"}}
+          </span>
+        </div>
+      {% endif %}
+    
+    {% endfor %}
+  </div>
+

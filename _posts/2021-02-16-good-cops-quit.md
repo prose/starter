@@ -13,3 +13,12 @@ title: good cops quit
   
 good cops quit   
 justice is love
+
+
+![justice is still love]({{site.baseurl}}/media/good-cops-quit-painting.jpeg)
+<span class='date' style='float:right;'>*watercolor, gouache, ink*</span>
+
+
+
+
+cops should quit in real life too

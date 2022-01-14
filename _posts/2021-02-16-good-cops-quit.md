@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: good cops quit
 ---
 ![justice is love]({{site.baseurl}}/media/good-cops-quit.jpeg)

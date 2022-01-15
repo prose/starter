@@ -8,7 +8,8 @@ published: true
       {% if post == site.posts.first %}
         <div class='splash' style='padding-bottom:6em;'>
           {{ post.excerpt }}
-          <a href="{{ site.baseurl }}{{ post.url }}"><h4> {{post.title }}</h4></a>
+          
+          <a href="{{ site.baseurl }}{{ post.url }}" style=''><h4> {{post.title }}</h4></a>
           
             <a href="{{ site.baseurl }}posts/"><h4 class='item'></h4><span class='date' style='float:right;'>more &nbsp;&raquo;</span></a>
      
@@ -44,4 +45,5 @@ published: true
 -->          
 {% endcomment %}          
           
+</div>
 </div>

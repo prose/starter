@@ -8,11 +8,14 @@ published: true
       {% if post == site.posts.first %}
         <div class='splash' style='padding-bottom:6em;'>
           {{ post.excerpt }}
-          <a href="{{site.baseurl}}{{post.url}}"><h4 class='item'>{{ post.title }} </h4><span class='date'> read more &nbsp;&#8674;</span></a>
-        </div>
+          <a href="{{ site.baseurl }}{{ post.url }}"><h4> {{post.title }}</h4></a>
+          
+            <a href="{{ site.baseurl }}posts/"><h4 class='item'></h4><span class='date' style='float:right;'>more &nbsp;&raquo;</span></a>
+     
       {% endif %}
     {% endfor %}
-
+{% comment %}
+<!--          
     {% for item in site.categories.post limit:4 %}
 
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -38,4 +41,7 @@ published: true
     {% endif %}
 
   {% endfor %}
+-->          
+{% endcomment %}          
+          
 </div>

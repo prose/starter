@@ -9,41 +9,18 @@ published: true
         <div class='splash' style='padding-bottom:6em;'>
           {{ post.excerpt }}
           
-          <a href="{{ site.baseurl }}{{ post.url }}" style='text-align:center; padding-bottom:1em;'><h4> {{post.title }}</h4></a>
+          <a href="{{ site.baseurl }}{{ post.url }}" style='text-align:center; padding-bottom:6em;'>
+            <h4>{{post.title }}</h4>
+          </a>
           
-            <a href="{{ site.baseurl }}posts/"><h4 class='item'></h4><span class='date' style='float:right;'>more &nbsp;&raquo;</span></a>
-     
-      {% endif %}
-    {% endfor %}
-{% comment %}
-<!--          
-    {% for item in site.categories.post limit:4 %}
-
-      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-      {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-      {% capture url %}{{ item.url }}{% endcapture %}
-
-      {% if item != site.posts.first %}
-        <details class='splash' style='padding-bottom:.66em;'>
-          <summary>
-              {{ item.title }}
-              <span class='date'>
-                   &#152; {{item.date | date:"%b %d %Y"}}
+            <a href="{{ site.baseurl }}posts/">
+              <h4 class='item'></h4>
+              <span class='date' style='float:right;'>
+                more &nbsp;&raquo;
               </span>
-          </summary>
-            <div style='padding-bottom:2em;'>
-              {{ item.excerpt }}
-              <a href="{{site.baseurl}}{{item.url}}">
-                <h4 class='item'></h4>
-                <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</span>
-              </a>
-            </div>
-        </details>
-    {% endif %}
-
-  {% endfor %}
--->          
-{% endcomment %}          
+          	</a>
           
-</div>
+        </div>     
+      {% endif %}
+    {% endfor %}    
 </div>

@@ -10,14 +10,9 @@ published: true
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
-
-    <div class='splash'>{{ item.excerpt }}</div>
   
-    <details class='splash' style='padding-bottom:.66em;'>
-      <summary>
-  
-      </summary>
-      
+    <div class='splash' style='padding-bottom:.66em;'>
+      {{ item.excerpt }}
       <div style='padding-bottom:2em; padding-top:1em;'>
         {{ item.title }}
         <span class='date'>
@@ -30,6 +25,5 @@ published: true
          </span>
         </a>
       </div>
-    </details>
   {% endfor %}
 </div>

@@ -25,5 +25,6 @@ published: true
          </span>
         </a>
       </div>
+    </div>
   {% endfor %}
 </div>

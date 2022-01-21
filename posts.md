@@ -25,8 +25,9 @@ published: true
         </span>
         <a href="{{site.baseurl}}{{item.url}}">
         <h4 class='item'></h4>
-        <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</span>
-
+        <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
+          	view post &nbsp;&raquo;
+         </span>
         </a>
       </div>
     </details>

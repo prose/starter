@@ -13,17 +13,20 @@ published: true
 
     <details class='splash' style='padding-bottom:.66em;'>
       <summary>
-          {{ item.title }}
-          <span class='date'>
-               &#152; {{item.date | date:"%b %d %Y"}}
-          </span>
+        {{ item.excerpt }}  
       </summary>
+      
       <div style='padding-bottom:2em; padding-top:1em;'>
-        {{ item.excerpt }}
         <a href="{{site.baseurl}}{{item.url}}">
         <h4 class='item'></h4>
         <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>view post &nbsp;&raquo;</span>
+      
         </a>
+        
+        {{ item.title }}
+        <span class='date'>
+             &#152; {{item.date | date:"%b %d %Y"}}
+        </span>
       </div>
     </details>
   {% endfor %}

@@ -5,7 +5,7 @@ section: posts
 published: true
 ---
 
-<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
+<div class='listing col6 pad4h margin3' style='padding-bottom:6em;padding-top:8.66em;'>
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}

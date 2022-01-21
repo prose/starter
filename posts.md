@@ -5,13 +5,13 @@ section: posts
 published: true
 ---
 
-<div class='listing col6 pad4h margin3' style='padding-bottom:6em;padding-top:8.66em;'>
+<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
   
-    <div class='splash' style='padding-bottom:.66em;'>
+    <div class='splash' style='padding-bottom:6.66em;'>
       {{ item.excerpt }}
       <div style='padding-bottom:2em; padding-top:1em;'>
         {{ item.title }}

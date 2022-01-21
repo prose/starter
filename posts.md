@@ -11,7 +11,7 @@ published: true
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
 
-    {{ item.excerpt }}
+    <div class='splash'>{{ item.excerpt }}</div>
   
     <details class='splash' style='padding-bottom:.66em;'>
       <summary>

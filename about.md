@@ -7,4 +7,4 @@ title: about
 
 scott loves complex problem solving and spending time in the woods
 
-scott@scottkilts.com
+[scott at scottkilts dot com](mailto:scott@scottkilts.com)

@@ -14,7 +14,7 @@ It was my pleasure to work with the editors at Tahoma West Literary Arts Journal
   \
   \
   \
-![Tahoma West v.21 Cover](/media/tw-cover.jpeg)  \
+![Tahoma West v.21 Cover](/media/tw-cover.jpeg)
   \
 ![Tahoma West Layout 00](/media/Tahoma West 2017 Inside _working.jpeg) 
   \ 
@@ -30,15 +30,15 @@ Check out Alexandria's website at [alexnickerson.github.io](http://alexnickerson
   \
   \
   \
-![Submissions Poster](/media/submission-poster.jpeg)  \
+![Submissions Poster](/media/submission-poster.jpeg)
   \
-![Cover Contest Poster](/media/contest-poster.jpeg)  \
+![Cover Contest Poster](/media/contest-poster.jpeg)
   \
-![NODAPL Poster](/media/nodapl-poster.jpeg)  \
+![NODAPL Poster](/media/nodapl-poster.jpeg)
   \
-![NODAPL Drawing](/media/NODAPL-drawing.jpeg)  \
+![Job Fair Handout](/media/tw-job-fair.jpeg)
   \
-![Job Fair Handout](/media/tw-job-fair.jpeg)  \
+![NODAPL Drawing](/media/NODAPL-drawing.jpeg)
   \
 <!-- # Tahoma West Literary Arts Journal 2017
 

@@ -10,7 +10,7 @@ title: apache pine
   \
   \
   \
-An outdoor lifestyle brand, I helped Apache Pine define their visual identity and web presence. I also had the pleasure of designing several products and accompanying promotional materials
+An outdoor lifestyle brand. helped Apache Pine define their visual identity and web presence. also had the pleasure of designing several products and accompanying promotional materials
   \
   \
 ![Apache Pine Logo](/media/apache-pine-tree-stack.jpg)

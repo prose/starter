@@ -16,8 +16,8 @@ a tiny hummingbird asks *are you here, now?*
   
   
 ![hummingbird painting]({{site.baseurl}}/media/colorful-hummingbird.jpeg)
-<span class='date' style='float:right;'>*watercolor, gouache, ink*</span>  
-  
-  
-  
+<span class='date' style='float:right;'>*watercolor, gouache, ink*</span>\  
+  \
+  \
+  \
 colorful hummingbird questions reality for you

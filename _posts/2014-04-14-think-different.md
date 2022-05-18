@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: think different
 ---
 ![Think Different](/media/think-different-1200w.jpg)

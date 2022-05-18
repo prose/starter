@@ -4,17 +4,16 @@ category: post
 published: false
 title: tahoma west
 ---
----
-layout: detail
-title: Tahoma West
-description: Layout Design, Information Architecture
-img: /img/client/tw-cover.jpg
+
+
+
+
 client: Tahoma West Literary Arts Journal
-sidebar: It was my pleasure to work with the editors at Tahoma West Literary Arts Journal to do information architecture and layout design for the 2017 publication of Tahoma West. I also helped to create some posters for content generation and events held by the Tahoma West team
+
+It was my pleasure to work with the editors at Tahoma West Literary Arts Journal to do information architecture and layout design for the 2017 publication of Tahoma West. I also helped to create some posters for content generation and events held by the Tahoma West team
+
 date: 2017-05-17 07:13
-category: client
-published: no
----
+
 
 ![Tahoma West v.21 Cover](/img/client/tw-cover.jpg)
 ![Tahoma West Layout 00](/img/client/Tahoma West 2017 Inside _working.jpg)

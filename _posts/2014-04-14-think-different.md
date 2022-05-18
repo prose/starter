@@ -4,7 +4,7 @@ category: post
 published: false
 title: think different
 ---
-![Think Different](/media/Think-Different-1200w.jpg)
+![Think Different](/media/think-different-1200w.jpg)
 <!--more-->
 <span class='date' style='float:right;'>*ink*</span>  \
 /

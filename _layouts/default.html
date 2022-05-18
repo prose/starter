@@ -10,6 +10,14 @@ published: true
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <script>
+    var links = document.querySelectorAll( '.splash' );  
+    for (var i = 0, length = links.length; i < length; i++) {  
+        if (links[i].hostname != window.location.hostname) {
+            links[i].target = '_blank';
+        }
+    }
+</script>
 </head>
 <body>
   <div class='container'>
@@ -29,11 +37,4 @@ published: true
   <script src='{{site.baseurl}}/site.js'></script>
 </body>
   
-  <script>
-    var links = document.querySelectorAll( '.splash' );  
-    for (var i = 0, length = links.length; i < length; i++) {  
-        if (links[i].hostname != window.location.hostname) {
-            links[i].target = '_blank';
-        }
-    }
-</script>
+  

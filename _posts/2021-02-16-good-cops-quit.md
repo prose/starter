@@ -20,5 +20,5 @@ justice is love    \
   \
   \
   \
-good cops quit in real life  \ 
+good cops quit in real life     
 don't colonize, end the lies

@@ -39,7 +39,6 @@ Check out Alexandria's website at [alexnickerson.github.io](http://alexnickerson
 ![Job Fair Handout](/media/tw-job-fair.jpeg)
   \
 ![NODAPL Drawing](/media/NODAPL-drawing.jpeg)
-  \
 
 <!-- Download link for Tahoma West from Alex Nickerson's Website -->
 [1]:https://alexnickerson.github.io/download/Tahoma_West-2017v21.pdf

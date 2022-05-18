@@ -14,7 +14,7 @@ published: true
   <span style='padding-bottom:.5em;'><!--<a href="#" class='date'>top</a>--><span class='date' style='float:right;'>{{page.date | date:"%b %d %Y"}}</span></span>
   
   <div class='splash' style='padding-top:4em; padding-bottom:6em;'>
-    {% for item in site.categories.post limit:15 %}
+    {% for item in site.categories.post limit:5 %}
     
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}

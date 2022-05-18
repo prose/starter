@@ -13,7 +13,7 @@ published: true
   
     <div class='splash' style='padding-bottom:.66em;'>
       <!--{{ item.excerpt }}-->
-      <div style='padding-bottom:1em; padding-top:.66em;'>
+      <div style='padding-bottom:0em; padding-top:.66em;'>
         {{ item.title }}
         <span class='date'>
              &#152; {{item.date | date:"%b %d %Y"}}

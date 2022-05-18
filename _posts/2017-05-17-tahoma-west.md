@@ -22,7 +22,6 @@ It was my pleasure to work with the editors at Tahoma West Literary Arts Journal
   \
 ![Tahoma West Layout 02](/media/Tahoma West 2017 Inside _2working.jpeg)
   \
-  \
 [Download a copy of Tahoma West v.21][1]! Download provided by [Alexandria Nickerson](http://alexnickerson.github.io), Tahoma West 2016-2017 Editor in Chief. 
   \
 Check out Alexandria's website at [alexnickerson.github.io](http://alexnickerson.github.io)  

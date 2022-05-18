@@ -40,14 +40,6 @@ Check out Alexandria's website at [alexnickerson.github.io](http://alexnickerson
   \
 ![NODAPL Drawing](/media/NODAPL-drawing.jpeg)
   \
-<!-- # Tahoma West Literary Arts Journal 2017
-
-get pictures of the book up eh!?
-
-some cool screenshots of layout pages
-
-the actual book
-inside the actual book -->
 
 <!-- Download link for Tahoma West from Alex Nickerson's Website -->
 [1]:https://alexnickerson.github.io/download/Tahoma_West-2017v21.pdf

@@ -2,7 +2,7 @@
 layout: post
 category: post
 published: true
-title: tahoma west literary arts journal
+title: tahoma west
 ---
 ![Tahoma West v.21 Cover](/media/client/tw/tw-cover.jpeg)
 <!--more-->

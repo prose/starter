@@ -18,9 +18,9 @@ It was my pleasure to work with the editors at Tahoma West Literary Arts Journal
   \
 ![Tahoma West Layout 00](/media/Tahoma West 2017 Inside _working.jpeg) 
   \ 
-![Tahoma West Layout 01](/media/Tahoma West 2017 Inside 1_working.jpeg)
+![Tahoma West Layout 01](/media/Tahoma West 2017 Inside _1working.jpeg)
   \
-![Tahoma West Layout 02](/media/Tahoma West 2017 Inside 2_working.jpeg)
+![Tahoma West Layout 02](/media/Tahoma West 2017 Inside _2working.jpeg)
   \
   \
   \ 

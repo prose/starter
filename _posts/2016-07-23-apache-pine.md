@@ -13,8 +13,6 @@ title: apache pine
 An outdoor lifestyle brand. helped Apache Pine define their visual identity and web presence. also had the pleasure of designing several products and accompanying promotional materials
   \
   \
-![Apache Pine Logo](/media/client/ap/apache-pine-tree-stack.jpeg)
-  \
 ![The Ridge](/media/client/ap/ridge.jpeg)
   \
 ![Sqwatch](/media/client/ap/sqwatch.jpeg)

@@ -25,8 +25,6 @@ It was my pleasure to work with the editors at Tahoma West Literary Arts Journal
 ![NODAPL Poster](/media/nodapl-poster.jpeg)
 ![NODAPL Drawing](/media/NODAPL-drawing.jpeg)
 ![Job Fair Handout](/media/tw-job-fair.jpeg)
-![Spring Into Writing - Anastasia Reneé Tolbert](/media/tw-Anastacia.jpeg)
-![Spring Into Writing - Lish McBride](/media/tw-mcbride.jpeg)
 
 <!-- # Tahoma West Literary Arts Journal 2017
 

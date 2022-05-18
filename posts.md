@@ -14,11 +14,11 @@ published: true
     <div class='splash' style='padding-bottom:.42em;'>
       <!--{{ item.excerpt }}-->
       <div style='padding-bottom:0em; padding-top:0.0em;'>
-        {{ item.title }}
+        <a href="{{site.baseurl}}{{item.url}}">
+          {{ item.title }}
         <span class='date'>
              &#152; {{item.date | date:"%b %d %Y"}}
         </span>
-        <a href="{{site.baseurl}}{{item.url}}">
         <!--<h4 class='item'></h4> h4 is current rule -->
         <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
           	view post &nbsp;&raquo;

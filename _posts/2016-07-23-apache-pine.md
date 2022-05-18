@@ -4,7 +4,7 @@ category: post
 published: true
 title: apache pine
 ---
-![Apache Pine Logo](/media/apache-pine-tree-stack.jpeg)
+![Apache Pine Logo](/media/client/ap/apache-pine-tree-stack.jpeg)
 <!--more-->
 <span class='date' style='float:right;'>*branding, marketing, print, packaging, UX, SEO, web design & full-stack development*</span>
   \
@@ -13,26 +13,26 @@ title: apache pine
 An outdoor lifestyle brand. helped Apache Pine define their visual identity and web presence. also had the pleasure of designing several products and accompanying promotional materials
   \
   \
-![Apache Pine Logo](/media/apache-pine-tree-stack.jpeg)
+![Apache Pine Logo](/media/client/ap/apache-pine-tree-stack.jpeg)
   \
-![The Ridge](/media/ridge.jpeg)
+![The Ridge](/media/client/ap/ridge.jpeg)
   \
-![Sqwatch](/media/sqwatch.jpeg)
+![Sqwatch](/media/client/ap/sqwatch.jpeg)
   \
-![True North Collection](/media/true-north-collection.png)
+![True North Collection](/media/client/ap/true-north-collection.png)
   \
-![True North](/media/true-north.png)
+![True North](/media/client/ap/true-north.png)
   \
-![Watch Box](/media/watch-box.jpeg)
+![Watch Box](/media/client/ap/watch-box.jpeg)
   \
-![Elements Pattern](/media/pattern-elements.jpeg)
+![Elements Pattern](/media/client/ap/pattern-elements.jpeg)
   \
-![Apache Pine Promo](/media/ap.jpeg)
+![Apache Pine Promo](/media/client/ap/ap.jpeg)
   \
-![Sqwatch Promo](/media/promo-1.jpeg)
+![Sqwatch Promo](/media/client/ap/promo-1.jpeg)
   \
-![Email Promo](/media/email-promo.jpeg)
+![Email Promo](/media/client/ap/email-promo.jpeg)
   \
-![Booklet](/media/booklet.png)
+![Booklet](/media/client/ap/booklet.png)
   \
-![Web Design](/media/responsive.jpeg)
+![Web Design](/media/client/ap/responsive.jpeg)

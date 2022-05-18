@@ -6,12 +6,12 @@ title: tahoma west literary arts journal
 ---
 ![Tahoma West v.21 Cover](/media/tw-cover.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*layout design, information architecture*</span>  
-
-
-
-
-It was my pleasure to work with the editors at Tahoma West Literary Arts Journal to do information architecture and layout design for the 2017 publication of Tahoma West. I also helped to create some posters for content generation and events held by the Tahoma West team
+<span class='date' style='float:right;'>*layout design, information architecture*</span>   
+  
+  
+  
+  
+  It was my pleasure to work with the editors at Tahoma West Literary Arts Journal to do information architecture and layout design for the 2017 publication of Tahoma West. I also helped to create some posters for content generation and events held by the Tahoma West team
 
 ![Tahoma West v.21 Cover](/media/tw-cover.jpeg)
 ![Tahoma West Layout 00](/media/Tahoma West 2017 Inside _working.jpeg)

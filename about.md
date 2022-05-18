@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 published: true
 url: about/
 title: about

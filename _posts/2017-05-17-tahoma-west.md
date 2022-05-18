@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: tahoma west
 ---
 ![Tahoma West v.21 Cover](/media/tw-cover.jpg)

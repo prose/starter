@@ -4,7 +4,9 @@ category: post
 published: false
 title: tahoma west
 ---
-
+![Tahoma West v.21 Cover](/img/client/tw-cover.jpg)
+<--!more-->
+<span class='date' style='float:right;'>*layout design, information architecture*</span>  
 
 
 

@@ -12,7 +12,7 @@ published: true
   	{% capture url %}{{ item.url }}{% endcapture %}
   
     <div class='splash' style='padding-bottom:3.66em;'>
-      {{ item.excerpt }}
+      <!--{{ item.excerpt }}-->
       <div style='padding-bottom:2em; padding-top:.66em;'>
         {{ item.title }}
         <span class='date'>

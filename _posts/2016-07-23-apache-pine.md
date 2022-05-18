@@ -6,7 +6,7 @@ title: apache pine
 ---
 ![Apache Pine Logo](/media/apache-pine-tree-stack.jpg)
 <!--more-->
-<span class='date' style='float:right;'>*branding, marketing, print, packaging, UX & web design*</span>
+<span class='date' style='float:right;'>*branding, marketing, print, packaging, UX, SEO, web design & full-stack development*</span>
   \
   \
   \

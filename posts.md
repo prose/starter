@@ -2,6 +2,7 @@
 layout: default
 url: posts/
 section: posts
+title: index
 published: true
 ---
 

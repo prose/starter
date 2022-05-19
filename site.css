@@ -50,7 +50,7 @@ body,
 input,
 textarea {
   color:#516066;
-  font:15px/1.67 'IBMPlexSerif', 'Georgia'; /*'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font:1em/1.67 'IBMPlexSerif', 'Georgia'; /*'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {

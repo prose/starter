@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: transmutation
 ---
 ![goddess of the soverign](/media/.jpeg)

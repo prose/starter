@@ -20,8 +20,8 @@ published: true
       <div class='header col6 margin3 pad4h'>
         <div class='clearfix col12'>
           <div class='menu fr' style='padding-top: 1.23em;'>
-            <a class='{% if page.url == "posts/" %}active{% endif %}' href='{{site.baseurl}}/posts'>index</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>about</a>
+            <a class='{% if page.url == "{{site.baseurl}}/posts/" %}active{% endif %}' href='{{site.baseurl}}/posts'>index</a>
+            <a class='{% if page.url == "{{site.baseurl}}/about/" %}active{% endif %}' href='{{site.baseurl}}/about'>about</a>
           </div>
           <h1 class='title'><a href='{{ site.baseurl }}/'><img alt='{{ site.title }}' src='/img/tinc-logo.png' width='66px' height='66px'></a></h1>
         </div>

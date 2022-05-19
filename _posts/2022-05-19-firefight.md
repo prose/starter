@@ -1,9 +1,10 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: firefight
 ---
-## A New Post
+![firefight](/media/firefight.jpeg)
+<!--more-->
+<span class='date' style='float:right;'>*watercolor, ink*</span>
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.

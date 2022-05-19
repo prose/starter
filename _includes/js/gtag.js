@@ -7,4 +7,3 @@
 
   gtag('config', 'UA-77406894-1');
 </script>
-

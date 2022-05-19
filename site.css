@@ -41,9 +41,9 @@ table { border-collapse: collapse; border-spacing:0; }
 /* Inline Elements & Typography
 ------------------------------------------------------- */
 @font-face {
-  font-family: IBMPlexSerif;
-  src: url('includes/type/IBMPlexSerif-Light.ttf') format('ttf'),
-       url('includes/type/IBMPlexSerif-LightItalic.ttf') format('ttf');
+  font-family: 'IBMPlexSerif', serif;
+  src: url('_includes/type/IBMPlexSerif-Light.ttf') format('ttf'),
+       url('_includes/type/IBMPlexSerif-LightItalic.ttf') format('ttf');
 }
 
 body,

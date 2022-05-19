@@ -40,11 +40,17 @@ table { border-collapse: collapse; border-spacing:0; }
 
 /* Inline Elements & Typography
 ------------------------------------------------------- */
+@font-face {
+  font-family: IBMPlexSerif;
+  src: url('includes/type/IBMPlexSerif-Light.ttf') format('ttf'),
+       url('includes/type/IBMPlexSerif-LightItalic.ttf') format('ttf');
+}
+
 body,
 input,
 textarea {
   color:#516066;
-  font:15px/1.67 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font:15px/1.67 'IBMPlexSerif', 'Georgia'; /*'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {

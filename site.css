@@ -44,8 +44,9 @@ table { border-collapse: collapse; border-spacing:0; }
 body,
 input,
 textarea {
-  color:#516066;
+  color:#424242;
   font:1em/1.67 'IBM Plex Serif', 'Garamond', serif; /*'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: 'IBM Plex Serif', serif;
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {

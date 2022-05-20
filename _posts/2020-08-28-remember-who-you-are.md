@@ -2,7 +2,7 @@
 layout: post
 category: post
 published: true
-title: remember who you are
+title: y0u
 ---
 ![remember who you are]({{site.baseurl}}/media/y0u.jpeg)
 <!--more-->

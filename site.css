@@ -472,14 +472,14 @@ Details: http://www.positioniseverything.net/easyclearing.html
 
 /* Tablet Layout
 ------------------------------------------------------- */
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:960px) {
   .hide-tablet { display:none; }
   .show-tablet { display:block; }
   }
 
 /* Mobile Layout
 ------------------------------------------------------- */
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:770px) {
   .col1,
   .col2,
   .col3,

@@ -1,9 +1,9 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: earth keeper
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+![keeper of the earth](/media/u-r-da-land.jpeg)
+<!--more-->
+<span class='date' style='float:right;'>*watercolor, ink*</span>

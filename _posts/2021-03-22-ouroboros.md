@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: ouroboros
 ---
 ![ouroboros](/media/infinite-urobros.jpeg)

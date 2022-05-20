@@ -17,12 +17,9 @@ published: true
       <div style='padding-bottom:0em; padding-top:0.0em;'>
         <a href="{{site.baseurl}}{{item.url}}">
           {{ item.title }}
-        <span class='date'>
-             &#152; {{item.date | date:"%b %d %Y"}}
-        </span>
         <!--<h4 class='item'></h4> h4 is current rule -->
         <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
-          	view post &nbsp;&raquo;
+             &#152; {{item.date | date:"%b %d %Y"}}
          </span>
         </a>
       </div>

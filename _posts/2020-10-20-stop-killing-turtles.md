@@ -1,7 +1,7 @@
 ---
 layout: post
 category: post
-published: false
+published: true
 title: stop killing turtles
 ---
 ![stop-killing-turtles](/media/stop-killing-turtles.png)

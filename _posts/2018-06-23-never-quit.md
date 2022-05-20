@@ -2,7 +2,7 @@
 layout: post
 category: post
 published: true
-title: never quit
+title: focus up
 ---
 ![never quit]({{site.baseurl}}/media/never-quit.jpeg)
 <!--more-->

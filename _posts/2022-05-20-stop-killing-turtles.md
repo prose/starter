@@ -4,6 +4,6 @@ category: post
 published: false
 title: stop killing turtles
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+![stop-killing-turtles](/media/stop-killing-turtles.png)
+<!--more-->
+<span class='date' style='float:right;'>*watercolor, ink, gouache*</span>

@@ -11,5 +11,6 @@ scott loves complex problem solving and spending time outdoors
 
 email [scott at scottkilts dot com](mailto:scott@scottkilts.com)
 
-or [contact]({{site.baseurl}}/contact)
+or contact  
 
+{{ include contact-form.html)

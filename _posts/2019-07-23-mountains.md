@@ -2,7 +2,7 @@
 layout: post
 category: post
 published: true
-title: mountains
+title: tahoma
 ---
 ![sunrise](/media/tahoma-sunrise.jpeg)
 <!--more-->

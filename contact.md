@@ -6,4 +6,4 @@ url: contact/
 permalink: /contact/
 ---
 
-{% include jotform.html %}
+{% include contact-form.html %}

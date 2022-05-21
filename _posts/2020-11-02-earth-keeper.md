@@ -1,9 +1,9 @@
 ---
 layout: post
 category: post
-published: false
-title: never quit
+published: true
+title: earth keeper
 ---
-![never quit]({{site.baseurl}}//media/never-quit.jpeg)
+![keeper of the earth](/media/u-r-da-land.jpeg)
 <!--more-->
 <span class='date' style='float:right;'>*watercolor, ink*</span>

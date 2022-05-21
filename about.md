@@ -13,4 +13,4 @@ email [scott at scottkilts dot com](mailto:scott@scottkilts.com)
 
 or use the contact form below
 
-{{ include contact-form.html }}
+{% include contact-form.html %}

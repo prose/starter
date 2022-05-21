@@ -9,8 +9,7 @@ title: about
 
 scott loves complex problem solving and spending time outdoors
 
-email [scott at scottkilts dot com](mailto:scott@scottkilts.com)
-
-or use the contact form below
-
+[scott at scottkilts dot com](mailto:scott@scottkilts.com)  
+  
+  
 {% include contact-form.html %}

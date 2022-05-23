@@ -56,3 +56,6 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
+users:
+  - login: "sjkilts"
+    user: "Scott Kilts"

@@ -9,21 +9,18 @@
         var randomIndex;
         var postHREF;
         var postTitle;
-        var postDate;
-        var postExcerpt;
+        
 
         randomIndex = Math.floor(Math.random() * postsHREF.length);
 
         if (randomIndexUsed.indexOf(randomIndex) == "-1")
         {
             postHREF = postsHREF[randomIndex];
-            postTitle = postsTitle[randomIndex];
-            postDate = postsDate[randomIndex];
-            postExcerpt = postsExcerpt[randomIndex];
+            postTitle = postsExcerpt[randomIndex];
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<p><a href="' + postHREF + '">' + postExcerpt + '</a></p>');
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
             }
             else
             {

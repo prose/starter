@@ -4,12 +4,12 @@ published: true
 url: about/
 title: about
 ---
+<!-- default layout requires splash div to center content currently -->
 
-  <!-- default layout requires splash div to center content currently -->
-
-scott loves complex problem solving and spending time outdoors
-
-[scott@scottkilts.com](mailto:scott@scottkilts.com)  
+scott loves complex problem solving and spending time outdoors  
+   
+  
+email [scott@scottkilts.com](mailto:scott@scottkilts.com) or use the contact form below  
   
   
 {% include contact-form.html %}

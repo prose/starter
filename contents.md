@@ -19,7 +19,7 @@ published: true
           {{ item.title }}
         <!--<h4 class='item'></h4> h4 is current rule -->
         <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
-             &#152; {{item.date | date:"%b %d %Y"}}
+          {{item.date | date:"%b %d %Y"}}
          </span>
         </a>
       </div>

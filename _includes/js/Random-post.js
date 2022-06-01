@@ -16,7 +16,7 @@
         if (randomIndexUsed.indexOf(randomIndex) == "-1")
         {
             postHREF = postsHREF[randomIndex];
-            postTitle = postsExcerpt[randomIndex];
+            postTitle = postsTitle[randomIndex];
 
             if (counter == (numberOfPosts - 1))
             {

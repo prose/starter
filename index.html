@@ -11,11 +11,12 @@ published: true
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
 
-<div class='splash test' style='outline:red;'>{% include /js/Random-post.js %}</div>
+<div class='splash test' style='outline:red;'>
+{% include /js/Random-post.js %}
+</div>
 
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
   
     <div class='splash' style='padding-bottom:3.66em;'>
@@ -39,8 +40,6 @@ published: true
 <!-- /pages -->
 
 <!-- code for splash page 
-
-<div class='listing col6 pad4h margin3'>
   {% for post in site.posts %}
       {% if post == site.posts.first %}
         <div class='splash' style='padding-bottom:6em;'>
@@ -60,6 +59,5 @@ published: true
         </div>     
       {% endif %}
     {% endfor %}    
-</div>
 
 /splash page code -->

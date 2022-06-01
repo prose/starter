@@ -2,7 +2,7 @@
 
     var randomIndexUsed = [];
     var counter = 0;
-    var numberOfPosts = 1;
+    var numberOfPosts = 4;
 
     while (counter < numberOfPosts)
     {

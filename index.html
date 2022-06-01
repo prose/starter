@@ -6,6 +6,8 @@ published: true
 
 <!-- pages.md -->
 
+{% include /js/Random-post.js %}
+
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

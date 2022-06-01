@@ -1,6 +1,6 @@
 ---
 layout: default
-url: posts/
+url: index/
 section: posts
 title: index
 published: true

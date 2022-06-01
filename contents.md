@@ -1,8 +1,8 @@
 ---
 layout: default
-url: index/
+url: contents/
 section: posts
-title: index
+title: contents
 published: true
 ---
 

@@ -6,10 +6,10 @@ title: about
 ---
 <!-- default layout requires splash div to center content currently -->
 
-scott loves complex problem solving and spending time outdoors  
+scott loves complex problem solving and being outdoors  
    
   
-email [scott@scottkilts.com](mailto:scott@scottkilts.com) or use the contact form below:  
+email [scott@scottkilts.com](mailto:scott@scottkilts.com) or use the contact form:  
   
   
 {% include contact-form.html %}

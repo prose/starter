@@ -10,42 +10,41 @@ published: true
 
 <div class='splash' style='outline-style: solid; outline-color: red;'>
 <!-- {% include /js/Random-post.js %} -->
-<script type="text/javascript">
+  <script type="text/javascript">
 
-    var randomIndexUsed = [];
-    var counter = 0;
-    var numberOfPosts = 4;
+      var randomIndexUsed = [];
+      var counter = 0;
+      var numberOfPosts = 5;
 
-    while (counter < numberOfPosts)
-    {
-        var randomIndex;
-        var postHREF;
-        var postTitle;
-        
+      while (counter < numberOfPosts)
+      {
+          var randomIndex;
+          var postHREF;
+          var postTitle;
 
-        randomIndex = Math.floor(Math.random() * postsHREF.length);
+          randomIndex = Math.floor(Math.random() * postsHREF.length);
 
-        if (randomIndexUsed.indexOf(randomIndex) == "-1")
-        {
-            postHREF = postsHREF[randomIndex];
-            postTitle = postsTitle[randomIndex];
+          if (randomIndexUsed.indexOf(randomIndex) == "-1")
+          {
+              postHREF = postsHREF[randomIndex];
+              postTitle = postsTitle[randomIndex];
 
-            if (counter == (numberOfPosts - 1))
-            {
-                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
-            }
-            else
-            {
-                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
-            }
+              if (counter == (numberOfPosts - 1))
+              {
+                  document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+              }
+              else
+              {
+                  document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
+              }
 
-            randomIndexUsed.push(randomIndex);
+              randomIndexUsed.push(randomIndex);
 
-            counter++;
-        }
-    }
+              counter++;
+          }
+      }
 
-</script>
+  </script>
 </div>
 
   {% for item in site.categories.post limit:1000 %}

@@ -4,7 +4,7 @@ category: post
 published: true
 title: transmutation
 ---
-[![goddess of the soverign](/media/.jpeg)][1]!
+[![goddess of the soverign](/media/transmutation.jpeg)][1]!
 <!--more-->
 <span class='date fr'>*digital*</span>
   

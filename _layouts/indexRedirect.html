@@ -16,10 +16,9 @@ function linkToRandomPost() {
 
 var i = 0;
 do {
-	var randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)]; i++;}
-while (comingFromPost.includes(randomPostLink) || i > 10)
-return randomPostLink;
-}
+	var randomPostLink = allPosts[Math.floor(Math.random() *  allPosts.length)]; i++;}
+  return randomPostLink;
+  }
 
 location.replace(linkToRandomPost())
 

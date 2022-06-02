@@ -1,10 +1,10 @@
 ---
 layout: post
 category: post
-published: true
+published: false
 title: transmutation
 ---
-[![goddess of the soverign](/media/transmutation.jpeg)][1]!
+[![goddess of the soverign](/media/transmutation.jpeg)]({% link {{ page.path }} %})
 <!--more-->
 <span class='date fr'>*digital*</span>
   

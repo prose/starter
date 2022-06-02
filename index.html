@@ -40,20 +40,10 @@ published: true
   
     <div class='box' style='padding-bottom:3.66em;'>
       <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'>{{ item.excerpt }}</a>
-      <div style='padding-bottom:2em; padding-top:.66em;'
-              {{ item.title }}
-        <span class='date'>
-             &#152; {{item.date | date:"%b %d %Y"}}
-        </span>
-        <a href="{{site.baseurl}}{{item.url}}">
-        <h4 class='item'></h4>
-        <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
-          	view post &nbsp;&raquo;
-         </span>
-        </a>
-      </div>
     </div>
+    
   {% endfor %}
+  
 </div>
 
 <!-- working page style 6/2022

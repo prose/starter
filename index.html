@@ -34,12 +34,12 @@ published: true
 
 <div class='gallery'>
 
-  {% for item in site.categories.post limit:1000 %}
+  {% for img in img/thumbnail limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
   
     <div class='box'>
-      <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'>{{ item.excerpt }}</a>
+      <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'><img src='{% img %}' /></a>
     </div>
     
   {% endfor %}

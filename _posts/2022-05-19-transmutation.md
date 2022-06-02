@@ -4,7 +4,7 @@ category: post
 published: false
 title: transmutation
 ---
-<a href='{% link {{ page.path }} %}'>![goddess of the soverign]({{site.baseurl}}/media/transmutation.jpeg)</a>
+<a href='{{ page.path }}'>![goddess of the soverign]({{site.baseurl}}/media/transmutation.jpeg)</a>
 <!--more-->
 <span class='date fr'>*digital*</span>
   

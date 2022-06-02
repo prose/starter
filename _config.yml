@@ -7,14 +7,6 @@ markdown: kramdown
 
 excerpt_separator: <!--more-->
 
-mini_magick:
-    thumbnail: # Preset name
-        source: media/ # source directory - change this to whatever you want
-        destination: img/thumbnail # generated destination directory
-        resize: "100x70^" # standard imagemagick options - you can chain multiple commands
-        gravity: "center"
-        extent: "100x70"
-
 prose:
   rooturl: '_posts'
   siteurl: 'http://sjkilts.github.io/'

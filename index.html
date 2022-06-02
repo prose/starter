@@ -21,13 +21,16 @@ published: true
     margin: 2px;
   }
 
-  .gallery-img img {
+  .gallery-img {
     width: 200px;
-	margin: 0 auto;
     max-height: 200px;
 	object-fit: cover;
     transform: scale(1);
     transition: all 0.3s ease-in-out;
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
   &:hover {
     transform: scale(1.05);
   }

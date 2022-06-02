@@ -1,0 +1,34 @@
+---
+title: scott kilts
+published: true
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<script>
+var comingFromPost = document.referrer;
+
+function linkToRandomPost() {
+	var allPosts = [{% for post in site.posts %}
+      "{{ post.url }}"{% unless post.previous == nil %},{% endunless %}
+	}
+    {% endfor %}];
+
+var i = 0;
+do {
+	var randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)]; i++;}
+while (comingFromPost.includes(randomPostLink) || i > 10)
+return randomPostLink;
+}
+
+location.replace(linkToRandomPost())
+
+</script>
+
+<!-- <body>
+  <div class='container'>
+    {% include hamburger.html %}
+    {{content}}
+  </div>
+  <script src='{{site.baseurl}}/site.js'></script>
+</body> -->

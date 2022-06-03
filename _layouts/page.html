@@ -1,31 +1,15 @@
 ---
 published: true
 ---
-<!DOCTYPE html>
-<html>
-<head>
-  {% include /js/gtag.js %}
-  {% include gfonts.html %}
-  <title>scott kilts{% if page.title %} | {{page.title}}{% endif %}</title>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  {% include favicon.html %}
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
-</head>
-
+{% include head.html %}
 <body>
   <div class='container'>
     {% include hamburger.html %}
-
     <div class='listing col6 pad4h margin3'>
-    <!--  <h2>{{page.title}}</h2> -->
       <div class='splash'>
         {{content}}
       </div>
     </div>
-
   </div>
   <script src='{{site.baseurl}}/site.js'></script>
 </body>
-
-

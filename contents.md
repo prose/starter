@@ -21,7 +21,7 @@ published: true
   }
 
   .gallery-img img {
-    width: 200px;
+    min-width: 200px;
 	object-fit: cover;
     transform: scale(1); 
     transition: all 0.3s ease-in-out;

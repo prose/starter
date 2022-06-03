@@ -18,62 +18,43 @@ published: true
 
 <body>
   <div class='container'>
+    
     {% include hamburger.html %}
 
+    <div class='listing col6 pad4h margin3'>
 
-<div class='listing col6 pad4h margin3'>
+      <div class='splash item'>
+        {{content}}
+        <br>
+      </div>
+      
+      <span style='padding-bottom:6em;'><span style='padding-bottom:6em;' class='date fl'>{{ page.title }}</span><span style='padding-bottom:6em;' class='date fr'>{{page.date | date:"%b %d %Y"}}</span></span>
+      
+      </div>
 
-  <div class='splash item'>
-    {{content}}
-    <br>
-  </div>
-  
-  <span style='padding-bottom:6.6em;'><!--<a href="#" class='date'>top</a>--><span style='padding-bottom:6.6em;' class='date fl'>{{ page.title }}</span><span style='padding-bottom:6.6em;' class='date fr'>{{page.date | date:"%b %d %Y"}}</span></span>
-  
- <!-- <div class='splash' style='padding-top:4em; padding-bottom:6em;'>
-    {% for item in site.categories.post limit:5 %}
-    
-      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-      {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-      {% capture url %}{{ item.url }}{% endcapture %}
+      <hr />
 
-      {% if item.url != page.url %}
-    	<div>
-          <a href='{{ site.url }}{{ item.url }}' class='pretty'>{{ item.title }}</a>
-          <span class='date'>
-          &#126; {{item.date | date:"%b %d %Y"}}
-          </span>
-        </div>
-      {% endif %}
-    
-    {% endfor %}
-  </div> -->
-  
-</div>
-
-        <hr />
-
-        <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
-          {% for item in site.categories.post limit:1000 %}
-            {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-            {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-          	{% capture url %}{{ item.url }}{% endcapture %}
-          
-            <div class='splash' style='padding-bottom:.42em;'>
-              <!--{{ item.excerpt }}-->
-              <div style='padding-bottom:0em; padding-top:0.0em;'>
-                <a href="{{site.baseurl}}{{item.url}}">
-                  {{ item.title }}
-                <!--<h4 class='item'></h4> h4 is current rule -->
-                <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
-                  {{item.date | date:"%b %d %Y"}}
-                 </span>
-                </a>
-              </div>
+      <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
+        {% for item in site.categories.post limit:1000 %}
+          {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+          {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+        	{% capture url %}{{ item.url }}{% endcapture %}
+        
+          <div class='splash' style='padding-bottom:.42em;'>
+            <!--{{ item.excerpt }}-->
+            <div style='padding-bottom:0em; padding-top:0.0em;'>
+              <a href="{{site.baseurl}}{{item.url}}">
+                {{ item.title }}
+              <!--<h4 class='item'></h4> h4 is current rule -->
+              <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
+                {{item.date | date:"%b %d %Y"}}
+               </span>
+              </a>
             </div>
-          {% endfor %}
-        </div>
+          </div>
+        {% endfor %}
+      </div>
 
-  </div>
+    </div>
   <script src='{{site.baseurl}}/site.js'></script>
 </body>

@@ -9,7 +9,7 @@ published: true
   .gallery {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 100%));
+    grid-template-columns: repeat(auto-fill,minmax(200px, 80vh));
     justify-content: center;
   }
 

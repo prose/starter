@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 url: contents/
 title: contents
 published: true

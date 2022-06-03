@@ -3,7 +3,7 @@ layout: default
 url: contents/
 section: posts
 title: contents
-published: true
+published: false
 ---
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>

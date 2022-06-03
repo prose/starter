@@ -14,7 +14,6 @@ It was my pleasure to work with the editors at Tahoma West Literary Arts Journal
   \
   \
   \
-![Tahoma West v.21 Cover](/media/client/tw/tw-cover.jpeg)
   
 ![Tahoma West Layout 00](/media/client/tw/Tahoma West 2017 Inside _working.jpeg) 
    

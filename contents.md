@@ -14,7 +14,7 @@ published: true
   }
 
   .box {
-    flex-basis: 25%;
+    flex-basis: 100%;
     width: 100%;
     padding: 10px;
     margin: 2px;

@@ -28,8 +28,9 @@ published: true
     <br>
   </div>
   
-  <span style='padding-bottom:.5em;'><!--<a href="#" class='date'>top</a>--><span class='date' style='float:right;'>{{page.date | date:"%b %d %Y"}}</span></span>
+  <span style='padding-bottom:.5em;'><!--<a href="#" class='date'>top</a>--><span class='date fl'>{{ page.title }}</span><span class='date fr'>{{page.date | date:"%b %d %Y"}}</span></span>
 
+<hr />
   
  <!-- <div class='splash' style='padding-top:4em; padding-bottom:6em;'>
     {% for item in site.categories.post limit:5 %}

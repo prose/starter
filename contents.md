@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 url: contents/
 section: post
 title: contents

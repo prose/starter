@@ -44,7 +44,7 @@ gallery-img {
 }
 
 gallery-img img{
-  width: 100%; 
+  width: 80vh; 
 }
 </style>
 

@@ -5,7 +5,7 @@ title: contents
 published: true
 ---
 
-<style>
+<!-- <style> /*
   .gallery {
     width: 100%;
     display: grid;
@@ -21,15 +21,31 @@ published: true
   }
 
   .gallery-img img {
-    width: 80vh;
-    max-height: 666;
+    width: 66vh;
+    max-height: 666px;
 	object-fit: cover;
     transform: scale(1); 
     transition: all 0.3s ease-in-out;
     margin: auto;
   &:hover {
     transform: scale(1.05);
-  }
+  } */
+</style> -->
+
+<style>
+body{
+  margin: 0;
+}
+
+gallery-img {
+  column-width: 300px;
+  column-gap: 5px;
+  padding: 5px;
+}
+
+gallery-img img{
+  width: 100%; 
+}
 </style>
 
 <div class='gallery'>

@@ -22,6 +22,7 @@ published: true
 
   .gallery-img img {
     min-width: 200px;
+    max-height: 333px;
 	object-fit: cover;
     transform: scale(1); 
     transition: all 0.3s ease-in-out;

@@ -35,20 +35,15 @@ published: true
 
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
-
-  <div class='splash'>
-    <h1>links</h1>
-  </div>
   
   <div class='splash' style='padding-bottom:.42em;'>
-    <div style='padding-bottom:0em; padding-top:0.0em;'>
-        <a href="{{site.baseurl}}/resume">
-          resume
-          <span class='date' style='float:right;'>
-            current resume {{ 'now' | date: "%Y" }}
-          </span>
-        </a>
-      </div>
+    <h1>links</h1>
+    <a href="{{site.baseurl}}/resume">
+      resume
+      <span class='date' style='float:right;'>
+        {{ 'now' | date: "%Y" }}
+      </span>
+    </a>
   </div>
 
   <div class='splash'>

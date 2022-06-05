@@ -42,10 +42,10 @@ published: true
   
   <div class='splash' style='padding-bottom:.42em;'>
     <div style='padding-bottom:0em; padding-top:0.0em;'>
-        <a href="/resume/">
+        <a href="{{site.baseurl}}/resume">
           resume
           <span class='date' style='float:right;'>
-            current resume {{date:"%Y"}}
+            current resume {{ 'now' | date: "%Y" }}
           </span>
         </a>
       </div>

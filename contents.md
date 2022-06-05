@@ -49,7 +49,7 @@ published: true
           </span>
         </a>
       </div>
-  </div
+  </div>
 
   <div class='splash'>
     <h1>gallery</h1>

@@ -12,6 +12,7 @@ published: true
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
     justify-content: center;
+    margin: 0 auto;
   }
 
   .box {
@@ -22,8 +23,7 @@ published: true
   }
 
   .gallery-img img {
-    width: 200px;
-    height: 200px;
+    width: 20vh;
 	object-fit: cover;
     transform: scale(1); 
     transition: all 0.3s ease-in-out;

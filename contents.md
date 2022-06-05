@@ -33,6 +33,8 @@ published: true
   }
 </style>
 
+<h4>gallery</h4>
+
 <div class='gallery'>
 
   {% for item in site.categories.post limit:1000 %}
@@ -46,6 +48,8 @@ published: true
   {% endfor %}
   
 </div>
+
+<hr />
 
 
 <!-- <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>

@@ -8,8 +8,7 @@ title: about
 
 scott loves complex problem solving and being outdoors  
 
-let's try that again
-   
+[resume](resume/)
   
 email [scott@scottkilts.com](mailto:scott@scottkilts.com) or use the contact form:  
   

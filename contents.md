@@ -33,9 +33,31 @@ published: true
   }
 </style>
 
-<div class='listing col6 pad4h margin3'><div class='splash'><h1>gallery</h1></div></div>
 
-<div class='gallery'>
+<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
+
+  <div class='splash'>
+    <h1>links</h1>
+  </div>
+  
+  <div class='splash' style='padding-bottom:.42em;'>
+    <div style='padding-bottom:0em; padding-top:0.0em;'>
+        <a href="{{site.baseurl}}resume/">
+          resume
+          <span class='date' style='float:right;'>
+            current resume {{date:"%Y"}}
+          </span>
+        </a>
+      </div>
+  </div
+
+  <div class='splash'>
+    <h1>gallery</h1>
+  </div>
+
+</div>
+
+<div class='gallery col12'>
 
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

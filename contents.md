@@ -33,7 +33,7 @@ published: true
   }
 </style>
 
-<div class='container'><h2>gallery</h2></div>
+<div class='listing col6 pad4h margin3'><div class='splash'><h2>gallery</h2></div></div>
 
 <div class='gallery'>
 

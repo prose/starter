@@ -33,7 +33,7 @@ published: true
   }
 </style>
 
-<h2>gallery</h2>
+<h1>gallery</h1>
 
 <div class='gallery'>
 

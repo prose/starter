@@ -1,7 +1,7 @@
 ---
 layout: page
 title: resume
-permalink: /resume/
+url: resume/
 ---
 
 {% for resume in site.data.resume %}

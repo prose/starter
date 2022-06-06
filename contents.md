@@ -35,7 +35,9 @@ published: true
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   
   <div class='splash' style='padding-bottom:3.42em;'>
+  
     <h3>links</h3>
+    
     <ul>
       <li>
         <a href="{{site.baseurl}}/resume">
@@ -46,24 +48,31 @@ published: true
         </a>
       </li>
     </ul>
-  </div>
+    
+  </div> <!-- /.splash -->
+
 
   <div class='splash'>
+  
     <h3>gallery</h3>
-  </div>
+    
+  </div> <!-- /.splash -->
+
 
   <div class='gallery'> 
 
     {% for item in site.categories.post limit:1000 %}
-      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    	{% capture url %}{{ item.url }}{% endcapture %}
+      {% capture excerpt %}{{ item.excerpt }}{% endcapture %}
+    	  {% capture url %}{{ item.url }}{% endcapture %}
     
       <div class='box'>
+      
         <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'>{{ item.excerpt }}</a>
-      </div>
+        
+      </div> <!-- /.box -->
       
     {% endfor %}
     
-  </div>
+  </div> <!-- /.gallery -->
 
-</div>
+</div> <!-- /.listing -->

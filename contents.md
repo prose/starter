@@ -46,31 +46,6 @@ published: true
   
 </div>
 
-<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
-
-  <div class='splash' style='padding-bottom:.42em;'>
-    <h3>posts</h3>
-  </div>
-    
-  <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
-    {% for item in site.categories.post limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-  	{% capture url %}{{ item.url }}{% endcapture %}
-  
-    <div class='splash' style='padding-bottom:.42em;'>
-      <div style='padding-bottom:0em; padding-top:0.0em;'>
-        <a href="{{site.baseurl}}{{item.url}}">
-          {{ item.title }}
-          <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
-          {{item.date | date:"%b %d %Y"}}
-         </span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-</div>
-
 <div class='splash'>
   <h3>gallery</h3>
 </div>

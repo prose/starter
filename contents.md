@@ -28,7 +28,6 @@ published: true
 	object-fit: cover;
     transform: scale(1); 
     transition: all 0.3s ease-in-out;
-    margin: 0 auto;
   &:hover {
     transform: scale(1.05);
   }

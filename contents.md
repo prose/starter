@@ -43,14 +43,9 @@ published: true
       </span>
     </a>
   </div>
-
-  <div class='splash'>
-    <h3>gallery</h3>
-  </div>
   
   <div class='splash' style='padding-bottom:.42em;'>
     <h3>posts</h3>
-    
     {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -68,6 +63,10 @@ published: true
     </div>
   </div>
 
+</div>
+
+<div class='splash'>
+  <h3>gallery</h3>
 </div>
 
 <div class='gallery col9'>

@@ -39,23 +39,22 @@ width: 100%;
 box-sizing: border-box;
 padding: 5px;
 display: inline;
-& .icon_container {
+}
+.icon_container {
 display: inline-block !important;
 text-align: center;
 vertical-align: top;
 width: 19%;
 max-height: 66px;
 padding-bottom: 1em;
-& p {
+}
+p {
 display: block;
-        }
-    }
 }
 
 .i {
 max-height: 66px;
     }
-}
 </style>
 
 {% for resume in site.data.resume %}

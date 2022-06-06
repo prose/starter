@@ -20,7 +20,6 @@ published: true
     flex-basis: 25%;
     width: 100%;
     padding: 10px;
-    margin: 0 auto;
   }
 
   .gallery-img img {

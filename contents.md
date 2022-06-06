@@ -49,15 +49,15 @@ published: true
       </li>
     </ul>
   </div>
-  
-</div>
 
-<div class='splash'>
-  <ul>
-    <li>
-      <span>gallery</span>
-    </li>
-  </ul>
+  <div class='splash'>
+    <ul>
+      <li>
+        <span>gallery</span>
+      </li>
+    </ul>
+  </div>
+
 </div>
 
 <div class='gallery col9'> 

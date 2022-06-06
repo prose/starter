@@ -4,6 +4,31 @@ title: resume
 url: resume/
 ---
 
+<style>
+.icon_row{
+height: $icon_height;
+width: 100%;
+//overflow: hidden;
+box-sizing: border-box;
+padding: $icon_spacing;
+display: inline;
+& .icon_container {
+display: inline-block !important;
+text-align: center;
+vertical-align: top;
+width: 19%;
+padding-bottom: 1em;
+& p {
+display: block;
+        }
+    }
+& .icon {
+width: 100%;
+height: 100%;
+    }
+}
+</style>
+
 {% for resume in site.data.resume %}
 
 <!-- span class="resume-info">

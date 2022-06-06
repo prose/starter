@@ -6,11 +6,10 @@ url: resume/
 
 <style>
 .icon_row{
-height: $icon_height;
+height: 150px;
 width: 100%;
-//overflow: hidden;
 box-sizing: border-box;
-padding: $icon_spacing;
+padding: 5px;
 display: inline;
 & .icon_container {
 display: inline-block !important;

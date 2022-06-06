@@ -54,10 +54,12 @@
 
   - institution:  University of Utah
     field: Human Factors Psychology
+    degree:  Certificate
     year:  '2013'
 
   - institution:  University of Utah
     field: Computer Science
+    degree:  BS
     year:  '2013'
 
   - institution:  Weber State University

@@ -53,6 +53,8 @@ published: true
   
   <h1>gallery</h1>
 
+  <span class='splash'></span>
+
   <div class='gallery'> 
 
     {% for item in site.categories.post limit:1000 %}

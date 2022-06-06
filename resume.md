@@ -87,7 +87,7 @@ max-height: 66px;
 
 <div class="icon_row">
 {% for skill in resume.skills %}
-	<div class="/*icon_container*/">
+	<div class="icon_container">
 		<img class="i" src="{{ site.baseurl }}{{ skill.icon }}" alt="" title="" />  
 		<span class="caption date">{{ skill.skill }}</span>
 	</div>

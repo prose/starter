@@ -21,9 +21,9 @@ padding-bottom: 1em;
 display: block;
         }
     }
-& .i img {
-width: 19%;
-height: 19%;
+}
+.i {
+max-height: 43px;
 display: block;
     }
 }

@@ -79,7 +79,7 @@ max-height: 66px;
 {% endfor %}
 </p>
 
-# skills
+<!-- # skills
 
 <div class="icon_row">
 {% for skill in resume.skills %}
@@ -88,7 +88,7 @@ max-height: 66px;
 		<span class="caption date">{{ skill.skill }}</span>
 	</div>
 {% endfor %}
-</div> 
+</div> -->
 
 - {{ resume.highlight }}
 

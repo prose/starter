@@ -58,18 +58,18 @@ published: true
     </ul>
   </div>
 
-</div>
+  <div class='gallery'> 
 
-<div class='gallery col9'> 
-
-  {% for item in site.categories.post limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-  	{% capture url %}{{ item.url }}{% endcapture %}
-  
-    <div class='box'>
-      <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'>{{ item.excerpt }}</a>
-    </div>
+    {% for item in site.categories.post limit:1000 %}
+      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    	{% capture url %}{{ item.url }}{% endcapture %}
     
-  {% endfor %}
-  
+      <div class='box'>
+        <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'>{{ item.excerpt }}</a>
+      </div>
+      
+    {% endfor %}
+    
+  </div>
+
 </div>

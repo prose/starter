@@ -52,6 +52,7 @@ published: true
     <h3>posts</h3>
   </div>
     
+  <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
     {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
@@ -66,6 +67,7 @@ published: true
         </a>
       </div>
     </div>
+  </div>
 
 </div>
 

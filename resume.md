@@ -44,6 +44,7 @@ display: inline-block !important;
 text-align: center;
 vertical-align: top;
 width: 19%;
+max-height: 66px;
 padding-bottom: 1em;
 & p {
 display: block;
@@ -53,7 +54,6 @@ display: block;
 
 .i {
 max-height: 66px;
-display: block;
     }
 }
 </style>

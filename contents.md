@@ -72,7 +72,7 @@ published: true
 
 </div>
 
-<div class='gallery col12'>
+<div class='gallery col9'>
 
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

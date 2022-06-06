@@ -22,8 +22,8 @@ display: block;
         }
     }
 & .i {
-width: 20%;
-height: 20%;
+width: 19%;
+height: 19%;
     }
 }
 </style>

@@ -22,8 +22,9 @@ display: block;
         }
     }
 & .i {
-width: 19%;
-height: 19%;
+width: 66px;
+height: 66px;
+display: block;
     }
 }
 </style>

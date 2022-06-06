@@ -33,10 +33,10 @@ published: true
 
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
+
+  <h1>links</h1>
   
   <div class='splash' style='padding-bottom:3.42em;'>
-  
-    <h1>links</h1>
     
     <ul>
       <li>
@@ -50,14 +50,8 @@ published: true
     </ul>
     
   </div> <!-- /.splash -->
-
-
-  <div class='splash'>
   
-    <h1>gallery</h1>
-    
-  </div> <!-- /.splash -->
-
+  <h1>gallery</h1>
 
   <div class='gallery'> 
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 url: about/
 title: about

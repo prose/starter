@@ -36,7 +36,7 @@ published: true
 
   <h1>links</h1>
   
-  <div class='splash' style='padding-bottom:3.42em; padding-left:1em;'>
+  <div class='splash' style='padding-bottom:3.42em;'>
     
     <ul>
       <li>

@@ -48,9 +48,6 @@ width: 19%;
 max-height: 66px;
 padding-bottom: 1em;
 }
-p {
-display: block;
-}
 
 .i {
 max-height: 66px;

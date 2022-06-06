@@ -50,9 +50,10 @@ display: block;
         }
     }
 }
-img .i {
+
+.i {
 max-height: 66px;
-display: inline-block;
+display: block;
     }
 }
 </style>

@@ -36,7 +36,7 @@ published: true
   
   <div class='splash' style='padding-bottom:3.42em;'>
   
-    <h3>links</h3>
+    <h1>links</h1>
     
     <ul>
       <li>
@@ -54,7 +54,7 @@ published: true
 
   <div class='splash'>
   
-    <h3>gallery</h3>
+    <h1>gallery</h1>
     
   </div> <!-- /.splash -->
 

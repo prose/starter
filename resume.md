@@ -24,7 +24,7 @@ display: block;
 }
 .i {
 max-height: 43px;
-display: block;
+display: inline-block;
     }
 }
 </style>

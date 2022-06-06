@@ -7,13 +7,15 @@
   - employer: Scott Kilts Design
     title:  Owner / Operator
     date:  2014-Present
-    description:  Freelance art and design  
+    description:  |
+                  Freelance art and design  
                   Projects include publishing, illustration and information strategy
 
   - employer:  Stone Gardens 
     title:  Instructor
     date:  2017-2021
-    description:  Climbing and safety instruction  
+    description:  |
+                  Climbing and safety instruction  
                   Oversee daily gym operations  
                   Lead and organize weekly youth programs
                   
@@ -25,25 +27,29 @@
   - employer:  Hosting Puget Sound
     title:   Web Host Manager
     date:  2016-2017
-    description:  Manage, update and support more than 100 client websites  
+    description:  |
+                  Manage, update and support more than 100 client websites  
                   Increased revenue and number of clients
 
   - employer:  M Agency
     title:   Designer / Developer
     date:  2016-2017
-    description:  Manage and coordinate a small team 
+    description:  |
+                  Manage and coordinate a small team 
                   Promote client business using illustration, print, web design, IA, UI/UX, SEO, marketing strategy and development
 
   - employer:  Apache Pine
     title:   Design Director
     date:  2014-2016
-    description:  Design, development and marketing for an outdoor lifestyle brand  
+    description:  |
+                  Design, development and marketing for an outdoor lifestyle brand  
                   Increased sales with full-stack web, print, product, packaging design, UI/UX, SEO, marketing strategy and one-to-one program
                   
   - employer:  Apple Inc.
     title:   CPU Advisor
     date:  2013-2014
-    description:  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support  
+    description:  |
+                  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support  
                   Remotely manage time and projects
 
   education:  

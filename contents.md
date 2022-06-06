@@ -35,10 +35,8 @@ published: true
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   
   <div class='splash' style='padding-bottom:3.42em;'>
+    <h3>links</h3>
     <ul>
-      <li>
-        <h3>links</h3>
-      </li>
       <li>
         <a href="{{site.baseurl}}/resume">
           resume
@@ -51,11 +49,7 @@ published: true
   </div>
 
   <div class='splash'>
-    <ul>
-      <li>
-        <h3>gallery</h3>
-      </li>
-    </ul>
+    <h3>gallery</h3>
   </div>
 
   <div class='gallery'> 

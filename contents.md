@@ -34,7 +34,7 @@ published: true
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   
-  <div class='splash' style='padding-bottom:.42em;'>
+  <div class='splash' style='padding-bottom:3.42em;'>
     <ul>
       <li>
         <h3>links</h3>

@@ -62,7 +62,7 @@ display: block;
         }
     }
 }
-.i {
+img .i {
 max-height: 66px;
 display: inline-block;
     }
@@ -103,7 +103,7 @@ display: inline-block;
 		<span class="caption date">{{ skill.skill }}</span>
 	</div>
 {% endfor %}
-</div> -->
+</div> 
 
 - {{ resume.highlight }}
 

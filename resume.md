@@ -16,18 +16,6 @@ width: 2em;
 height: 1px;
 display: block;
         }
-.resume-info {
-& img {
-width: 150px;
-height: 150px;
-margin: 20px;
-background-image: url('/img/Scott-Kilts.jpg');
-background-size: cover;
-display: block;
-border-radius: 75px;
--webkit-border-radius: 75px;
--moz-border-radius: 75px;
-    }
 }
 .caption {
 text-align: center;

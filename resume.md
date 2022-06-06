@@ -5,6 +5,17 @@ url: resume/
 ---
 
 <style>
+h3 {
+font-style: italic;
+&:after {
+content: '';
+margin-top: 1.2em;
+margin-bottom: 1.2em;
+opacity: .75;
+width: 2em;
+height: 1px;
+display: block;
+        }
 .resume-info {
 & img {
 width: 150px;
@@ -18,7 +29,9 @@ border-radius: 75px;
 -moz-border-radius: 75px;
     }
 }
-
+.caption {
+text-align: center;
+vertical-align: middle;
 .right {
 margin-left: 280px;
 padding-top: 2.75em;
@@ -50,7 +63,7 @@ display: block;
     }
 }
 .i {
-max-height: 43px;
+max-height: 66px;
 display: inline-block;
     }
 }
@@ -81,18 +94,18 @@ display: inline-block;
 {% endfor %}
 </p>
 
-<!--# skills
+# skills
 
 <div class="icon_row">
 {% for skill in resume.skills %}
-	<div class="icon_container">
+	<div class="/*icon_container*/">
 		<img class="i" src="{{ site.baseurl }}{{ skill.icon }}" alt="" title="" />  
-		<span class="caption">{{ skill.skill }}</span>
+		<span class="caption date">{{ skill.skill }}</span>
 	</div>
 {% endfor %}
-</div>
+</div> -->
 
-- {{ resume.highlight }} -->
+- {{ resume.highlight }}
 
 # tools
 

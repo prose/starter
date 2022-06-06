@@ -4,49 +4,70 @@
   github: sjkilts 
 
   employment:
-  - employer:  Scott Kilts Design
+  - employer: Scott Kilts Design
     title:  Owner / Operator
     date:  2014-Present
-    description: Freelance design, illustration and web development
+    description:  Freelance art and design
+                  Projects include publishing, illustration and information strategy
 
   - employer:  Stone Gardens 
-    title:  Group Instructor
-    date:  2017-Present
-    description:  Instruction of technical skills to climbers of all ages and abilities
+    title:  Instructor
+    date:  2017-2021
+    description:  Climbing and safety instruction
+                  Oversee daily gym operations
+                  Lead and organize weekly youth programs
+                  
+  - employer:  YMCA
+    title:  Climbing Wall Staff
+    date:  2017-2019
+    description:  Oversee route setting, daily wall operations, instruction, maintenance and staff trainings
 
   - employer:  Hosting Puget Sound
     title:   Web Host Manager
     date:  2016-2017
-    description:  Manage, update and support client websites
+    description:  Manage, update and support more than 100 client websites
                   Increased revenue and number of clients
 
   - employer:  M Agency
     title:   Designer / Developer
     date:  2016-2017
-    description:  Manage and coordinate a small team promoting client business using illustration, print and web design, development and UX strategies
+    description:  Manage and coordinate a small team 
+                  Promote client business using illustration, print, web design, IA, UI/UX, SEO, marketing strategy and development
 
   - employer:  Apache Pine
     title:   Design Director
     date:  2014-2016
     description:  Design, development and marketing for an outdoor lifestyle brand
-                  Increased sales with updated branding, product designs, ux/ui research and one-to-one program
-
+                  Increased sales with full-stack web, print, product, packaging design, UI/UX, SEO and marketing strategy and one-to-one program
+                  
   - employer:  Apple Inc.
     title:   CPU Advisor
     date:  2013-2014
-    description:  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support. Remotely manage time and projects
+    description:  Friendly voice of Apple, providing troubleshooting, creative technical solutions, and support
+                  Remotely manage time and projects
 
   education:  
-
-  - school:  University of Utah
-    field: Human Factors Psychology
+  
+  - field:  First Aid, CPR, AED
     degree:  Certificate
+    year:  '2006-present'
+
+  - institution:  University of Utah
+    field: Human Factors Psychology
     year:  '2013'
 
-  - school:  Weber State University
+  - institution:  University of Utah
+    field: Computer Science
+    year:  '2013'
+
+  - institution:  Weber State University
     field: Computer Science
     degree:  AAS
     year:  '2011'
+    
+  - institution:  Boy Scouts of America
+    degree:  Eagle Scout
+    year:  '2006'
 
   skills:
   - skill: Illustration
@@ -64,16 +85,10 @@
   highlight:  Strong ability to problem solve
 
   tools: >
-          Sketch, Sublime Text. Github,
-            Adobe Illustrator, InDesign, Photoshop, 
-              HTML5, CSS, JavaScript,
-                JQuery, Sass, Liquid,
-                  PHP, Ruby,
-                    Troubleshooting
+          Sketch, Sublime Text, Figma, Github,
+            Adobe Illustrator, InDesign, Photoshop, Fresco,
+              HTML5, CSS, JavaScript, JQuery, Sass, Liquid, PHP, Ruby,
+                CMD, Linux, Unix
   interests: >
-              reading, climbing, skiing,        
-                 time spent outdoors,      
-                    design, typography, aesthetics,   
-                      contrast, ink and watercolor,       
-                          calligraphy, sign painting,        
-                            the spirit of adventure
+              Concerned with details, getting things right and iterative design. More interested in foundations than facades.
+              Visual communication, transportation and backcountry exploration

@@ -59,7 +59,7 @@ published: true
       {% capture excerpt %}{{ item.excerpt }}{% endcapture %}
     	  {% capture url %}{{ item.url }}{% endcapture %}
     
-      <div class='box'>
+      <div class='/*box*/'>
       
         <a href="{{site.baseurl}}{{item.url}}" class='gallery-img'>{{ item.excerpt }}</a>
         

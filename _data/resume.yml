@@ -73,16 +73,16 @@
 
   skills:
   - skill: Illustration
-    icon:  /img/illustration-icon.png
+    icon:  /img/illustration-icon.jpeg
     
   - skill: UI/UX
-    icon:  /img/ui_ux-icon.png
+    icon:  /img/ui_ux-icon.jpeg
 
   - skill: Design
-    icon:  /img/design-icon.png
+    icon:  /img/design-icon.jpeg
 
   - skill: Strategy
-    icon:  /img/strategy-icon.png
+    icon:  /img/strategy-icon.jpeg
 
   highlight:  Strong ability to problem solve
 

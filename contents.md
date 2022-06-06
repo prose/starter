@@ -35,7 +35,7 @@ published: true
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   
   <div class='splash' style='padding-bottom:.42em;'>
-    links
+    <span>links</span>
     <a href="{{site.baseurl}}/resume">
       resume
       <span class='date' style='float:right;'>
@@ -47,7 +47,7 @@ published: true
 </div>
 
 <div class='splash'>
-  gallery
+  <span>gallery</span>
 </div>
 
 <div class='gallery col9'> 

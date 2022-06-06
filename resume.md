@@ -5,6 +5,33 @@ url: resume/
 ---
 
 <style>
+.resume-info {
+& img {
+width: 150px;
+height: 150px;
+margin: 20px;
+background-image: url('/img/Scott-Kilts.jpg');
+background-size: cover;
+display: block;
+border-radius: 75px;
+-webkit-border-radius: 75px;
+-moz-border-radius: 75px;
+    }
+}
+
+.right {
+margin-left: 280px;
+padding-top: 2.75em;
+margin-top: -10px;
+overflow: hidden;
+}
+.h3 {
+h3 {
+margin: 0;
+margin-top: calc(3em - 1vw)
+}
+}
+
 .icon_row{
 height: 150px;
 width: 100%;
@@ -54,7 +81,7 @@ display: inline-block;
 {% endfor %}
 </p>
 
-# skills
+<!--# skills
 
 <div class="icon_row">
 {% for skill in resume.skills %}
@@ -65,7 +92,7 @@ display: inline-block;
 {% endfor %}
 </div>
 
-- {{ resume.highlight }}
+- {{ resume.highlight }} -->
 
 # tools
 

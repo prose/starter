@@ -20,7 +20,7 @@ published: true
     flex-basis: 25%;
     width: 100%;
     padding: 10px;
-    margin: 2px;
+    margin: 0 auto;
   }
 
   .gallery-img img {
@@ -28,7 +28,7 @@ published: true
 	object-fit: cover;
     transform: scale(1); 
     transition: all 0.3s ease-in-out;
-    margin: auto;
+    margin: 0 auto;
   &:hover {
     transform: scale(1.05);
   }

@@ -21,7 +21,7 @@ padding-bottom: 1em;
 display: block;
         }
     }
-& .icon {
+& .i {
 width: 100%;
 height: 100%;
     }
@@ -58,7 +58,7 @@ height: 100%;
 <div class="icon_row">
 {% for skill in resume.skills %}
 	<div class="icon_container">
-		<img class="icon" src="{{ site.baseurl }}{{ skill.icon }}" alt="" title="" />  
+		<img class="i" src="{{ site.baseurl }}{{ skill.icon }}" alt="" title="" />  
 		<span class="caption">{{ skill.skill }}</span>
 	</div>
 {% endfor %}

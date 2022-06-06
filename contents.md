@@ -37,7 +37,7 @@ published: true
   <div class='splash' style='padding-bottom:.42em;'>
     <ul>
       <li>
-        <span>links</span>
+        <h3>links</h3>
       </li>
       <li>
         <a href="{{site.baseurl}}/resume">
@@ -53,7 +53,7 @@ published: true
   <div class='splash'>
     <ul>
       <li>
-        <span>gallery</span>
+        <h3>gallery</h3>
       </li>
     </ul>
   </div>

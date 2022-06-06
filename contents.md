@@ -13,7 +13,6 @@ published: true
     grid-template-columns: repeat(auto-fill,minmax(20vh, 1fr));
     grid-auto-rows: minmax(min-content, max-content);
     justify-content: center;
-    margin: 0 auto;
   }
 
   .box {

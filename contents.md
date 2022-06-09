@@ -6,30 +6,6 @@ published: true
 ---
 
 <style>
-   /*! gallery style fot testing 
-  .gallery {
-    width: 100%;
-    display: grid;
-    /*grid-template-columns: repeat(auto-fill,minmax(20vh, 1fr));
-    grid-auto-rows: minmax(min-content, max-content);
-    justify-content: center;*/
-  }
-
-  .box {
-    flex-basis: 25%;
-    width: 100%;
-    padding: 10px;
-  }
-
-  .gallery-img img {
-    width: 20vh;
-	object-fit: cover;
-    transform: scale(1); 
-    transition: all 0.3s ease-in-out;
-  &:hover {
-    transform: scale(1.05);
-  } */
-  
   .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +40,12 @@ published: true
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.image-gallery > li {
+  /* ... */
+  position: relative;
+  cursor: pointer;
 }
 
 /* hover */

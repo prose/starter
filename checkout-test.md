@@ -1,7 +1,7 @@
-layout: checkout
-title: checkout test
----
-
+layout: checkout  
+title: checkout test  
+---  
+  
 <div>      
       <div>
             <section class="container">

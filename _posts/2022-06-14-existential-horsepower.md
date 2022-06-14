@@ -5,7 +5,7 @@ published: true
 title: 'existential horsepower'
 ---
 ![existential horsepower light](/media/ehp/existential-horsepower-light.png)
-<!--more-->
+<!--more-->   
 <span class=‘date’ style=‘float:right;’>*digital*</span>  
   
   

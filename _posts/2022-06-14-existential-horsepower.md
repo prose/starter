@@ -8,7 +8,11 @@ title: existential hp
 <!--more-->   
   
   
-![![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)](/media/ehp/existential-horsepower.gif)  
+[//]: # (in this implementation the HTML <object> tag should allow "existential-horsepower.gif" to be rendered as a primary image, and default back to "existential-horsepower-web.gif" if that image cannot be used)
+  
+<object data="existential-horsepower.gif" width="100%" height="100%">
+  ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)
+</object>
      
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
     

@@ -6,7 +6,7 @@ title: 'existential horsepower'
 ---
 ![existential horsepower light](/media/ehp/existential-horsepower-light.png)
 <!--more-->   
-<span class=‘date’ style=‘float:right;’>*digital*</span>  
+<span class=‘date fr’>*digital*</span>  
   
   
 ![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)  

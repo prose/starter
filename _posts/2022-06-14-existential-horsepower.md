@@ -6,20 +6,16 @@ title: existential horsepower
 ---
 ![existential horsepower light](/media/ehp/existential-horsepower-light.png)
 <!--more-->   
-<span class='date fr'>*fresco*</span>
   
   
 ![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)  
-<span class='date fr'>*fresco*</span>
   
 ![existential horsepower gif](/media/ehp/existential-horsepower-8fps.gif)  
   
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  
- <span class='date fr'>*procreate*</span>
-   
+     
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
-<span class='date fr'>*pencil*</span>
-  
+    
   
 this comes from the title of a [podcast][1] interviewing [john long][2] on [the enormocast][3]  
   

@@ -2,7 +2,7 @@
 layout: post
 category: post
 published: true
-title: existential horsepower
+title: existential hp
 ---
 ![existential horsepower light](/media/ehp/existential-horsepower-light.png)
 <!--more-->   

@@ -10,10 +10,11 @@ title: existential horsepower
   
 ![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)  
   
+![existential horsepower gif](/media/ehp/existential-horsepower.gif)  
+   
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
   
-![existential horsepower sketch](/media/ehp/existential-horsepower.gif)  
-
+  
 this comes from the title of a [podcast][1] interviewing [john long][2] on [the enormocast][3]  
   
 [existential horsepower with john long - enormocast][1]  

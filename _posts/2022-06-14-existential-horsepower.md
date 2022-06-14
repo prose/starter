@@ -14,7 +14,7 @@ title: existential horsepower
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
   
   
-this comes from the title of a [podcast][1]! interviewing [john long][2]! on [the enormocast][3]!  
+this comes from the title of a [podcast][1] interviewing [john long][2] on [the enormocast][3]  
   
 [existential horsepower with john long][1]!  
   

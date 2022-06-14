@@ -9,9 +9,7 @@ title: existential horsepower
   
   
 ![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)  
-  
-![existential horsepower gif](/media/ehp/existential-horsepower-8fps.gif)  
-  
+    
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  
      
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  

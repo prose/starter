@@ -4,11 +4,11 @@ category: post
 published: true
 title: existential horsepower
 ---
-![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)
+![existential horsepower light](/media/ehp/existential-horsepower-light.png)
 <!--more-->   
   
   
-![existential horsepower light](/media/ehp/existential-horsepower-light.png)  
+![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)  
     
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  
      

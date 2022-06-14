@@ -9,5 +9,6 @@ title: resistance
 <span class='date' style='float:right;'>*aerosol, paint pens*</span>  
   
   
+  
 resistance is existence  
 existence is resistance

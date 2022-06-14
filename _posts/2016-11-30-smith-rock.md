@@ -8,4 +8,5 @@ title: smith rock
 <!--more-->
   
   
+  
 A beautiful preserve in Oregon, Smith Rock was influential in helping to popularize sport climbing in the USA

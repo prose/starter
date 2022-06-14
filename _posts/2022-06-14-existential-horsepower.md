@@ -2,14 +2,8 @@
 layout: post
 category: post
 published: true
-title: 'existential horsepower '
+title: 'existential horsepower'
 ---
---
-layout: post
-category: post
-published: true
-title: existential horsepower
---
 ![existential horsepower light](/media/ehp/existential-horsepower-light.png)
 <!--more-->
 <span class=‘date’ style=‘float:right;’>*digital*</span>  

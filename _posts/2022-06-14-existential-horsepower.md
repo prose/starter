@@ -12,7 +12,7 @@ title: existential horsepower
 ![existential horsepower dark](/media/ehp/existential-horsepower-dark.png)  
 <span class='date fr'>*fresco*</span>
   
-![existential horsepower gif](/media/ehp/existential-horsepower.gif)  
+![existential horsepower gif](/media/ehp/existential-horsepower-8fps.gif)  
  <span class='date fr'>*procreate*</span>
    
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  

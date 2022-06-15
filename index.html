@@ -37,12 +37,10 @@ published: true
   	{% capture url %}{{ item.url }}{% endcapture %}
   
     <div class='splash' style='padding-bottom:.42em;'>
-      <!--{{ item.excerpt }}-->
       <div style='padding-bottom:0em; padding-top:0.0em;'>
         <a href="{{site.baseurl}}{{item.url}}">
           {{ item.title }}
-        <!--<h4 class='item'></h4> h4 is current rule -->
-        <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
+        <span class='date fr' href='{{ site.baseurl }}{{ item.url }}'>
           {{item.date | date:"%b %d %Y"}}
          </span>
         </a>

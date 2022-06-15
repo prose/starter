@@ -6,13 +6,11 @@ title: existential hp
 ---
 ![existential horsepower](/media/ehp/existential-horsepower-dark.png)
 <!--more-->
-<span class='date' style='float:right;'>*fresco*</span>  \
-  \
-  \
-  \
-<object data="existential-horsepower.gif" width="100%" height="100%">
-  <img alt="existential horsepower gif" src="/media/ehp/existential-horsepower-web.gif">
-</object>  
+<span class='date' style='float:right;'>*fresco*</span>   
+  
+  
+  
+![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)
      
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
     

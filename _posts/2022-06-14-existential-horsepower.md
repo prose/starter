@@ -10,7 +10,7 @@ title: existential hp
   
   
   
-existential horsepower gif/media/ehp/existential-horsepower-web.gif)
+![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)
      
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
     

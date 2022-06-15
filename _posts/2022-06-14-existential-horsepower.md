@@ -9,10 +9,9 @@ title: existential hp
   
   
     
-  
 <object data="existential-horsepower.gif" width="100%" height="100%">
   <img alt="existential horsepower gif" src="/media/ehp/existential-horsepower-web.gif">
-</object>
+</object>  
      
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
     

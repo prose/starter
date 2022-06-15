@@ -8,9 +8,7 @@ title: existential hp
 <!--more-->   
   
   
-[//]: #1  
     
-[//]: #2  
   
 <object data="existential-horsepower.gif" width="100%" height="100%">
   <img alt="existential horsepower gif" src="/media/ehp/existential-horsepower-web.gif">

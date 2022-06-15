@@ -6,6 +6,7 @@ title: existential hp
 ---
 ![existential horsepower](/media/ehp/existential-horsepower-dark.png)
 <!--more-->
+<span class='date' style='float:right;'>*fresco*</span>  
   
   
   

@@ -17,4 +17,4 @@ title: barely apparent
 [look, see][1]
 
 
-[1]:{{site.baseurl}}post/2020/03/23/look-see/
+[1]:{{site.baseurl}}/post/2020/03/23/look-see/

@@ -32,5 +32,7 @@ this comes from the title of a [podcast][1] interviewing [john long][2] on [the 
   
 [//]: #1 "in this implementation the HTML <object> tag should allow *existential-horsepower.gif* to be rendered as a primary image, and default back to *existential-horsepower-web.gif* if that image cannot be used - cant tell if it works but it definitely puts the backup image there (6/14/22)"  
   
-[//]: #2 "testing the comment tag ``[//]: # ""`` - if you don't put a space above and below the tag, it renders as html text - if you don't close the tag, it ignores the 'excerpt' liquid tag and places your comment (and the ``//: #``) on the front page or wherever an post.excerpt is built"  
+[//]: #2 "*testing the comment tag* ``[//]: # ""`` 
+- if you don't put a space above and below the tag, it renders as html text
+- if you don't close the tag, it ignores the 'excerpt' liquid tag and places your comment (and the ``//: #``) on the front page or wherever an post.excerpt is built"  
   

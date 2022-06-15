@@ -14,7 +14,4 @@ title: barely apparent
 ![barely apparent lines](/media/bea/bear-apparent-lines.jpeg)
   
   
-[look, see][1]
-
-
-[1]:{{site.baseurl}}/post/2020/03/23/look-see/
+[look, see]({{site.baseurl}}post/2020/03/23/look-see/)

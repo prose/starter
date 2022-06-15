@@ -6,10 +6,10 @@ title: existential hp
 ---
 ![existential horsepower](/media/ehp/existential-horsepower-dark.png)
 <!--more-->
-<span class='date' style='float:right;'>*fresco*</span>  
-  
-  
-  
+<span class='date' style='float:right;'>*fresco*</span>  \
+  \
+  \
+  \
 <object data="existential-horsepower.gif" width="100%" height="100%">
   <img alt="existential horsepower gif" src="/media/ehp/existential-horsepower-web.gif">
 </object>  
@@ -31,5 +31,4 @@ this comes from the title of a [podcast][1] interviewing [john long][2] on [the 
 [3]:https://enormocast.com
 [4]:https://www.diangelopublications.com/books/icarus-syndrome?rq=icarus
   
-<!-- in this implementation the HTML <object> tag should allow *existential-horsepower.gif* to be rendered as a primary image, and default back to *existential-horsepower-web.gif* if that image cannot be used - cant tell if it works but it definitely puts the backup image there (6/14/22)  --> 
-  
+<!-- in this implementation the HTML <object> tag should allow *existential-horsepower.gif* to be rendered as a primary image, and default back to *existential-horsepower-web.gif* if that image cannot be used - cant tell if it works but it definitely puts the backup image there (6/14/22)  -->

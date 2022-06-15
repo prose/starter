@@ -5,10 +5,10 @@ published: true
 title: existential hp
 ---
 ![existential horsepower](/media/ehp/existential-horsepower-dark.png)
-<!--more-->   
+<!--more-->
   
   
-    
+  
 <object data="existential-horsepower.gif" width="100%" height="100%">
   <img alt="existential horsepower gif" src="/media/ehp/existential-horsepower-web.gif">
 </object>  

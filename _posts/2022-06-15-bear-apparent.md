@@ -14,4 +14,4 @@ title: barely apparent
 ![barely apparent lines](/media/bea/bear-apparent-lines.jpeg)
   
   
-[look, see]({{site.baseurl}}post/2020/03/23/look-see/)
+[look, see](http://www.scottkilts.com/post/2020/03/23/look-see/)

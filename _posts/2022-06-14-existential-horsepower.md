@@ -13,7 +13,7 @@ title: existential hp
 [//]: #2  
   
 <object data="existential-horsepower.gif" width="100%" height="100%">
-  ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)
+  <img alt="existential horsepower gif" src="/media/ehp/existential-horsepower-web.gif">
 </object>
      
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  

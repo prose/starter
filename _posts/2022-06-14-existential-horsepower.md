@@ -11,16 +11,18 @@ title: existential hp
   
   
 this comes from the title of a [podcast][1] interviewing [john long][2] on [the enormocast][3]  
-
+  
 working on solidifying this style of digital painting inspired by watercolor.  this allows me to use a pencil drawing as a rapid prototype and quickly iterate a final image using an ipad in about the same amount of time as a watercolor sketch  
   
-this gif was put together in procreate. [download a high-quality version](http://www.scottkilts.com/media/ehp/existential-horsepower.gif)
+  
+this gif was put together in procreate. [download a high-quality version](http://www.scottkilts.com/media/ehp/existential-horsepower.gif)  
+  
   
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  
   
   
-  
 here is the sketch  
+  
   
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
     

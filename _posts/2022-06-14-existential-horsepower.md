@@ -12,7 +12,7 @@ title: existential hp
   
 this comes from the title of a [podcast][1] interviewing [john long][2] on [the enormocast][3]  
   
-working on solidifying this style of digital painting inspired by watercolor.  this allows me to use a pencil drawing as a rapid prototype, and quickly iterate the final image using an ipad.  this takes about the same amount of time as a watercolor sketch  
+working on solidifying this style of digital painting inspired by watercolor.  this allows me to use a pencil drawing as a rapid prototype, and quickly iterate the final image using an ipad.  taking about the same amount of time overall as a watercolor sketch  
   
   
 this gif was put together in procreate.  

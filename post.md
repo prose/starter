@@ -22,7 +22,7 @@ published: true
 .image-gallery li img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  max-height: 300px;
   vertical-align: middle;
   border-radius: 5px;
 } 
@@ -36,7 +36,7 @@ published: true
 
 <div class='col12' style='padding-bottom:6em;'>
 
-  <div class='container'> 
+  <div class='splash'> 
 
     {% for item in site.categories.post limit:1000 %}
       {% capture excerpt %}{{ item.excerpt }}{% endcapture %}

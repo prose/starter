@@ -6,7 +6,7 @@ title: think different
 ---
 ![Think Different](/media/think-different-1200w.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*ink*</span>  \
+<span class='medium fr'>*ink*</span>  \
   \
   \
   

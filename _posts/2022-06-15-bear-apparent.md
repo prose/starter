@@ -6,6 +6,7 @@ title: barely apparent
 ---
 ![barely apparent](/media/bea/bear-apparent.jpeg)
 <!--more-->
+<span class='medium fr'>*acryllic, ink*</span>
   
   
   

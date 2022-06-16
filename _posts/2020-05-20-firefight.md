@@ -6,7 +6,7 @@ title: firefight
 ---
 ![firefight](/media/firefight.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*watercolor, ink*</span>
+<span class='medium fr'>*watercolor, ink*</span>
   
   
   

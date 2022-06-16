@@ -6,7 +6,7 @@ title: y0u
 ---
 ![remember who you are]({{site.baseurl}}/media/y0u.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*watercolor, gouache, ink*</span>  \
+<span class='medium fr'>*watercolor, gouache, ink*</span>  \
   \
   \
   \

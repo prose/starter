@@ -6,7 +6,7 @@ title: notorious
 ---
 ![notorious](/media/notorious-1200w.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*watercolor, ink*</span>  
+<span class='medium fr'>*watercolor, ink*</span>  
   
   
   

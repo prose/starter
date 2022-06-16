@@ -6,6 +6,7 @@ title: smith rock
 ---
 ![smith rock state park](/media/smith-rock-1200w.jpeg)
 <!--more-->
+<span class='medium fr'>*watercolor, ink*</span>
   
   
   

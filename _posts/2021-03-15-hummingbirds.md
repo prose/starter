@@ -6,7 +6,7 @@ title: hummingbirds
 ---
 ![welcome the sun]({{site.baseurl}}/media/emerald-hummingbird-flying.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*watercolor, gouache, ink*</span>\
+<span class='medium fr'>*watercolor, gouache, ink*</span>\
   \
   \
   \

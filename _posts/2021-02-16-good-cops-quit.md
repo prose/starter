@@ -6,7 +6,7 @@ title: good cops quit
 ---
 ![justice is love]({{site.baseurl}}/media/good-cops-quit.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*watercolor, gouache, ink. digitally traced and manipulated*</span>  \
+<span class='medium fr'>*watercolor, gouache, ink. digitally traced and manipulated*</span>  \
   \
   \
   \

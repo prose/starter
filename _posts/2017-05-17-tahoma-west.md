@@ -6,7 +6,7 @@ title: tahoma west
 ---
 ![Tahoma West v.21 Cover](/media/client/tw/tw-cover.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*layout design, information architecture*</span>  \
+<span class='medium fr'>*layout design, information architecture*</span>  \
   \
   \
   \

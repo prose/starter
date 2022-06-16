@@ -6,7 +6,7 @@ title: transmutation
 ---
 ![goddess of the soverign]({{site.baseurl}}/media/transmutation.jpeg)
 <!--more-->
-<span class='date fr'>*digital*</span>
+<span class='medium fr'>*digital*</span>
   
   
   

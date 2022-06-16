@@ -6,7 +6,7 @@ title: earth keeper
 ---
 ![keeper of the earth](/media/u-r-da-land.jpeg)
 <!--more-->
-<span class='date' style='float:right;'>*watercolor, ink*</span>  
+<span class='medium fr'>*watercolor, ink*</span>  
   
   
   

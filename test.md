@@ -6,6 +6,9 @@ published: true
 
 
 
+{% include image-gallery.html folder="/media" %}
+
+
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   {% for item in site.categories.post limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}

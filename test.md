@@ -11,16 +11,17 @@ published: true
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
   
-    <details class='splash' style='padding-bottom:.42em;'>
-      <summary>
+    <div class='splash' style='padding-bottom:.42em;'>
+      <details>
+        <summary></summary>
+        <p>
+          <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
+        </p>
+      </details>
         <h4 class='item'></h4>
         <span class='date fl'>{{ item.title }}</span>
         <span class='date fr'>{{item.date | date:"%b %d %Y"}}</span>
-      </summary>
-      <p>
-        <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
-      </p>
-    </details>
+    </div>
       
   {% endfor %}
 </div>

@@ -525,14 +525,12 @@ Details: http://www.positioniseverything.net/easyclearing.html
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 
 .image-gallery > li {
-  flex-grow: 0;
-  height: 300px;
-  cursor: pointer;
-  position: relative;
+  flex-basis: 350px; /* width: 350px; */
 }
 
 .image-gallery li img {
@@ -541,9 +539,8 @@ Details: http://www.positioniseverything.net/easyclearing.html
   height: 100%;
   vertical-align: middle;
   border-radius: 5px;
-} 
-
+}
 .image-gallery::after {
   content: "";
-  flex-grow: 999;
+  flex-basis: 350px;
 }

@@ -32,13 +32,13 @@ published: true
   	{% else %}
   
     <div class='splash' style='padding-bottom:.42em;'>
-      <div style='padding-bottom:.42em;'>
-        <a class='fl' href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-        <span class='date fr'>{{item.date | date:"%b %d %Y"}}</span>
+      <div style='padding-top: .42em; padding-bottom:.42em;'>
+        <a class='' href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+        <span class='date'>{{item.date | date:"%b %d %Y"}}</span>
+        <h4 class='item'></h4>
       </div>
-      <h4 class='item'></h4>
       <details>
-        <summary></summary>
+        <summary class='date fr'></summary>
         <p>
           <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
         </p>

@@ -23,7 +23,7 @@ this gif was put together in procreate.
   
 here is the sketch:  
   
-![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
+![existential horsepower sketch](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/ehp/existential-horsepower-sketch.jpeg&h=800&output=jpg&q=65)  
     
     
    

@@ -19,12 +19,10 @@ this gif was put together in procreate.
   
 [download a high-quality version](http://www.scottkilts.com/media/ehp/existential-horsepower.gif)  
   
-  
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  
   
   
-here is the sketch  
-  
+here is the sketch:  
   
 ![existential horsepower sketch](/media/ehp/existential-horsepower-sketch.jpeg)  
     

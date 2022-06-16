@@ -22,7 +22,7 @@ published: true
           </span>
           <a href="{{site.baseurl}}{{item.url}}">
           <h4 class='item'></h4>
-          <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
+          <span class='date fr' href='{{ site.baseurl }}{{ item.url }}'>
             	view post &nbsp;&raquo;
            </span>
           </a>
@@ -32,8 +32,10 @@ published: true
   	{% else %}
   
     <div class='splash' style='padding-bottom:2.42em;'>
-      <a class='fl' href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-      <span class='date fr'>{{item.date | date:"%b %d %Y"}}</span>
+      <div>
+        <a class='fl' href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+        <span class='date fr'>{{item.date | date:"%b %d %Y"}}</span>
+      </div>
       <h4 class='item'></h4>
       <details>
         <summary></summary>

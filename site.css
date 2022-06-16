@@ -526,3 +526,7 @@ details > summary {
     list-style-type: none;
     list-style: none;
 }
+
+details > summary::-webkit-details-marker {
+    display: none;
+}

@@ -526,17 +526,3 @@ details > summary {
     list-style-type: none;
     list-style: none;
 }
-details > summary::-webkit-details-marker {
-     display: none;
- }
-
- /* details > summary::before {
-     content: '\00bb';
- }
- details[open] > summary::before {
-     content: '\00bb';
- } */
-
- details[open] > summary {
-     margin-bottom: 0.5rem;
- }

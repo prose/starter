@@ -28,8 +28,11 @@ published: true
     	  {% capture url %}{{ item.url }}{% endcapture %}
     	  {% capture title %}{{ item.title }}{% endcapture %}
     	  {% capture excerpt %}{{ item.excerpt }}{% endcapture %}
+    	  {% capture id %}{{ item.id }}{% endcapture %}
     	  
-    	  {% if {{ item.title }} == {{ page.title }} %}{% else %}
+    	  {% if {{ item.id }} == {{ page.id }} %}
+    	    <span class='hidden'></span>
+    	  {% else %}
     	
       <div class='splash' style='padding-bottom:.42em;'>
         <div style='padding-top: 1.42em; padding-bottom:.42em;'>

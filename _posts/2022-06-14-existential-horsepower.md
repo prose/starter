@@ -6,7 +6,7 @@ title: existential hp
 ---
 ![existential horsepower](/media/ehp/existential-horsepower-dark.png)
 <!--more-->
-<span class='medium fr'>*adobe fresco*</span>   
+<span class='medium fr'>*adobe fresco*</span>
   
   
   

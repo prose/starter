@@ -6,7 +6,7 @@ published: true
 
 
 
-{% include image-gallery.html folder="/media" %}
+
 
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>

@@ -361,7 +361,6 @@ table {
   margin:0 auto;
   display:block;
   max-width:100%;
-  padding-bottom:3em;
   }
   
 .date {
@@ -372,6 +371,7 @@ table {
 .medium {
   color:#d4d7d9;
   font-weight:normal;
+  display:block;
   padding-bottom:3em;
   }
   

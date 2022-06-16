@@ -530,7 +530,3 @@ details > summary {
 details > summary::-webkit-details-marker {
     display: none;
 }
-
-details[open] > summary {
-    margin-bottom: 0.5rem;
-}

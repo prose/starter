@@ -1,0 +1,30 @@
+---
+layout: default
+section: post
+published: true
+---
+
+
+
+<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
+  {% for item in site.categories.post limit:1000 %}
+    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+  	{% capture url %}{{ item.url }}{% endcapture %}
+  
+    <div class='splash'>
+      <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
+      <div style='padding-bottom:2em; padding-top:3em;'>
+        {{ item.title }}
+        <span class='date'>
+             &#152; {{item.date | date:"%b %d %Y"}}
+        </span>
+        <a href="{{site.baseurl}}{{item.url}}">
+        <h4 class='item'></h4>
+        <span class='date' href='{{ site.baseurl }}{{ item.url }}' style='float:right;'>
+          	view post &nbsp;&raquo;
+         </span>
+        </a>
+      </div>
+  {% endfor %}
+</div>

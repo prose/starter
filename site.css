@@ -531,6 +531,7 @@ Details: http://www.positioniseverything.net/easyclearing.html
 .image-gallery > li {
   flex-grow: 1;
   height: 300px;
+  max-width: 100%;
   cursor: pointer;
   position: relative;
 }

@@ -14,7 +14,7 @@ this comes from the title of a [podcast][1] interviewing [john long][2] on [the 
 
 working on solidifying this style of digital painting inspired by watercolor.  this allows me to use a pencil drawing as a rapid prototype and quickly iterate a final image using an ipad in about the same amount of time as a watercolor sketch  
   
-this gif was put together in procreate
+this gif was put together in procreate. [download a high-quality version](http://www.scottkilts.com/media/ehp/existential-horsepower.gif)
   
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  
   
@@ -40,5 +40,3 @@ links:
 [2]:https://en.wikipedia.org/wiki/John_Long_(climber)
 [3]:https://enormocast.com
 [4]:https://www.diangelopublications.com/books/icarus-syndrome?rq=icarus
-  
-<!-- in this implementation the HTML <object> tag should allow *existential-horsepower.gif* to be rendered as a primary image, and default back to *existential-horsepower-web.gif* if that image cannot be used - cant tell if it works but it definitely puts the backup image there (6/14/22)  -->

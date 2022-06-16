@@ -4,7 +4,7 @@ category: post
 published: true
 title: notorious
 ---
-![notorious](/media/notorious-1200w.jpeg)
+![notorious](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/notorious-1200w.jpeg&h=800&output=jpg&q=65)
 <!--more-->
 <span class='date fr'>*watercolor, ink*</span><br>  
   

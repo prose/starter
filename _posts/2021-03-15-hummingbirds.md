@@ -4,7 +4,7 @@ category: post
 published: true
 title: hummingbirds
 ---
-![welcome the sun]({{site.baseurl}}/media/emerald-hummingbird-flying.jpeg)
+![welcome the sun](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/emerald-hummingbird-flying.jpeg&h=800&output=jpg&q=65)
 <!--more-->
 <span class='date fr'>*watercolor, gouache, ink*</span><br>  
   
@@ -14,7 +14,7 @@ a tiny hummingbird asks *are you here, now?*
   
   
   
-![hummingbird painting]({{site.baseurl}}/media/colorful-hummingbird.jpeg)
+![hummingbird painting](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/colorful-hummingbird.jpeg&h=800&output=jpg&q=65)
 <span class='medium fr'>*watercolor, gouache, ink*</span>  
   
   

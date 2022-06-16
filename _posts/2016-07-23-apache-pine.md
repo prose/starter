@@ -4,7 +4,7 @@ category: post
 published: true
 title: apache pine
 ---
-![Apache Pine Logo](/media/client/ap/apache-pine-tree-stack.jpeg)
+![Apache Pine Logo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/apache-pine-tree-stack.jpeg&h=800&output=jpg&q=65)
 <!--more-->
 <span class='date fr'>*branding, marketing, product design, print design, packaging, UX, SEO, web design & full-stack development*</span><br>
   
@@ -13,24 +13,24 @@ title: apache pine
 An outdoor lifestyle brand. helped Apache Pine define their visual identity and web presence. also had the pleasure of designing several products and accompanying promotional materials  
   
   
-![The Ridge](/media/client/ap/ridge.jpeg)  
+![The Ridge](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/ridge.jpeg&h=800&output=jpg&q=65)  
   
-![Sqwatch](/media/client/ap/sqwatch.jpeg)  
+![Sqwatch](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/sqwatch.jpeg&h=800&output=jpg&q=65)  
   
-![True North Collection](/media/client/ap/true-north-collection.png)  
+![True North Collection](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/true-north-collection.png&h=800&output=jpg&q=65)  
   
-![True North](/media/client/ap/true-north.png)  
+![True North](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/true-north.png&h=800&output=jpg&q=65)  
   
-![Watch Box](/media/client/ap/watch-box.jpeg)  
+![Watch Box](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/watch-box.jpeg&h=800&output=jpg&q=65)  
   
-![Elements Pattern](/media/client/ap/pattern-elements.jpeg) 
+![Elements Pattern](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/pattern-elements.jpeg&h=800&output=jpg&q=65) 
   
-![Apache Pine Promo](/media/client/ap/ap.jpeg)  
+![Apache Pine Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/ap.jpeg&h=800&output=jpg&q=65)  
   
-![Sqwatch Promo](/media/client/ap/promo-1.jpeg)  
+![Sqwatch Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap//media/client/ap/promo-1.jpeg&h=800&output=jpg&q=65)  
   
-![Email Promo](/media/client/ap/email-promo.jpeg)  
+![Email Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/email-promo.jpeg&h=800&output=jpg&q=65)  
   
-![Booklet](/media/client/ap/booklet.png)  
+![Booklet](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/booklet.png&h=800&output=jpg&q=65)  
   
-![Web Design](/media/client/ap/responsive.jpeg)
+![Web Design](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/responsive.jpeg&h=800&output=jpg&q=65)

@@ -4,7 +4,7 @@ category: post
 published: true
 title: memento mori
 ---
-![remember you will die]({{site.baseurl}}/media/memento-mori.jpeg)
+![remember you will die](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/memento-mori.jpeg&h=800&output=jpg&q=65)
 <!--more-->
 <span class='date fr'>*watercolor, gouache, ink. digitally traced and manipulated*</span><br>  
   \
@@ -13,7 +13,7 @@ remember, you will die  \
   \
   \
   \
-![ur gunna die, its gonna be analog]({{site.baseurl}}/media/memento-mori-painting.jpeg)
+![ur gunna die, its gonna be analog](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/memento-mori-painting.jpeg&h=800&output=jpg&q=65)
 <span class='date' style='float:right;'>*watercolor, ink, gouache*</span>  \
   \
   \

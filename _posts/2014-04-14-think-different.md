@@ -4,7 +4,7 @@ category: post
 published: true
 title: think different
 ---
-![Think Different](/media/think-different-1200w.jpeg)
+![Think Different](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/think-different-1200w.jpeg&h=800&output=jpg&q=65)
 <!--more-->
 <span class='date fr'>*ink*</span><br>  
   

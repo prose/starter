@@ -4,7 +4,7 @@ category: post
 published: true
 title: wine spires
 ---
-![granite sunset]({{site.baseurl}}/media/wine-spires.jpeg)
+![granite sunset](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/wine-spires.jpeg&h=800&output=jpg&q=65)
 <!--more-->
 <span class='date fr'>*watercolor, gouache, ink*</span><br>  
   

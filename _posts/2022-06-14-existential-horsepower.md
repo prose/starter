@@ -16,7 +16,6 @@ working on solidifying this style of digital painting inspired by watercolor.  t
   
   
 this gif was put together in procreate.  
-  
 [download a high-quality version](http://www.scottkilts.com/media/ehp/existential-horsepower.gif)  
   
 ![existential horsepower gif](/media/ehp/existential-horsepower-web.gif)  

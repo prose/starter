@@ -55,6 +55,6 @@ published: true
       
     {% endfor %}
     
-  </div> <!-- /.gallery -->
+  </div> <!-- /.container -->
 
-</div> <!-- /.listing -->
+</div> <!-- /.col12 -->

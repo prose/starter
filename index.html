@@ -32,14 +32,15 @@ published: true
   	{% else %}
   
     <div class='splash' style='padding-bottom:2.42em;'>
+      <a class='fl' href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+      <span class='date fr'>{{item.date | date:"%b %d %Y"}}</span>
+      <h4 class='item'></h4>
       <details>
         <summary></summary>
         <p>
           <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
         </p>
       </details>
-        <a class='fl' href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-        <span class='date fr'>{{item.date | date:"%b %d %Y"}}</span>
     </div>
     
     {% endif %}

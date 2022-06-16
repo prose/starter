@@ -520,27 +520,24 @@ Details: http://www.positioniseverything.net/easyclearing.html
     }
   }
 
-/* Image Gallery
+/* <Details>
 ------------------------------------------------------- */
-.image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+details > summary {
+    list-style-type: none;
 }
 
-.image-gallery > li {
-  flex-basis: 350px; /* width: 350px; */
+details > summary::-webkit-details-marker {
+    display: none;
 }
 
-.image-gallery li img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-  border-radius: 5px;
+details > summary::before {
+    content: '&nbsp;&raquo;';
 }
-.image-gallery::after {
-  content: "";
-  flex-basis: 350px;
+
+details[open] > summary::before {
+    content: '&nbsp;&raquo;';
+}
+
+details[open] > summary {
+    margin-bottom: 0.5rem;
 }

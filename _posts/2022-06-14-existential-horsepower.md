@@ -28,12 +28,9 @@ here is the sketch:
     
    
 links:  
-
-[the enormocast][3]
-  
-[existential horsepower with john long - enormocast][1]  
-  
-[john long's newest book - *icarus syndrome*][4]  
+- [the enormocast][3]
+  [existential horsepower with john long - enormocast][1]  
+  [john long's newest book - *icarus syndrome*][4]  
   
   
   

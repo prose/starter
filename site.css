@@ -531,11 +531,11 @@ details > summary::-webkit-details-marker {
 }
 
 details > summary::before {
-    content: '&nbsp;&raquo;';
+    content: '&raquo;';
 }
 
 details[open] > summary::before {
-    content: '&nbsp;&raquo;';
+    content: '&raquo;';
 }
 
 details[open] > summary {

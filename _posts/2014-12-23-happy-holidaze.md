@@ -6,7 +6,7 @@ title: happy holidaze
 ---
 ![happy holidaze](/media/holidaze.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor*</span>  
+<span class='date fr'>*watercolor*</span><br>  
   
   
   

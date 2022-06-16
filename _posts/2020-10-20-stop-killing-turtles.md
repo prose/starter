@@ -6,7 +6,7 @@ title: stop killing turtles
 ---
 ![stop killing turtles](/media/stop-killing-turtles.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor, ink, gouache*</span>  
+<span class='date fr'>*watercolor, ink, gouache*</span><br>  
   
   
   

@@ -6,7 +6,7 @@ title: ouroboros
 ---
 ![ouroboros](/media/infinite-o.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor, ink*</span>
+<span class='date fr'>*watercolor, ink*</span><br>
   
   
   

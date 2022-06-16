@@ -6,7 +6,7 @@ title: memento mori
 ---
 ![remember you will die]({{site.baseurl}}/media/memento-mori.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor, gouache, ink. digitally traced and manipulated*</span>  
+<span class='date fr'>*watercolor, gouache, ink. digitally traced and manipulated*</span><br>  
   \
   \
 remember, you will die  \

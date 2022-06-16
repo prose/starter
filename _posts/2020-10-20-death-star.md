@@ -6,7 +6,7 @@ title: death star
 ---
 ![crash](/media/lets-crash-the-death-star.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor, ink, gouache*</span>  
+<span class='date fr'>*watercolor, ink, gouache*</span><br>  
   
   
   

@@ -368,12 +368,6 @@ table {
   font-weight:normal;
   }
   
-.medium {
-  color:#d4d7d9;
-  font-weight:normal;
-  padding-bottom:3em;
-  }
-  
 .post-nav {
     display: flex;
     justify-content: space-between;

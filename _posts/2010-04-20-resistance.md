@@ -6,7 +6,7 @@ title: resistance
 ---
 ![exist](/media/to-resist-is-to-exist.jpeg)
 <!--more-->
-<span class='medium fr'>*aerosol, paint pens*</span>  
+<span class='date fr'>*aerosol, paint pens*</span><br>  
   
   
   

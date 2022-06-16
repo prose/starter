@@ -6,35 +6,35 @@ title: tahoma west
 ---
 ![Tahoma West v.21 Cover](/media/client/tw/tw-cover.jpeg)
 <!--more-->
-<span class='medium fr'>*layout design, information architecture*</span>  \
-  \
-  \
-  \
-It was my pleasure to work with the editors at Tahoma West Literary Arts Journal to do information architecture and layout design for the 2017 publication of Tahoma West. I also helped to create some posters for content generation and events held by the Tahoma West team 
-  \
-  \
-  \
-![Tahoma West Layout 00](/media/client/tw/Tahoma West 2017 Inside _working.jpeg) 
+<span class='date fr'>*layout design, information architecture*</span><br>  
+  
+  
+  
+It was my pleasure to work with the editors at Tahoma West Literary Arts Journal to do information architecture and layout design for the 2017 publication of Tahoma West. I also helped to create some posters for content generation and events held by the Tahoma West team  
+  
+  
+  
+![Tahoma West Layout 00](/media/client/tw/Tahoma West 2017 Inside _working.jpeg)  
    
-![Tahoma West Layout 01](/media/client/tw/Tahoma West 2017 Inside _1working.jpeg)
+![Tahoma West Layout 01](/media/client/tw/Tahoma West 2017 Inside _1working.jpeg)  
   
-![Tahoma West Layout 02](/media/client/tw/Tahoma West 2017 Inside _2working.jpeg)
+![Tahoma West Layout 02](/media/client/tw/Tahoma West 2017 Inside _2working.jpeg)  
   
-[Download a copy of Tahoma West v.21][1]! Download provided by [Alexandria Nickerson](http://alexnickerson.github.io), Tahoma West 2016-2017 Editor in Chief. 
+[Download a copy of Tahoma West v.21][1]! Download provided by [Alexandria Nickerson](http://alexnickerson.github.io), Tahoma West 2016-2017 Editor in Chief.  
   
 Check out Alexandria's website at [alexnickerson.github.io](http://alexnickerson.github.io)  
-  \
-  \
-  \
-![Submissions Poster](/media/client/tw/submission-poster.jpeg)
-  \
-![Cover Contest Poster](/media/client/tw/contest-poster.jpeg)
-  \
-![NODAPL Poster](/media/client/tw/nodapl-poster.jpeg)
-  \
-![Job Fair Handout](/media/client/tw/tw-job-fair.jpeg)
-  \
-![NODAPL Drawing](/media/client/tw/NODAPL-drawing.jpeg)
+  
+  
+  
+![Submissions Poster](/media/client/tw/submission-poster.jpeg)  
+  
+![Cover Contest Poster](/media/client/tw/contest-poster.jpeg)  
+  
+![NODAPL Poster](/media/client/tw/nodapl-poster.jpeg)  
 
+![Job Fair Handout](/media/client/tw/tw-job-fair.jpeg)   
+  
+![NODAPL Drawing](/media/client/tw/NODAPL-drawing.jpeg)  
+  
 <!-- Download link for Tahoma West from Alex Nickerson's Website -->
 [1]:https://alexnickerson.github.io/download/Tahoma_West-2017v21.pdf

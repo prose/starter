@@ -6,7 +6,7 @@ title: disturb(ed)
 ---
 ![disturb(ed)](/media/disturbed-1200w.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor, ink*</span>
+<span class='date fr'>*watercolor, ink*</span><br>
   
   
   

@@ -6,7 +6,7 @@ title: turtle life
 ---
 ![prayer for a turtle](/media/prayer-for-a-turtle.jpeg)
 <!--more-->
-<span class='medium fr'>*watercolor, ink, gouache*</span>  
+<span class='date fr'>*watercolor, ink, gouache*</span><br>  
   
   
   

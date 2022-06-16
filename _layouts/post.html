@@ -29,8 +29,7 @@ published: true
     	  {% capture title %}{{ item.title }}{% endcapture %}
     	  {% capture excerpt %}{{ item.excerpt }}{% endcapture %}
     	  
-    	  {% if {{ item.title }} == {{ page.title }} %} {% endif %}
-    	  {% else %}
+    	  {% if {{ item.title }} == {{ page.title }} %}{% else %}
     	
       <div class='splash' style='padding-bottom:.42em;'>
         <div style='padding-top: 1.42em; padding-bottom:.42em;'>

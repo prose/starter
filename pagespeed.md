@@ -1,5 +1,6 @@
 ---
 layout: default
+url: pagespeed/
 published: true
 ---
 

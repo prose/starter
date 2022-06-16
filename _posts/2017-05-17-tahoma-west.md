@@ -14,11 +14,11 @@ It was my pleasure to work with the editors at Tahoma West Literary Arts Journal
   
   
   
-![Tahoma West Layout 00](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/tw/Tahoma \West \2017 \Inside \_working.jpeg&h=800&output=jpg&q=65)  
+![Tahoma West Layout 00](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/tw/Tahoma-West-2017-Inside.jpeg&h=800&output=jpg&q=65)  
    
-![Tahoma West Layout 01](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/tw/Tahoma \West \2017 \Inside \_1working.jpeg&h=800&output=jpg&q=65)  
+![Tahoma West Layout 01](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/tw/Tahoma-West-2017-Inside_1.jpeg&h=800&output=jpg&q=65)  
   
-![Tahoma West Layout 02](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/tw/Tahoma \West \2017 \Inside \_2working.jpeg&h=800&output=jpg&q=65)  
+![Tahoma West Layout 02](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/tw/Tahoma-West-2017-Inside_2.jpeg&h=800&output=jpg&q=65)  
   
 [Download a copy of Tahoma West v.21][1]! Download provided by [Alexandria Nickerson](http://alexnickerson.github.io), Tahoma West 2016-2017 Editor in Chief.  
   

@@ -371,8 +371,7 @@ table {
 .medium {
   color:#d4d7d9;
   font-weight:normal;
-  display:block;
-  padding-bottom:3em;
+  padding-bottom:1em;
   }
   
 .post-nav {

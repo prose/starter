@@ -4,7 +4,7 @@ category: post
 published: true
 title: existential hp
 ---
-![existential horsepower](/media/ehp/existential-horsepower-dark.png)
+![existential horsepower](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/ehp/existential-horsepower-dark.png&h=900&output=jpg&q=50)
 <!--more-->
 <span class='date fr'>*adobe fresco*</span><br>
   

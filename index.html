@@ -32,17 +32,18 @@ published: true
   	{% else %}
   
     <div class='splash' style='padding-bottom:.42em;'>
-      <div style='padding-top: 1.42em;'>
-        <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-        <span class='date'>&#152; {{item.date | date:"%b %d %Y"}}</span>
-        <span class='date fr' style='padding-bottom:.42em;'>&nbsp;&raquo;</span>
+      <div style='padding-top: 1.42em; padding-bottom:.42em;'>
         <details>
-        <summary></summary>
-        <p>
-          <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
-        </p>
-      </details>
-    </div>
+          <summary>
+            <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+            <span class='date'>&#152; {{item.date | date:"%b %d %Y"}}</span>
+            <span class='date fr'>&nbsp;&raquo;</span>
+          </summary>
+          <p>
+            <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
+          </p>
+        </details>
+      </div>
     
     {% endif %}
       

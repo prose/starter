@@ -4,19 +4,16 @@ section: post
 published: true
 ---
 
-<div class='listing col6 pad4h margin3'>    
-  <div class='splash'>
+<div class='listing col6 pad4h margin3' style='padding-bottom: 6em;'>    
+  <div class='splash item'>
 
     {{content}}
-
+    
+    <hr />
+    
   </div>
-  
-  <span style='padding-bottom:6em;'>
-    <hr class='item' style="padding-top:3em;>
-    <span class='date fl' style='padding-bottom:6em;'>{{ page.title }}</span>
-    <span class='date fr' style='padding-bottom:6em;'>{{page.date | date:"%b %d %Y"}}</span>
-  </span>
-  
+
+  <span style='padding-bottom:6em;'><span style='padding-bottom:6em;' class='date fl'>{{ page.title }}</span><span style='padding-bottom:6em;' class='date fr'>{{page.date | date:"%b %d %Y"}}</span></span>
 </div>
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>

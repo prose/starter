@@ -3,7 +3,11 @@ description: you are the spacetimedistortion
 baseurl: /
 title: scott kilts
 permalink: pretty
-markdown: kramdown
+markdown: CommonMark
+
+commonmark:
+  options: ["FOOTNOTES", "SMART"]
+  extensions: ["strikethrough", "autolink", "table", "tasklist", "tagfilter"]
 
 excerpt_separator: <!--more-->
 

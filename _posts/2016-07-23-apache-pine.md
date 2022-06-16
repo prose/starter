@@ -6,7 +6,7 @@ title: apache pine
 ---
 ![Apache Pine Logo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/apache-pine-tree-stack.jpeg&h=800&output=jpg&q=65)
 <!--more-->
-<span class='date fr'>*branding, marketing, product design, print design, packaging, UX, SEO, web design & full-stack development*</span><br>
+<span class='date fr'>*branding, marketing, product design, print design, packaging, UX, SEO, web design & full-stack development*</span><br><br>
   
   
   

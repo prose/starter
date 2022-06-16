@@ -11,7 +11,7 @@ published: true
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
   
-    <div class='splash' style='padding-bottom:.42em;'>
+    <div class='splash' style='padding-bottom:2.42em;'>
       <details>
         <summary></summary>
         <p>

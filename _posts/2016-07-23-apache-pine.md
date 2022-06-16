@@ -27,7 +27,7 @@ An outdoor lifestyle brand. helped Apache Pine define their visual identity and 
   
 ![Apache Pine Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/ap.jpeg&h=800&output=jpg&q=65)  
   
-![Sqwatch Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap//media/client/ap/promo-1.jpeg&h=800&output=jpg&q=65)  
+![Sqwatch Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/promo-1.jpeg&h=800&output=jpg&q=65)  
   
 ![Email Promo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/email-promo.jpeg&h=800&output=jpg&q=65)  
   

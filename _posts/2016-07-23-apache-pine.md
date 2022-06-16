@@ -19,7 +19,7 @@ An outdoor lifestyle brand. helped Apache Pine define their visual identity and 
   
 ![True North Collection](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/true-north-collection.png&h=800&output=jpg&q=65)  
   
-![True North](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/true-north.png&h=800&output=jpg&q=65&bg=white)  
+![True North](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/true-north.png&h=800&output=jpg&q=65&bg=transparent)  
   
 ![Watch Box](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/watch-box.jpeg&h=800&output=jpg&q=65)  
   

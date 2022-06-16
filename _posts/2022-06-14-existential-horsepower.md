@@ -10,7 +10,7 @@ title: existential hp
   
   
   
-this phrase comes to me from the title of a [podcast][1] interviewing [john long][2] for [the enormocast][3]  
+this phrase comes to me from the title of a [podcast][1] interviewing [john long][2].  links below.
   
 working on solidifying this style of digital painting inspired by watercolor.  this allows me to use a pencil drawing as a rapid prototype, taking about the same amount of time overall as a watercolor sketch  
   

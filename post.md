@@ -22,7 +22,7 @@ published: true
 .image-gallery li img {
   object-fit: cover;
   width: 100%;
-  max-height: 300px;
+  height: 100%;
   vertical-align: middle;
   border-radius: 5px;
 } 

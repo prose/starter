@@ -25,6 +25,12 @@ and if you’re feeling tired
 yeah its time to stop and breathe  
 sayin sorry has its place  
 try to live without the need  
+best learn the first time  
+way less embarrassing  
+whining isn't worth a thing  
+just focus on what's happening  
+every curse you give comes back  
+sticks and glue from elementary  
 theres a time to shed a tear  
 a time to not be seen  
 end of the day  

@@ -28,7 +28,7 @@ function run() {
 function setUpQuery() {
   const api = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
   const parameters = {
-    url: encodeURIComponent('www.scottkilts.com')
+    url: encodeURIComponent('http://www.scottkilts.com')
   };
   let query = `${api}?`;
   for (key in parameters) {

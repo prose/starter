@@ -14,7 +14,7 @@ published: true
   	{% if forloop.first == true %}
   	
   	  <div class='splash' style='padding-bottom:6em;'>
-        <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
+        <a class='excerpt' href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
         <div style='padding-bottom:2em; padding-top:3em;'>
           {{ item.title }}
           <span class='date'>

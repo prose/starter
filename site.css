@@ -119,6 +119,11 @@ a {
     .rss:hover {
       color:#516066;
       }
+      
+a .excerpt {
+    color: #424242;
+    font-weight: normal;
+    }      
 
 abbr {
   border-bottom:1px dotted #000;

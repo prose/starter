@@ -6,10 +6,13 @@ title: 'everything '
 ---
 everything  
 in this reality  
+  
 is  
+  
 attitude   
 perception   
 posture   
+  
 set  
 setting   
 fractal  

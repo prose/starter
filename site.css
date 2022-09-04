@@ -120,7 +120,8 @@ a {
       color:#516066;
       }
       
-a .excerpt {
+a,
+p .excerpt {
     color: #424242;
     font-weight: normal;
     }      

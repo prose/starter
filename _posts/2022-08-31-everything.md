@@ -1,9 +1,13 @@
 ---
 layout: post
 category: post
-published: true
+published: false
 title: 'everything '
 ---
+![everything](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/everything.png&h=800&output=jpg&q=65bg=transparent)  
+<!--more-->
+<span class='date fr'>*digital*</span><br>
+
 everything  
 in this reality  
   
@@ -73,4 +77,13 @@ misguided mercury
 dont slow down to think   
 heels on fire   
 lit the pyre   
-brought us to the brink   
+brought us to the brink
+
+---
+
+![everything sketch](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/everything.png&h=800&output=jpg&q=65bg=transparent)
+
+songs about how the romans have fucked the world over:
+- the fine print king geedorah
+- really doe danny brown kendrick
+- psychosocial slipknot

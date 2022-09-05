@@ -98,7 +98,8 @@ p {
   p:last-child { margin-bottom:0;}
 
 /* Links */
-a {
+a,
+.splash a {
   color:#1976d2;
   text-decoration:none;
   font-weight:bold;
@@ -124,7 +125,7 @@ a,
 p .excerpt {
     color: #424242;
     font-weight: normal;
-    }      
+    }          
 
 abbr {
   border-bottom:1px dotted #000;

@@ -19,10 +19,10 @@ see you
 cool don fly  
 hot do  
 >  
->time and  
-space is  
+>funny how  
+things do    
 relative  
-these things true  
+but seems true  
 >  
 >y’all want up here   
 like me too   
@@ -32,4 +32,4 @@ weighs you
 >no face  
 thank you  
 wit my turtles 
-hell find me rude  
+hell still find me rude  

@@ -11,25 +11,34 @@ title: turtle life
   
 >turtle island    
 dragon sky       
-you ain’t screamin     
-look inside       
+you ain’t screamin   
+look inside         
 >  
 >bee true  
 see you  
 cool don fly  
 hot do  
+>
+>what could 
+hypnotize you
+like how  
+chicken thighs do  
 >  
->funny how  
-things do    
+>lies like what  
+a life dude    
+right eye never  
+sur prize you   
+>  
+>time and  
+space is  
 relative  
-but seems true  
+but stay true  
 >  
->y’all want up here   
+>want up here   
 like me too   
 lose everything that   
 weighs you   
 >   
 >no face  
 thank you  
-wit my turtles 
-hell still find me rude  
+wit my turtles hell still find me rude
